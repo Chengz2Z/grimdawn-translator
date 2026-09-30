@@ -1,0 +1,220 @@
+#Ascension
+tagAltarWindow=飞升界面
+tagTooltipAscensionHeader=飞升加成
+tagTooltipMonsterBonusHeader=怪物加成
+tagAltarBusy=祭坛正与其他玩家交互中。
+tagAltarActivated=祭坛已被激活。
+
+tagAscensionAltarError=获取库恩人的信任以解锁飞升祭坛。
+tagAscensionAltar=飞升祭坛
+tagAscensionAltarLootBonuses=掉落加成
+tagAscensionAltarMonsterBonuses=怪物加成
+tagAscensionMonsterBonuses= {^E}至 {^K}小怪
+tagAscensionBossBonuses= {^E}至 {^K}首领
+
+tagAscensionAltarFull=无空位
+tagAscensionAltarAddReagent=点击左键投入祭坛。
+tagAscensionAltarRemoveReagent=单击从祭坛中移除。
+
+tagAscensionEnable=掉落物品可以飞升
+tagSuperbossEnable=有概率出现恐魔
+tagMonsterTotemEnable=有概率出现暴风图腾
+tagRoguelikeChestEnable=肉鸽地下城奖励额外战利品
+tagTreasureTroveEnable=有概率出现光辉宝藏
+tagMarkedChestEnable=有概率出现虚空印记宝箱
+tagSoulDropsEnable=有概率掉落灵魂碎片与灵魂回响
+
+tagSuperBossSpawned={^R}某种东西在阴影中蠢动...
+tagBossRoomLocked= {^R} ~ 封锁，战斗进行中
+
+tagExclusiveAscensionFormula01={^C}闪电属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula02={^G}毒酸属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula03={^E}物理属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula04={^F}混乱属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula05={^M}流血属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula06={^R}火焰属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula07={^W}战宠属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula08={^Y}穿刺属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula09={^T}虚化属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula10={^O}活力属性{^E}装备掉落几率提升
+tagExclusiveAscensionFormula11={^B}冰冷属性{^E}装备掉落几率提升
+
+tagAscensionFormula01={^H}{%+.0f0}% {^W}经验值{^E}获取
+tagAscensionFormula02={^H}{%+.0f0}% {^W}声望{^E}获取
+tagAscensionFormula03={^H}{%+.0f0}% {^W}灵魂碎片/回响{^E}掉落几率
+tagAscensionFormula04={^H}{%+.0f0}% {^W}肉鸽战利品{^E}出现几率
+tagAscensionFormula05={^H}{%+.0f0}% {^W}暴风图腾{^E}出现几率
+tagAscensionFormula06={^H}{%+.0f0}% {^W}恐魔{^E}刷新几率
+tagAscensionFormula07={^H}{%+.0f0}% {^W}双稀有{^E}掉落几率
+tagAscensionFormula08={^H}{%+.0f0}% {^W}铁币{^E}掉落数
+tagAscensionFormula09={^H}{%+.0f0}% {^W}虚空印记宝箱{^E}出现几率
+tagAscensionFormula10={^H}{%+.0f0}% {^W}光辉宝藏{^E}出现几率
+tagAscensionFormula11={^H}{%+.0f0}% {^W}怪物装备{^E}掉落几率
+tagAscensionFormula12={^H}{%+.0f0}% {^W}复仇级怪物{^E}生成速度提升
+
+tagAscendItemTitle=可获得的飞升加成
+tagAscendItemModifier={%s0} 技能修正
+tagAscendItemCommonModifier=强化 {%s0} 技能修正
+tagAscendItemOffensive=攻击属性
+tagAscendItemDefensive=防御属性
+tagAscendItemButton=飞升
+tagAscendItemButtonInfo=使该物品飞升，获得额外属性加成。普通品质物品飞升后可获得更加强力的加成。每件物品只能飞升一次。
+tagAscendItemCost=飞升消耗
+
+#LootFilterUI
+tagLootFilter40=飞升
+tagLootFilter40Info=显示或隐藏已飞升的物品。{^N}{^N}如需单独显示归类为"飞升"的稀有物品，请在勾选此项的同时，取消勾选"稀有"过滤项。
+
+
+#Reroll
+tagReroll=改造
+tagRerollInfo=物品改造涉及高深的奥术，能够从根本上重置强力装备的属性。发明家尚未掌握此能力。
+tagRerollInfoB=物品改造涉及高深的奥术，能够从根本上重置强力装备的属性。这一过程需要使用奥术灰烬作为触媒。
+tagRerollCost=改造消耗：
+tagRerollItemSeedInfo=变更装备的随机种子，使其所有属性值在取值区间内重新随机生成。
+tagRerollPrefixInfo=变更装备的前缀，替换为品质相同或更高的新前缀。
+tagRerollSuffixInfo=变更装备的后缀，替换为品质相同或更高的新后缀。
+tagRerollAscendedAffixInfo=变更装备的飞升加成，替换为品质相同的新加成。
+tagRerollWarning=装备改造后将无法交易。是否继续？
+tagRerollQuantity=重置次数：%d
+
+#Cauldron
+tagCauldron=坩埚
+
+#Faction
+
+tagFactionUser17=库恩
+tagFactionUser17Info=大本营：阿斯特堪{^n}{^n}在阿斯特堪的子民漫长动荡的历史中，充斥着不尽其数的内外冲突与血腥战争。而其中最为惨烈的，莫过于曾经与东方的伊露兰人之间旷日持久的攻伐。时至今日，双方之间的关系依旧剑拔弩张。幸存下来的库恩人不得不面对过去种下的恶果，以及在那场大战中，为了确保族群存续而做出的黑暗抉择。{^n}{^n}库恩人对外来者怀有理所应当的戒备，但即便是最为顽固的死硬分子也无法否认，一场深重危机正在阿斯特堪的腹心悄然酝酿。
+tagFactionUser17Rewards1=N/A
+tagFactionUser17Rewards2=N/A
+tagFactionUser17Rewards3=N/A
+tagFactionUser17Rewards4=空
+tagFactionUser17Rewards5=开放势力商店
+tagFactionUser17Rewards6=新任务{^n}开放赏金桌{^n}势力防具{^n}药水配方{^n}势力图纸{^n}行商入驻库恩堡
+tagFactionUser17Rewards7=新任务{^n}势力附魔{^n}势力武器{^n}势力饰品{^n}势力敕令{^n}势力图纸{^n}新增行商入驻
+tagFactionUser17Rewards8=稀有附魔{^n}势力委任状{^n}精英势力防具{^n}传奇势力图纸
+tagFactionUser18=血羁
+tagFactionUser18Info=多数凡人只是走投无路，才会抓住冥神邪教的许诺不放，但血羁库恩人对这位垂死之神的崇拜却是发自全部身心。他们是终焉之时的坚定执旗者，其所作所为在阿斯特堪刻下了一道无法愈合的溃散疮口。如今，这所谓的恐惧荒地已成为他们的坚固堡垒，其中的所有生灵都在虚空的浸染下，被腐化成了无可救药的扭曲模样。{^n}{^n}在库恩与伊露兰的惨烈战争中，正是血羁一手酿成了冥神代言人 ~ 罗格霍瑞恩降临的恐怖事件，致使双方军队一同遭遇灭顶之灾。当这些心甘情愿的仆从以神之名继续收集着鲜血，在帷幕的边缘，又有何等恐怖正急不可耐地窥视着彼端呢?
+tagFactionUser18Rewards1=允许生成复仇级怪物
+tagFactionUser18Rewards2=额外生成精英怪物
+tagFactionUser18Rewards3=生成额外敌人
+tagFactionUser18Rewards4=空
+tagFactionUser18Rewards5=N/A
+tagFactionUser18Rewards6=N/A
+tagFactionUser18Rewards7=N/A
+tagFactionUser18Rewards8=N/A
+tagFactionUser19=陷阱
+tagFactionUser19Info=不要踩上去。
+tagFactionUser19Rewards1=N/A
+tagFactionUser19Rewards2=N/A
+tagFactionUser19Rewards3=N/A
+tagFactionUser19Rewards4=N/A
+tagFactionUser19Rewards5=N/A
+tagFactionUser19Rewards6=N/A
+tagFactionUser19Rewards7=N/A
+tagFactionUser19Rewards8=N/A
+tagFactionUser20=恐魔
+tagFactionUser20Info=恐怖将至。
+tagFactionUser20Rewards1=N/A
+tagFactionUser20Rewards2=N/A
+tagFactionUser20Rewards3=N/A
+tagFactionUser20Rewards4=N/A
+tagFactionUser20Rewards5=N/A
+tagFactionUser20Rewards6=N/A
+tagFactionUser20Rewards7=N/A
+tagFactionUser20Rewards8=N/A
+tagFactionUser21=诺克图卡里
+tagFactionUser21Info=大本营：艾尔洛泉{^n}{^n}赫拉纳克是旧时代的遗民。作为一支长寿种族，他们肩负着维护自然秩序的重任。正是他们将符文之道传授给了最初的库恩人，并引领后者与自然的丰饶共同生息。{^n}{^n}然而，在少数残存至今的赫拉纳克中，许多人都已屈从于绝望，转而竭力促成末日的降临。他们深信凯恩世界已经病入膏肓，唯有在始祖之神的注视下才能迎来彻底净化。这些堕落者早已沦为一具具丑陋枯槁的躯壳，往昔的高贵无处可寻。{^n}{^n}有些赫拉纳克不愿去促成必然的毁灭，选择离群索居，在冥想与沉思中度过余生。其中一位名为诺克图卡里的长者，此刻就隐居在艾尔洛泉。他仍然掌握着无数知识与失传的圣物，只是如今的人类，是否还配得上这些瑰宝...
+tagFactionUser21Rewards1=N/A
+tagFactionUser21Rewards2=N/A
+tagFactionUser21Rewards3=N/A
+tagFactionUser21Rewards4=N/A
+tagFactionUser21Rewards5=开放势力商店
+tagFactionUser21Rewards6=附魔药水容器{^n}圣物设计图
+tagFactionUser21Rewards7=注能药水容器{^n}圣物设计图{^n}诺克图卡里的符文球体与库恩堡共享
+tagFactionUser21Rewards8=完美药水容器{^n}药水配方{^n}传奇势力图纸
+tagFactionUser22=阿斯特堪死者
+tagFactionUser22Info=死了大半。
+tagFactionUser22Rewards1=N/A
+tagFactionUser22Rewards2=N/A
+tagFactionUser22Rewards3=N/A
+tagFactionUser22Rewards4=N/A
+tagFactionUser22Rewards5=N/A
+tagFactionUser22Rewards6=N/A
+tagFactionUser22Rewards7=N/A
+tagFactionUser22Rewards8=N/A
+
+
+#Quest
+tagCodexJournalSubHeadingKurn=幸存者-库恩
+tagCodexJournalSubHeadingAsterkarn=历史-阿斯特堪
+
+
+#SystemStatsSkillUI
+
+SkillChanceWeightMod=+{%d0}% {^E}使用几率
+LifeMonitorPercentMod=+{^E}生命值低于 {^H}{%.1f0}% {^E}时激活
+LifeMonitorPercentCooldown={^E}生命值低于 {^H}{%.1f0}% {^E}时自动使用药水，冷却时间 {^H}{%.1f1} {^E}秒
+LifeMonitorPercentCooldownMod={^E}生命值低于 {^H}{%.1f0}% {^E}时自动使用药水，冷却时间 {^H}{%.1f1} {^E}秒
+AbsorbShieldPercentHealth={%.0f0}% {^E}当前生命值转化为伤害吸收
+ComboMaxCharge={%d0} {^E}最大猛袭层数
+ComboMaxChargeMod=+{%d0} {^E}猛袭层数
+ComboChargeDuration={^E}猛袭层数持续时间
+ComboChargeLevels={^E}猛袭层数:
+tagHUDComboCharge=猛袭层数
+tagHUDComboChargeMultiplier={%d0}% {^E}下一个冷却型攻击技能造成额外伤害
+PermanentDuration={%s0}永久持续时间
+tagSkillShapeshiftAbilities={%s0}能力：
+SkillComboChargeSpendReduction=+{%.0f0}% {^E}几率不消耗猛袭层数
+PotionPotency={%.0f0}% {^E}药水词条强度
+PotionPotencyMod=+{%.0f0}% {^E}药水词条强度
+PotionInfusion=+{%.0f0}% {^E}药水基础效力，但基础效果由瞬时恢复改为持续恢复
+PotionInfusionMod=+{%.0f0}% {^E}药水基础效力，但基础效果由瞬时恢复改为持续恢复
+PotionTransfusion=+{%.0f0}% {^E}药水词条强度，但基础效果失效
+PotionTransfusionMod=+{%.0f0}% {^E}药水词条强度，但基础效果失效
+PotionPurity={^E}抵御环境中的致命疫病
+PotionTrueSight={^E}揭示隐藏物品
+PotionExclusive={^o}限定词条 - 任何时候都只会有一条限定词条生效。
+FilterCaster={^E}药水基础效果作用于周围盟友，对自身无效
+BeamNumber={%d0} {^E}射线
+BeamNumberMod=+{%d0} {^E}射线
+BeamAngle={%.1f0} {^E}射线弧度
+BeamAngleMod=+{%.1f0} {^E}射线弧度
+DefenseNegativeDamageMult=+{%.0f0}% {^E}承受伤害
+MaxDurationRefresh=最大持续时间
+tagSkillDurationRefresh={%t0} {^H}持续时间{^E}增加 {^H}{%.1f1} {%z2}
+tagSkillDurationRefreshName={%t0}{%s1} {^H}持续时间{^E}增加 {^H}{%.1f2} {%z3}
+tagSkillDurationRefreshMax={%t0} {^H}持续时间{^E}刷新 {^H}{%.1f1} {%z2}（最多 {^H}{%.1f3} {%z4}）
+tagSkillDurationRefreshNameMax={%t0}{%s1} {^H}持续时间{^E}刷新 {^H}{%.1f2} {%z3}（最多 {^H}{%.1f4} {%z5}）
+tagSkillCooldownRefresh={%t0} {^H}冷却时间{^E}减少 {^H}{%.1f1} {%z2}
+tagSkillCooldownRefreshName={%t0}{%s1} {^H}冷却时间{^E}减少 {^H}{%.1f2} {%z3}
+ProjectileDuration=投射物持续时间
+
+tagRefreshSkillCondition01={^H}{%.0f1}% {^E}生命值时 {^H}{%d0}% {^E}几率触发
+tagRefreshSkillCondition02={^H}{%.0f1}% {^E}能量值时 {^H}{%d0}% {^E}几率触发
+tagRefreshSkillCondition03=受击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition04=受到近战攻击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition05=受到远程攻击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition06=施加增益效果时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition07=发动攻击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition08={^E}装备时生效
+tagRefreshSkillCondition09=受到暴击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition10=造成暴击时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition11=格挡时 {%d0}% {^E}几率触发
+tagRefreshSkillCondition12=杀死怪物时 {%d0}% {^E}几率触发
+
+tagPotionContainerUpgradeNotify=药水容器升级！
+tagPotionModifierUnlockNotify=新的药水词条已解锁！
+tagPotionContainerUpgrade={^E}解锁 {^b}{%s0} {^E}等级 {^H}{%d1}
+tagPotionModifierUnlock={^E}解锁{^b}{%s0}
+tagPotionUnlockLearned={^r}[已解锁]
+
+#Char Stats Tab 2
+
+#Character
+tagCharStatsBerserkerSkillsBonus=狂战士技能
+tagCharStatsBerserkerSkillsBonusInfo=狂战士专精中所有已习得的技能获得加成。
+tagCharIncreasedGold={%+.0f0}% {^E}获得铁币数
+tagCharIncreasedGoldR={%+.0f0}-{%.0f1}% {^E}获得铁币数
+
+

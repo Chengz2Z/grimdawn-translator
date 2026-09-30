@@ -1,0 +1,7 @@
+#Play Menu
+tagChallengeDifficulty03=飞升
+tagChallengeDifficulty03Desc=飞升模式在终极难度的基础上加入了全新机制与掉落奖励，带来更加极致的挑战。该模式仅对 100 级角色开放，可在游戏主菜单中随时开启或关闭。
+tagChallengeDifficultyDesc=老兵模式对普通难度做出了强化，适合 ARPG 熟手选择。^n可在游戏主菜单中随时开启或关闭。
+tagDifficultyUltimateVeteran=飞升模式
+
+

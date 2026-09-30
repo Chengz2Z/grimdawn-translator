@@ -1,0 +1,195 @@
+# Achievement Groups
+
+achGDX3Group1=Fangs of Asterkarn
+
+# Achievements
+
+achGDX301Title=Enemies of Old
+achGDX301Desc=Meet the Kurn of Asterkarn.
+
+achGDX302Title=I'm on Top of the World
+achGDX302Desc=Reach the Roof of the World.
+
+achGDX303Title=Glacial Warming
+achGDX303Desc=Melt one of the glacier barriers in Asterkarn.
+
+achGDX304Title=The Last Elder
+achGDX304Desc=Meet the Hranaak Elder.
+
+achGDX305Title=Trial by Blood
+achGDX305Desc=Restore Kurn relations with the Dranghouls of Asterkarn.
+
+achGDX306Title=Legacy of War
+achGDX306Desc=Retake the Bloodbound Bastion for the Kurn.
+
+achGDX307Title=Final Rest
+achGDX307Desc=Lay fallen Kurn heroes to rest.
+
+achGDX308Title=Form of the Beast
+achGDX308Desc=Assume the form of the beast as a Berserker.
+
+achGDX309Title=A Familiar Face
+achGDX309Desc=Deal with Chieftain Scorv.
+
+achGDX310Title=Goodnight, Evernight
+achGDX310Desc=Slay Evernight, the Hypporaven menace.
+
+achGDX311Title=Evernight, Nevermore
+achGDX311Desc=Slay Evernight, the Hypporaven menace on Ultimate Difficulty.
+
+achGDX312Title=Giantslayer
+achGDX312Desc=Slay the giants Ulderthorm Tempestborn and Igron Worldbreaker in the lands of Asterkarn.
+
+achGDX313Title=Toppling Giants
+achGDX313Desc=Slay the giants Ulderthorm Tempestborn and Igron Worldbreaker in the lands of Asterkarn on Ultimate Difficulty.
+
+achGDX314Title=A Great Wolf
+achGDX314Desc=Slay Siff Icehowl in the Frostveil Highlands.
+
+achGDX315Title=Howl into the Abyss
+achGDX315Desc=Slay Siff Icehowl in the Frostveil Highlands on Ultimate Difficulty.
+
+achGDX316Title=The Annihilator Vanquished
+achGDX316Desc=Banish Nyarlathon, Herald of Annihilation.
+
+achGDX317Title=The Annihilator Annihilated
+achGDX317Desc=Banish Nyarlathon, Herald of Annihilation on Ultimate Difficulty.
+
+achGDX318Title=Blood of the Anointed
+achGDX318Desc=Slay Naddo the Anointed in the Heart of the Void.
+
+achGDX319Title=Misguided Faith
+achGDX319Desc=Slay Naddo the Anointed in the Heart of the Void on Ultimate Difficulty.
+
+achGDX320Title=Delaying the Inevitable
+achGDX320Desc=Slay Prodromus, Herald of the End Times in the Aurora Peaks.
+
+achGDX321Title=Forestalling the End
+achGDX321Desc=Slay Prodromus, Herald of the End Times in the Aurora Peaks on Ultimate Difficulty.
+
+achGDX322Title=Great Beast of Legends
+achGDX322Desc=Cleanse Beronath, Corruptor of Asterkarn on the Roof of the World.
+
+achGDX323Title=Great Beast Redeemed
+achGDX323Desc=Cleanse Beronath, Corruptor of Asterkarn on the Roof of the World on Ultimate Difficulty.
+
+achGDX324Title=Ascended Great Beast of Legends
+achGDX324Desc=Cleanse Beronath, Corruptor of Asterkarn on the Roof of the World in Ascendant Mode.
+
+achGDX325Title=How Dreadful
+achGDX325Desc=Survive the Dread.
+
+achGDX326Title=Ally of the Kurn
+achGDX326Desc=Reach Revered reputation with the Kurn.
+
+achGDX327Title=Scholar of the Elder Lore
+achGDX327Desc=Reach Revered reputation with the Hranaak.
+
+achGDX328Title=Defender of Asterkarn
+achGDX328Desc=Complete Fangs of Asterkarn.
+
+achGDX329Title=Champion of Asterkarn
+achGDX329Desc=Complete Fangs of Asterkarn on Elite Difficulty.
+
+achGDX330Title=Savior of Asterkarn
+achGDX330Desc=Complete Fangs of Asterkarn on Ultimate Difficulty.
+
+achGDX331Title=Immortal Savior of Asterkarn
+achGDX331Desc=Complete Fangs of Asterkarn on Ultimate Difficulty in Hardcore Mode.
+
+achGDX332Title=Asterkarn Devotion
+achGDX332Desc=Restore 65 Devotion Shrines.
+
+achGDX333Title=Asterkarn Explorer
+achGDX333Desc=Open 40 One-Shot Chests.
+
+achGDX334Title=Asterkarn Loremaster
+achGDX334Desc=Collect 100 Lore Notes.
+
+achGDX335Title=First Step to Ascension
+achGDX335Desc=Activate the Altar of Ascension.
+
+achGDX336Title=Power of Ascension
+achGDX336Desc=Activate the Altar of Ascension with all materials filled.
+
+achGDX337Title=Test of Ascension
+achGDX337Desc=Slay a boss in Ascendant Mode.
+
+achGDX338Title=Ascendant Trials
+achGDX338Desc=Slay 10 bosses in Ascendant Mode.
+
+achGDX339Title=No Loose Ends
+achGDX339Desc=Slay Warden Krieg in the Hidden Laboratory in Ascendant Mode.
+
+achGDX340Title=Ascended Savior
+achGDX340Desc=Slay the Loghorrean, Voice of Ch'thon in the Edge of Madness in Ascendant Mode.
+
+achGDX341Title=Ascended Vengeance for Malmouth
+achGDX341Desc=Slay Theodin Marcell, the Shaper of Flesh in the Sanctum of Flesh in Ascendant Mode.
+
+achGDX342Title=Ascended Godslayer
+achGDX342Desc=Slay Korvaak, the Eldritch Sun in the Throne of the Three in Ascendant Mode.
+
+achGDX343Title=Ascended Ender of Torment
+achGDX343Desc=Slay Alkamos, Lord Executioner in the Steps of Torment in Ascendant Mode.
+
+achGDX344Title=Ascended Conqueror of the Bastion
+achGDX344Desc=Slay Shar'Zul, Harbinger of Chaos in the Bastion of Chaos in Ascendant Mode.
+
+achGDX345Title=Ascended Avenger of Port Valbury
+achGDX345Desc=Slay Overlord Van Aldritch in Port Valbury in Ascendant Mode.
+
+achGDX346Title=Ascended Wild Tamer
+achGDX346Desc=Slay Gargabol, Heart of the Wild in the Ancient Grove in Ascendant Mode.
+
+achGDX347Title=Ascended Light in the Dark
+achGDX347Desc=Slay Grand Magus Morgoneth in the Tomb of the Heretic in Ascendant Mode.
+
+achGDX348Title=Hidden in Plain Sight
+achGDX348Desc=Reveal one of the hidden caches concealed around Cairn.
+
+achGDX349Title=Keep it Secret, Keep it Safe
+achGDX349Desc=Reveal 10 caches concealed around Cairn.
+
+achGDX350Title=Slaughter Pit
+achGDX350Desc=Survive the Slaughter Pit in the Drang'Gal Fortress.
+
+achGDX351Title=Blood for Ch'thon
+achGDX351Desc=Slay Kollchok the Despoiler in the Drang'Gal Fortress.
+
+achGDX352Title=Ruiner of Worlds
+achGDX352Desc=Slay Kollchok the Despoiler in the Drang'Gal Fortress on Ultimate Difficulty.
+
+achGDX353Title=Ascended Ruiner of Worlds
+achGDX353Desc=Slay Kollchok the Despoiler in the Drang'Gal Fortress in Ascendant Mode.
+
+achGDX354Title=Immortal Ruiner of Worlds
+achGDX354Desc=Slay Kollchok the Despoiler in the Drang'Gal Fortress on Hardcore Mode.
+
+achGDX355Title=Gauntlet of Flame
+achGDX355Desc=Survive the Gauntlet of Flame in the Burning Depths.
+
+achGDX356Title=Cinders of Cairn
+achGDX356Desc=Slay  in the Burning Depths.
+
+achGDX357Title=Blazing Fury of Cairn
+achGDX357Desc=Slay  in the Burning Depths on Ultimate Difficulty.
+
+achGDX358Title=Blazing Fury of Cairn
+achGDX358Desc=Slay  in the Burning Depths in Ascendant Mode.
+
+achGDX359Title=Immortal Blazing Fury of Cairn
+achGDX359Desc=Slay  in the Burning Depths on Hardcore Mode.
+
+
+
+
+
+
+
+
+
+
+
+
+

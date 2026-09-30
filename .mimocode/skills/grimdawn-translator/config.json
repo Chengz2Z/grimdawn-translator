@@ -1,0 +1,21 @@
+{
+  "active": "local",
+  "sources": {
+    "local": {
+      "type": "local",
+      "label": "随仓库 data/（Text_EN + Text_ZH）",
+      "zh": "../../../data/Text_ZH",
+      "en": "../../../data/Text_EN",
+      "zh_subdirs": ["", "aom", "fg", "foa"],
+      "en_subdirs": ["en/text_en", "en_gdx1/text_en", "en_gdx2/text_en", "en_gdx3/text_en"]
+    },
+    "external": {
+      "type": "local",
+      "label": "外部汉化工程（请改成你的绝对路径）",
+      "zh": "D:/PROJECTS/gdhanhua/out/set_no_desc/Text_ZH",
+      "en": "D:/PROJECTS/gdhanhua/out/Text_EN",
+      "zh_subdirs": ["", "aom", "fg", "foa"],
+      "en_subdirs": ["en/text_en", "en_gdx1/text_en", "en_gdx2/text_en", "en_gdx3/text_en"]
+    }
+  }
+}

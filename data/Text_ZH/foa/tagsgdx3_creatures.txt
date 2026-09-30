@@ -1,0 +1,503 @@
+#CreatureFriendly
+
+tagGDX3FriendlyKurn_Guard01=库恩人 ~ 守卫
+tagGDX3FriendlyKurn_Guard01F=库恩人 ~ 守卫
+tagGDX3FriendlyKurn_Guard02=库恩人 ~ 猎人
+tagGDX3FriendlyKurn_Guard02F=库恩人 ~ 猎人
+
+tagGDX3FriendlyKurn_MeleeA01=库恩人 ~ 猎人
+tagGDX3FriendlyKurn_MeleeA01F=库恩人 ~ 猎人
+tagGDX3FriendlyKurn_MeleeB01=库恩人 ~ 狂战士
+tagGDX3FriendlyKurn_MeleeB01F=库恩人 ~ 狂战士
+tagGDX3FriendlyKurn_RangeA01=库恩人 ~ 猎人
+tagGDX3FriendlyKurn_RangeA01F=库恩人 ~ 猎人
+tagGDX3FriendlyKurn_CasterB01=库恩人 ~ 萨满
+tagGDX3FriendlyKurn_CasterB01F=库恩人 ~ 萨满
+tagGDX3FriendlyKurn_ChampionC01=库恩人 ~ 德鲁伊
+tagGDX3FriendlyKurn_ChampionC01F=库恩人 ~ 德鲁伊
+
+tagGDX3Friendly_Elk01=驼鹿
+tagGDX3Friendly_Elk02=藓皮驼鹿
+tagGDX3Friendly_Fox01=狐狸
+tagGDX3Friendly_Fox02=藓皮狐狸
+tagGDX3Friendly_Rabbit01=兔子
+tagGDX3Friendly_Rabbit02=藓皮兔子
+tagGDX3Friendly_Mammoth01=库恩猛犸
+
+
+#CreatureAvian
+tagGDX3EnemyAvian_A01=卡瓦赫拉纳克 ~ 毁灭者
+tagGDX3EnemyAvian_B01=卡瓦赫拉纳克 ~ 背道者
+tagGDX3EnemyAvian_C01=卡瓦赫拉纳克 ~ 亵渎者
+
+tagGDX3EnemyAvian_H01=卡卡拉 ~ [极寒]
+tagGDX3EnemyAvian_H02=库尔库卡 ~ [雷鸣]
+tagGDX3EnemyAvian_H03=卡里卡 ~ [炼狱]
+tagGDX3EnemyAvian_H04=诺图卡 ~ [天界]
+
+
+#CreatureBeaver
+tagGDX3EnemyBeaverMound_A01=河狸兽窝
+
+tagGDX3EnemyBeaverRiver_A01=河狸兽
+tagGDX3EnemyBeaverRiver_B01=河狸兽 ~ 狂怒者
+
+tagGDX3EnemyBeaverTundra_A01=河狸兽
+tagGDX3EnemyBeaverTundra_B01=河狸兽 ~ 狂怒者
+
+tagGDX3EnemyBeaver_H01=齐克里 ~ [吸血]
+tagGDX3EnemyBeaver_H02=丘查鲁 ~ [极寒]
+tagGDX3EnemyBeaver_H03=吉比里 ~ [迅捷]
+tagGDX3EnemyBeaver_H04=尼西奇 ~ [免疫控制]
+
+
+#CreatureChthonian
+tagGDX3EnemyChthonianHerald_A01=冥煞使者
+tagGDX3EnemyChthonianHerald_B01=冥煞恶兆
+tagGDX3EnemyChthonianHerald_C01=冥煞凶兆
+
+tagGDX3HeroChthonianHerald_H01=温·佐斯 ~ [伤害反弹]
+tagGDX3HeroChthonianHerald_H02=扎利斯·佐斯 ~ [燃烧]
+tagGDX3HeroChthonianHerald_H03=格罗斯·佐斯 ~ [护盾]
+tagGDX3HeroChthonianHerald_H04=贝恩·佐斯 ~ [雷鸣]
+
+
+#CreatureCrab
+tagGDX3EnemyCrab_A00Summon=硬壳幼蟹
+tagGDX3EnemyCrab_A01=硬壳蟹
+tagGDX3EnemyCrab_B01=硬壳刺甲蟹
+tagGDX3EnemyCrab_C01=硬壳石甲蟹
+
+tagGDX3HeroCrab_H01=电光泥蟹 ~ [雷鸣]
+tagGDX3HeroCrab_H02=法术钳爪 ~ [奥术]
+tagGDX3HeroCrab_H03=寒霜喷吐者 ~ [极寒]
+tagGDX3HeroCrab_H04=泥爪蟹 ~ [免疫控制]
+
+
+#CreatureDranghoul
+tagGDX3EnemyDranghoul_A01=战骨兽人
+tagGDX3EnemyDranghoul_B01=战骨兽人 ~ 刃拳
+tagGDX3EnemyDranghoul_B02=战骨兽人 ~ 烈焰术士
+tagGDX3EnemyDranghoul_C01=战骨兽人 ~ 屠夫
+tagGDX3EnemyDranghoul_C02=战骨兽人 ~ 神谕者
+
+tagGDX3EnemyDranghoulVoid_A01=血羁战骨兽人 
+tagGDX3EnemyDranghoulVoid_B01=血羁战骨兽人 ~ 狂兽人
+tagGDX3EnemyDranghoulVoid_B02=血羁战骨兽人 ~ 虚空饮者
+tagGDX3EnemyDranghoulVoid_C01=血羁战骨兽人 ~ 屠戮者
+tagGDX3EnemyDranghoulVoid_C02=血羁战骨兽人 ~ 烈焰祭司
+
+tagGDX3HeroDranghoul_H01=勒格 ~ [迅捷]
+tagGDX3HeroDranghoul_H02=加杜姆 ~ [荆棘]
+tagGDX3HeroDranghoul_H03=斯图姆 ~ [电击]
+tagGDX3HeroDranghoul_H04=克罗格 ~ [时光扭曲]
+
+
+#CreatureGiant
+tagGDX3EnemyGiant_A01=阿斯特堪巨人
+tagGDX3EnemyGiant_B01=阿斯特堪比蒙
+tagGDX3EnemyGiant_C01=阿斯特堪泰坦
+
+tagGDX3HeroGiant_H01=科多米乌斯 ~ [虚空之触]
+tagGDX3HeroGiant_H02=厄杜路斯 ~ [腐化]
+tagGDX3HeroGiant_H03=霍杜尔 ~ [极寒]
+tagGDX3HeroGiant_H04=德拉库姆 ~ [吸血]
+
+
+#CreatureGroble
+tagGDX3EnemyGroble_A01=格罗布 ~ 霜之部落 拾荒者
+tagGDX3EnemyGroble_A02=格罗布 ~ 霜之部落 追踪者
+tagGDX3EnemyGroble_B01=格罗布 ~ 霜之部落 战士
+tagGDX3EnemyGroble_B02=格罗布 ~ 霜之部落 萨满
+tagGDX3EnemyGroble_C01=格罗布 ~ 霜之部落 勇士
+tagGDX3EnemyGroble_C02=格罗布 ~ 霜之部落 长者
+
+tagGDX3EnemyGrobleVoid_A01=格罗布 ~ 虚空部落 拾荒者
+tagGDX3EnemyGrobleVoid_A02=格罗布 ~ 虚空部落 追踪者
+tagGDX3EnemyGrobleVoid_B01=格罗布 ~ 虚空部落 战士
+tagGDX3EnemyGrobleVoid_B02=格罗布 ~ 虚空部落 萨满
+tagGDX3EnemyGrobleVoid_C01=格罗布 ~ 虚空部落 勇士
+tagGDX3EnemyGrobleVoid_C02=格罗布 ~ 虚空部落 长者
+
+tagGDX3HeroGroble_H01=多杜格 ~ [冰冻]
+tagGDX3HeroGroble_H02=阿坎布 ~ [免疫控制]
+tagGDX3HeroGroble_H03=乌塔达突 ~ [时光扭曲]
+tagGDX3HeroGroble_H04=拉嘎萨 ~ [荆棘]
+
+
+#CreatureHuman
+tagGDX3EnemyHumanKurnVoid_A01=血羁库恩人 ~ 异教徒
+tagGDX3EnemyHumanKurnVoid_B01=血羁库恩人 ~ 狂战士
+tagGDX3EnemyHumanKurnVoid_C01=血羁库恩人 ~ 末日预言者
+
+tagGDX3HeroHumanKurnVoid_H01="无形"洛斯 ~ [免疫控制]
+tagGDX3HeroHumanKurnVoid_H02=库尔德·伤疤修补者 ~ [拥护者]
+tagGDX3HeroHumanKurnVoid_H03=穆拉·裂冰者 ~ [冰冻]
+tagGDX3HeroHumanKurnVoid_H04=伊欧达·驭雷者 ~ [雷鸣]
+
+tagGDX3EnemyHumanKurnVoid_Channeler_A01=血羁祭祀者
+
+#CreatureHypporaven
+tagGDX3EnemyHypporaven_A01=鸦兽
+tagGDX3EnemyHypporaven_B01=鸦兽 ~ 血爪
+tagGDX3EnemyHypporaven_C01=鸦兽 ~ 女王
+
+tagGDX3Hypporaven_H01=柯沃尔 ~ [迅捷]
+tagGDX3Hypporaven_H02=柯洛特 ~ [疫病]
+tagGDX3Hypporaven_H03=柯沃诺克斯 ~ [吸血]
+tagGDX3Hypporaven_H04=柯沃卢克斯 ~ [拥护者]
+
+
+#CreatureRhino
+tagGDX3EnemyRhino_A01=长鬃角兽
+tagGDX3EnemyRhino_B01=长鬃角兽 ~ 破冰者
+tagGDX3EnemyRhino_C01=长鬃角兽 ~ 女王
+
+tagGDX3EnemyRhinoVoid_A01=虚空角兽
+tagGDX3EnemyRhinoVoid_B01=虚空角兽 ~ 诅咒之源
+tagGDX3EnemyRhinoVoid_C01=虚空角兽 ~ 女王
+
+tagGDX3EnemyRhinoQuest_B01=藓皮角兽
+
+tagGDX3HeroRhino_H01=棘角 ~ [荆棘]
+tagGDX3HeroRhino_H02=影角 ~ [天界]
+tagGDX3HeroRhino_H03=炎角 ~ [炼狱]
+tagGDX3HeroRhino_H04=霜角 ~ [极寒]
+
+
+#CreatureRoc
+tagGDX3EnemyRokFrost_A01=寒霜巨鹏
+tagGDX3EnemyRokFrost_B01=寒霜巨鹏 ~ 冰爪
+tagGDX3EnemyRokFrost_C01=寒霜巨鹏 ~ 女王
+
+tagGDX3EnemyRokStorm_A01=风暴巨鹏
+tagGDX3EnemyRokStorm_B01=风暴巨鹏 ~ 雷爪
+tagGDX3EnemyRokStorm_C01=风暴巨鹏 ~ 女王
+
+tagGDX3EnemyRokVoid_A01=虚空巨鹏
+tagGDX3EnemyRokVoid_B01=虚空巨鹏 ~ 裂隙之爪
+tagGDX3EnemyRokVoid_C01=虚空巨鹏 ~ 女王
+
+tagGDX3HeroRok_H01=阿纳洛克 ~ [护盾]
+tagGDX3HeroRok_H02=科多洛克 ~ [腐化]
+tagGDX3HeroRok_H03=西吉洛克 ~ [奥术]
+tagGDX3HeroRok_H04=那伍洛克 ~ [天界]
+tagGDX3HeroRok_H05=巴格洛克 ~ [疫病]
+tagGDX3HeroRok_H06=弗尔洛克 ~ [炼狱]
+
+
+#CreatureSkeleton
+tagGDX3EnemySkeletonA01=堕落战士
+tagGDX3EnemySkeletonA02=堕落弓手
+tagGDX3EnemySkeletonB01=堕落霜矢弓手
+tagGDX3EnemySkeletonB02=堕落守卫
+tagGDX3EnemySkeletonB03=堕落古魔士
+tagGDX3EnemySkeletonB04=堕落唤魔师
+tagGDX3EnemySkeletonC01=炼狱亡魂
+tagGDX3EnemySkeletonC02=冰霜亡魂
+tagGDX3EnemySkeletonC03=风暴亡魂
+
+tagGDX3SkeletonHeroH01="翠影"阿尼菈 ~ [再生者]
+tagGDX3SkeletonHeroH02=密特拉 ~ [奥术]
+tagGDX3SkeletonHeroH03="猩红"比嘉勒 ~ [吸血]
+tagGDX3SkeletonHeroH04="永恒"克罗多斯 ~ [时光扭曲]
+
+
+#CreatureThornedHorrorFrost
+tagGDX3EnemyThornedHorrorFrost_A01=霜棘兽
+tagGDX3EnemyThornedHorrorFrost_B01=霜棘恐兽
+tagGDX3EnemyThornedHorrorFrost_C01=霜棘巨兽
+
+tagGDX3HeroThornedHorrorFrost_H01=咒能之角 ~ [奥术]
+tagGDX3HeroThornedHorrorFrost_H02=雷暴之棘 ~ [雷鸣]
+tagGDX3HeroThornedHorrorFrost_H03=永恒倒刺 ~ [伤害反弹]
+tagGDX3HeroThornedHorrorFrost_H04="永恒生长"伊瓦尔 ~ [荆棘]
+
+#CreatureWendigo
+tagGDX3EnemyWendigo_A01=食人邪教徒
+
+#CreatureWight
+tagGDX3EnemyWight_A01=怨鬼
+tagGDX3EnemyWight_B01=怨鬼 ~ 碎霜者
+tagGDX3EnemyWight_B02=怨鬼 ~ 死亡牧师
+tagGDX3EnemyWight_C01=怨鬼 ~ 勇士
+
+tagGDX3HeroWight_H01=伊格鲁斯·血狂 ~ [迅捷]
+tagGDX3HeroWight_H02="渴求者"奥卢克 ~ [吸血]
+tagGDX3HeroWight_H03=基罗·风暴汇集 ~ [电击]
+tagGDX3HeroWight_H04="殉道者"奥邦 ~ [拥护者]
+
+
+#CreatureDireYeti
+tagGDX3EnemyDireYeti_A01=恐鬃 ~ 蛮兽
+tagGDX3EnemyDireYeti_B01=恐鬃 ~ 狂暴者
+tagGDX3EnemyDireYeti_B02=恐鬃 ~ 破冰者
+tagGDX3EnemyDireYeti_C01=恐鬃 ~ 头领
+
+tagGDX3HeroDireYeti_H01=灰鬃 ~ [燃烧]
+tagGDX3HeroDireYeti_H02=咒鬃 ~ [奥术]
+tagGDX3HeroDireYeti_H03=腐烂喷涌者 ~ [疫病]
+tagGDX3HeroDireYeti_H04=死亡喷涌者 ~ [虚空之触]
+
+
+#CreatureHeroes
+tagGDX3HeroBoar_H01=雷霆之息 ~ [雷鸣]
+tagGDX3HeroBoneRat_H01=荆棘之爪 ~ [荆棘]
+tagGDX3HeroChthonianMinion_H01=格兰·怛罗斯 ~ [时光扭曲]
+tagGDX3HeroChthonianDreadguard_H01=苏图姆·卡祖 ~ [雷鸣]
+tagGDX3HeroChthonianLeech_H01=阿达·阿那图 ~ [奥术]
+tagGDX3HeroChthonianFiend_H01=法尔·拉兹 ~ [极寒]
+tagGDX3HeroChthonianDevourer_H01=苏特·加鲁 ~ [炼狱]
+tagGDX3HeroFleshHulk_H01=阿硕斯 ~ [炼狱]
+tagGDX3HeroGazer_H01=阿克利克斯 ~ [奥术]
+tagGDX3HeroGhost_H01=艾东·沃罗斯 ~ [雷鸣]
+tagGDX3HeroGhoul_H01=伊多所斯 ~ [极寒]
+tagGDX3HeroGolemRock_H01=破法者 ~ [奥术]
+tagGDX3HeroHarpy_H01=范琵丽亚 ~ [吸血]
+tagGDX3HeroHumanCultist_H01=伊加斯 ~ [炼狱]
+tagGDX3HeroHumanOutlaw_H01="末日之刃"道拉斯 ~ [天界]
+tagGDX3HeroHumanPossessed_H01=雷达利阿·风暴雷火 ~ [雷鸣]
+tagGDX3HeroDermapteran_H01=弗拉达克斯 ~ [炼狱]
+tagGDX3HeroMosquito_H01=努拉克斯 ~ [天界]
+tagGDX3HeroWasp_H01=阿罗拉克斯 ~ [极寒]
+tagGDX3HeroManticore_H01=科林萨拉 ~ [吸血]
+tagGDX3HeroObsidianDefiler_H01=阿隆·伊朵斯 ~ [奥术]
+tagGDX3HeroPrawn_H01=阿莫克里斯 ~ [极寒]
+tagGDX3HeroRaptor_H01=沙德拉 ~ [荆棘]
+tagGDX3HeroReanimator_H01=奈瑟里恩 ~ [天界]
+tagGDX3HeroRifthound_H01=风暴纳尔 ~ [雷鸣]
+tagGDX3HeroScavenger_H01=布拉德·嗅血者 ~ [吸血]
+tagGDX3HeroSkeletalGolem_H01=乌杜姆加尔 ~ [炼狱]
+tagGDX3HeroSkeleton_H01=科洛尼斯 ~ [时光扭曲]
+tagGDX3HeroSlith_H01=那格斯 ~ [天界]
+tagGDX3HeroSpider_H01=乌西尼亚 ~ [雷鸣]
+tagGDX3HeroThornedHorror_H01=棘刺散布者 ~ [荆棘]
+tagGDX3HeroTrollHalf_H01=兀格 ~ [荆棘]
+tagGDX3HeroTrollHalfCorrupted_H01=德拉德拉柯 ~ [荆棘]
+tagGDX3HeroTrollHalfSwamp_H01=巴布洛克 ~ [荆棘]
+tagGDX3HeroTroll_H01=索格 ~ [时光扭曲]
+tagGDX3HeroTrollSwamp_H01=古格 ~ [时光扭曲]
+tagGDX3HeroTrollCave_H01=奈格罗克 ~ [天界]
+tagGDX3HeroVulture_H01=灰烬之爪 ~ [炼狱]
+tagGDX3HeroYeti_H01=血角 ~ [吸血]
+tagGDX3HeroZombieMutant_H01=阿庇西斯·冰霜囊肿 ~ [极寒]
+tagGDX3HeroZombieHound_H01=克拉獠牙 ~ [时光扭曲]
+
+tagGDX3HeroAetherialBloater_H01=英法格尔 ~ [炼狱]
+tagGDX3HeroAetherialColossus_H01=内维鲁斯 ~ [天界]
+tagGDX3HeroAetherialCorruption_H01=以卡隆 ~ [极寒]
+tagGDX3HeroAetherialFleshshaper_H01=奥米伽斯 ~ [天界]
+tagGDX3HeroAetherialImp_H01=布罗尔博斯 ~ [极寒]
+tagGDX3HeroBasilisk_H01=寒霜爬行者 ~ [极寒]
+tagGDX3HeroChthonianRylok_H01=萨那·亚尔多斯 ~ [雷鸣]
+tagGDX3HeroChthonianServitor_H01=佛鲁斯·马尔 ~ [炼狱]
+tagGDX3HeroHumanAscended_H01=努米亚·吞雷者 ~ [雷鸣]
+tagGDX3HeroLivingPlant_H01=幽冥花 ~ [天界]
+tagGDX3HeroCrabSwamp_H01=荆棘之壳 ~ [荆棘]
+tagGDX3HeroCrabGhost_H01=虚形蟹 ~ [天界]
+tagGDX3HeroGolemSwamp_H01=弗鲁加 ~ [炼狱]
+tagGDX3HeroHumanWendigo_H01=伊迪亚·末日颂唱者 ~ [天界]
+tagGDX3HeroWendigoCannibal_H01=加多·永恒生长 ~ [荆棘]
+tagGDX3HeroWendigo_H01=佛瓦兰 ~ [炼狱]
+tagGDX3HeroWraith_H01=陶达· 末日召来者 ~ [天界]
+tagGDX3HeroYetiSwamp_H01=刺鬃 ~ [荆棘]
+tagGDX3FactionCult_Hero_H01=加利亚·暗影编织者 ~ [天界]
+
+tagGDX3HeroBeetle_H01=奈利克斯 ~ [天界]
+tagGDX3HeroEldritchArmor_H01=奇努科斯 ~ [极寒]
+tagGDX3HeroEldritchHound_H01=松德里斯 ~ [荆棘]
+tagGDX3HeroEldritchWraith_H01=布雷扎尔 ~ [极寒]
+tagGDX3HeroGargoyle_H01=斯派隆 ~ [雷鸣]
+tagGDX3HeroGryphon_H01=炼狱之翼 ~ [炼狱]
+tagGDX3HeroGryphonStone_H01=奈瑟卓尔 ~ [天界]
+tagGDX3HeroHumanKorvaak_H01=阿丽亚·霜火 ~ [极寒]
+tagGDX3HeroKorvaakAscended_H01=加德里克·雷霆之心 ~ [雷鸣]
+tagGDX3HeroKorvaakServant_H01=弗拉诺克 ~ [炼狱]
+tagGDX3HeroMummy_H01=克雷奥萨 ~ [雷鸣]
+tagGDX3HeroLizardSand_H01=藤蔓之牙 ~ [荆棘]
+tagGDX3HeroLizardEldritch_H01=冰鳞佐斯 ~ [极寒]
+tagGDX3HeroScorpion_H01=索尔普林克斯 ~ [荆棘]
+tagGDX3HeroStatue_H01=斯多布雷欧斯 ~ [雷鸣]
+tagGDX3HeroViper_H01=弗拉萨尔 ~ [炼狱]
+
+
+#Misc
+tagGDX3TargetDummy=进攻型训练假人
+
+#Pets
+tagGDX3Pet_Item_MogdrogenWolf=白色巨狼
+tagGDX3Pet_Item_MiniBeaver=河狸兽幼崽
+tagGDX3Pet_Item_MiniBeaver_Skill=细声尖叫
+tagGDX3Pet_Item_MiniRoc=巨鹏幼鸟
+tagGDX3Pet_Item_MiniRoc_Skill=尖啸
+tagGDX3Pet_Item_MiniYeti=狼崽
+tagGDX3Pet_Item_MiniYeti_Skill=咆哮
+
+tagGDX3ItemPetAetherDevil=帷幕之风
+tagGDX3ItemPetAetherDevil_Skill=虚化火焰
+
+tagGDX3PetWraith=伊恩的恶灵
+tagGDX3PetWraith_Skill=伊恩的恶灵之触
+
+tagGDX3PetWendigo=温迪戈
+
+tagGDX3PetLivingPlantBulb=活体毒花
+tagGDX3PetLivingPlantBloom=活体花苞
+
+#EnemySummons
+tagGDX3EnemySummon_Blizzard=暴风雪
+tagGDX3EnemySummon_IceSpike=冰刺
+tagGDX3EnemySummon_LightningSpike=风暴之引
+tagGDX3EnemySummon_BrambleTrap=荆棘陷阱
+tagGDX3EnemySummon_Avalanche=塌方
+tagGDX3EnemySummon_IceFloe=浮冰
+tagGDX3EnemySummon_LightningRune=风暴印记
+tagGDX3EnemySummon_LightningSpikeBoss=风暴召来者
+tagGDX3EnemySummon_MoltenLava=熔岩
+tagGDX3EnemySummon_IceSpikeBoss=霜刺
+tagGDX3EnemySummon_ShadowDevil=影魔
+tagGDX3EnemySummon_DreadAbyss=深渊
+tagGDX3EnemySummon_Banner=血羁战旗
+
+
+#Boss&Quest
+tagGDX3Quest_BargollRoot=巴高尔的根须
+
+tagGDX3Quest_KurnReaver="抢夺者"克拉库恩
+tagGDX3Quest_WraithScorvSummon=贪婪的亡者
+tagGDX3Quest_MidwinterWraith=仲冬恶灵
+tagGDX3Quest_BloodRageKurn=疯狂的达格玛
+
+tagGDX3Quest_MeadMustFlowGiant="克罗克顿"费克
+tagGDX3Quest_MeadMustFlowGroble01=费克的右手 ~ [冰冻]
+tagGDX3Quest_MeadMustFlowGroble02=费克的另一只右手 ~ [荆棘]
+tagGDX3Quest_WendigoWindWalker="风行者"艾格文
+
+tagGDX3Quest_BlackLodgePoltergeist=小心眼的促狭鬼
+tagGDX3Quest_BlackLodgeWarden=门扉看守者
+tagGDX3Quest_BlackLodgeChaser=永无休止的时间
+tagGDX3Quest_BlackLodgeBones=生锈的骨头
+tagGDX3Quest_BlackLodgeWraith=沉重的悔恨
+tagGDX3Quest_GulderFamilyBrother=瑞格·古尔德
+tagGDX3Quest_GulderFamilySister=乔安娜·古尔德
+tagGDX3Quest_GulderFamilyFather=芬·古尔德
+tagGDX3Quest_GulderFamilyMother=阿丽莎·古尔德
+
+tagGDX3Boss_Final01=贝若纳斯 ~ 阿斯特堪腐化者
+tagGDX3Boss_Final02=贝若纳斯 ~ 阿斯特堪守护者
+
+tagGDX3Boss_KurnOracle=虚眼尤拉
+tagGDX3Boss_KurnChieftain=恐惧荒地酋长 ~ 格鲁迪尔
+tagGDX3Boss_KurnChieftain_Wolf=冥神之口
+
+tagGDX3Boss_ChthonianHerald_01=终焉使者 ~ 普罗德姆斯
+
+tagGDX3Boss_Special01=游荡野兽 ~ 奈非托
+tagGDX3Boss_Special01B=努克图可 ~ 钦选者之首
+tagGDX3Boss_Special01C=努克图可 ~ 道途守护者
+tagGDX3Boss_Special01D=超级游荡野兽 ~ 奈非托
+tagGDX3Boss_Special02=恐魔
+tagGDX3Boss_Special03=粪土魔
+
+tagGDX3Miniboss_Hag01=尤达·拜月者
+tagGDX3Miniboss_Hag02="鞭笞者"阿德拉
+tagGDX3Miniboss_Hag03=莱娜·霜骨
+tagGDX3Miniboss_Beast_01="西风"阿维妮娅
+tagGDX3Miniboss_Beast_02=碾骨者
+tagGDX3Miniboss_Beast_03=冻土之灾 ~ 鲁格卢
+tagGDX3Miniboss_Beast_04=冰嚎希夫
+tagGDX3Miniboss_Beast_05=霜角
+tagGDX3Miniboss_Beast_06="迷失者"加米尔
+tagGDX3Miniboss_Giant_01=乌尔德索姆·暴风降生
+tagGDX3Miniboss_Giant_02=伊格隆·破世者
+tagGDX3Miniboss_Giant_03=暴风之裔
+tagGDX3Miniboss_Chthonian_01=污血 ~ 林恩·瓦尔戈斯
+tagGDX3Miniboss_Chthonian_02=格鲁萨恩·赤潮
+tagGDX3Miniboss_IceDefiler=冰川污染者
+
+tagGDX3Miniboss_AvianChthonic_01="受命者"纳多
+tagGDX3Miniboss_Dranghoul_01="钦选者"霜吼
+tagGDX3Miniboss_Wight01=赫隆·永望
+
+tagGDX3Quest_TheHuntBeast_01=永夜鸦
+tagGDX3Quest_BlackHeartKurn_01=德鲁德·黑心
+tagGDX3Quest_RestlessWight01=冈德·刺胆
+tagGDX3Quest_RestlessWight02=哈西亚·焰血
+tagGDX3Quest_RestlessWight03="被遗弃者"玛鲁达
+tagGDX3Quest_WendigoChieftain=掠夺者酋长 ~ 斯科夫
+tagGDX3Quest_CircleOfBlood01=碎尸者 ~ 饥渴难耐
+tagGDX3Quest_KurnStronghold_01=沃克·血溅
+tagGDX3Quest_KurnStronghold_02=雅哈·犀角
+tagGDX3Quest_KurnStronghold_03=战争领主 ~ 格拉达·铁眼
+tagGDX3Quest_Bandit_OldWounds="刀疤"乔尼
+tagGDX3Quest_BanditFriend_OldWounds=乔尼的小伙伴
+tagGDX3Quest_MidwinterGhost=愤怒的先祖
+tagGDX3Quest_RestlessWight02Normal=图里卡·虚焰
+
+tagGDX3Quest_Wraith_OldWounds=迷失的托马卡
+
+tagGDX3Boss_DranghoulRoguelike_MiniBoss_01="破世者"格罗洛
+tagGDX3Boss_DranghoulRoguelike_Boss_01=灰心的拉那卡茶
+tagGDX3Boss_DranghoulRoguelike_Boss_02="劫掠者"科乔克
+tagGDX3Boss_DranghoulRoguelike_Boss_03=贪婪的克鲁尔
+
+tagGDX3Boss_BurningDepthsRoguelike_MiniBoss_01=文本
+tagGDX3Boss_BurningDepthsRoguelike_Boss_01=文本
+tagGDX3Boss_BurningDepthsRoguelike_Boss_02=文本
+
+#Nemesis
+tagGDX3Nemesis_Outlaw02="巨人"维恩·欧兹马尔德
+tagGDX3Nemesis_Undead02=圣师尊主 ~ 拉多斯
+tagGDX3Nemesis_Zealot02=牧师伊格努斯
+tagGDX3Nemesis_Necro02=啸妖
+tagGDX3Nemesis_Beast02=幽域之主
+tagGDX3Nemesis_Wendigo02=腐坏收割者
+tagGDX3Nemesis_Eldritch02=科凡荒地的幽影 ~ 伊克萨
+tagGDX3Nemesis_Kurn01=湮灭使者 ~ 奈亚拉松
+
+tagGDX3Nemesis_OutlawCrystal=搏动的虚化集簇
+
+
+#Devotion
+tagGDX3Devotion_ChthonianHerald_H01=苟尔·佐斯 ~ [伤害反弹]
+tagGDX3Devotion_ChthonianHerald_H02=阿鲁姆·佐斯 ~ [燃烧]
+tagGDX3Devotion_ChthonianHerald_H03=卢高斯·佐斯 ~ [护盾]
+tagGDX3Devotion_ChthonianHerald_H04=巴尔·佐斯 ~ [雷鸣]
+
+tagGDX3Devotion_Dranghoul_H01=乌多 ~ [迅捷]
+tagGDX3Devotion_Dranghoul_H02=法利姆 ~ [荆棘]
+tagGDX3Devotion_Dranghoul_H03=格鲁格 ~ [电击]
+tagGDX3Devotion_Dranghoul_H04=玛格 ~ [时光扭曲]
+
+tagGDX3Devotion_Rhino_H01=藤鬃 ~ [荆棘]
+tagGDX3Devotion_Rhino_H02=星辰之角 ~ [天界]
+tagGDX3Devotion_Rhino_H03=炼狱鬃毛 ~ [炼狱]
+tagGDX3Devotion_Rhino_H04=霜鬃 ~ [极寒]
+
+tagGDX3Devotion_Rok_H01=金刚之翼 ~ [护盾]
+tagGDX3Devotion_Rok_H02=堕落之翼 ~ [腐化]
+tagGDX3Devotion_Rok_H03=符文之翼 ~ [奥术]
+tagGDX3Devotion_Rok_H04=星痕之翼 ~ [天界]
+
+tagGDX3Devotion_Wight_H01=伊沃·血割 ~ [迅捷]
+tagGDX3Devotion_Wight_H02="穿刺者"阿沃克 ~ [吸血]
+tagGDX3Devotion_Wight_H03=乔夫·风暴之歌 ~ [电击]
+tagGDX3Devotion_Wight_H04="治愈者"奥蒂戈 ~ [拥护者]
+
+tagGDX3Devotion_YetiDire_H01=炽焰残杀者 ~ [燃烧]
+tagGDX3Devotion_YetiDire_H02=符文残杀者 ~ [奥术]
+tagGDX3Devotion_YetiDire_H03=腐败残杀者 ~ [疫病]
+tagGDX3Devotion_YetiDire_H04=死亡残杀者 ~ [虚空之触]
+
+
+#Bounties
+tagGDX3BountyKU01=狮鸦
+tagGDX3BountyKU02="猩红之刃"霍维尔
+tagGDX3BountyKU03="残害者"克罗格
+tagGDX3BountyKU04=碎冰者
+tagGDX3BountyKU05=桑德拉
+tagGDX3BountyKU06="血羽"朱克努克
+
+
+
+

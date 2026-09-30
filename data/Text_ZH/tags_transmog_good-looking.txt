@@ -1,0 +1,733 @@
+######################### tags_transmog_Good-looking.txt
+##### Smith
+tagModQuests=   {^T}恐怖黎明 {^L}Mod {^H}v1.3.0.0 {^B}公测{^R} ★ ^-任务
+
+tagInstantSummon_1={^Y}即召{^T}仓库
+tagInstantSummon_2={^Y}即召{^T}商店
+tagInstantSummon_3={^Y}即召{^T}工匠
+tagInstantSummon_4={^Y}即召{^T}灵导
+tagInstantSummon_5={^Y}即召{^T}拆解
+tagInstantSummon_6={^Y}即召{^T}幻化
+
+tagNPC_transmogsmith=泰迪亚
+tagStoreTitle_transmogsmith=锻造工匠
+tagStoreDesc_transmog_1=泰迪亚擅长使用古安克维亚工艺。
+tagStoreDesc_transmog_2=这位工匠现已改行，不再制作幻化药剂，而专注于装备等物品的锻造技艺。
+tagStoreDesc_transmog_3=
+tagStoreDesc_transmog_4={^G}完成奖励 {^S}(随机){^G}: 
+tagTransmogScroll=药剂配方: {^R}幻化剂
+
+# Personal Assistant
+tagWzPA_NPC_Assistant_DESC=随行助理
+tagWzPA_Scroll_Assistant_NAME={^K}既召{^T}随助 ^s
+tagWzPA_Scroll_Assistant_DESC="在玩家旁边召唤一个随行助理，随行助理能召唤其它NPC帮你存储、出售、制作装备等。"^n{^R}警告: ^n^h联机时仅对主机有效。
+
+#########################
+#####	Item usable skill
+tagConsumableTransmog_1={^Y}即召{^T}仓库
+tagConsumableTransmog_2={^Y}即召{^T}商店
+tagConsumableTransmog_3={^Y}即召{^T}工匠
+tagConsumableTransmog_4={^Y}即召{^T}灵导
+tagConsumableTransmog_5={^Y}即召{^T}拆解
+tagConsumableTransmog_6={^Y}即召{^T}幻化
+tagConsumableTransmog_7={^R}倍率{^T}调节
+tagConsumableTransmog_8={^R}声望{^T}调节
+tagConsumableTransmog_9={^S}即召{^F}山姆
+tagConsumableTransmog_10={^S}即召{^F}霍克
+tagConsumableTransmog_11={^S}即召{^F}松鼠
+tagConsumableTransmog_12={^B}星际{^K}铸匠
+tagConsumableTransmog_13={^S}即召{^F}狼狗
+tagConsumableTransmog_14={^Y}无极{^T}刷怪//{^S}即召{^F}公鸡
+tagConsumableTransmog_15={^Y}武器{^T}精球//{^S}即召{^F}海鸥
+tagConsumableTransmog_16={^S}即召{^F}陌生人
+
+tagConsumableTransmog={^Y}即召{^T}工匠
+tagConsumableTransmogDesc={^N}{^T}随时召唤锻造工匠为玩家服务。
+tagConsumableTransmog_b={^Y}即召{^T}仓库
+tagConsumableTransmogDesc_b={^N}{^T}随时召唤仓库管家为玩家服务。
+tagConsumableTransmog_c={^Y}即召{^T}商店
+tagConsumableTransmogDesc_c={^N}{^T}随时召唤补给商人为玩家服务。
+tagConsumableTransmog_d={^Y}即召{^T}灵导
+tagConsumableTransmogDesc_d={^N}{^T}随时召唤心灵向导为玩家服务。
+tagConsumableTransmog_e={^Y}即召{^T}拆解
+tagConsumableTransmogDesc_e={^N}{^T}随时召唤发明专家为玩家服务。
+tagConsumableTransmog_f={^Y}即召{^T}幻化
+tagConsumableTransmogDesc_f={^N}{^T}随时召唤幻化大师为玩家服务。
+tagConsumableTransmog_g={^Y}即召{^T}商贩
+tagConsumableTransmogDesc_g={^N}{^T}随时召唤补给商人为玩家服务。
+
+tagItemSkillbloop={^Y}时空穿梭
+tagItemSkillbloopDesc={^K}一种与生俱来的技能，可瞬间穿越时空，到达由玩家指定的任何地点。
+tagchabeiSkillD000Name={^Y}霹雳旋风 //※大风车※
+tagchabeiSkillD001Desc={^K}大风车吱呀吱哟哟地转，这里的风景真呀真好看，天好看，地好看，还有快乐的小伙伴。{^N}{^O}需装备近战武器。双持近战武器时，两把武器同时攻击。
+
+tagHelm=头盔
+tagHelmDesc={^S}(测试专用) by 板条箱娱乐
+tagNecklace={^K}  ★  ^-
+tagNecklaceDesc={^S}(测试专用) by GD小白丁
+tagNecklaceADesc={^S}(测试专用 ^r①^s)^- by GD小白丁^n^aA^bB^cC^dD^eE^fF^gG^hH^iI^jJ^kK^lL^mM^oO^pP^qQ^rR^sS^tT^uU^vV^wW^xX^yY^zZ^n^s25 种色码测试，其中 N 是换行符，不能做为色码。
+tagNecklaceBDesc={^S}(测试专用 ^r②^s)^- by 脑子瓦塌啦
+tagTestD01={^R}                      ★                      ^-
+tagTestD01Desc={^S}(测试专用全属腰带)^- by GD小白丁^n^aA^bB^cC^dD^eE^fF^gG^hH^iI^jJ^kK^lL^mM^oO^pP^qQ^rR^sS^tT^uU^vV^wW^xX^yY^zZ^n^s25 种色码测试，其中 N 是换行符，不能做为色码。^n^n^t壹贰叁肆伍陆柒捌玖拾^n
+
+tagTransmoga04_head005={^T}头盔
+tagTransmogTextHead={^H}可用于装备幻化。
+tagTransmoga04_head005b={^T}贝帽
+tagTransmogTextHead-b={^H}可用于装备幻化。
+tagTransmoga05_shoulder02={^T}肩甲
+tagTransmogTextPads={^H}可用于装备幻化。
+tagTransmoga06_hands01={^T}臂甲
+tagTransmogTextHands={^H}可用于装备幻化。
+tagTransmoga06_hands01b={^T}臂甲 {^S}贝雷帽
+tagTransmogTextHands-b={^H}可用于装备幻化。
+tagTransmogm01_torso002={^T}胸甲
+tagTransmogTextChest={^H}可用于装备幻化。
+tagTransmoga01_legs01={^T}腿甲
+tagTransmogTextLegs={^H}可用于装备幻化。
+tagTransmoga09_feet02={^T}靴鞋
+tagTransmogTextFeet={^H}可用于装备幻化。
+tagTransmoga00_sword001b={^T}匕首
+tagTransmogTextSword1h={^H}可用于装备幻化。
+tagTransmoga00_Gun2h={^T}大枪
+tagTransmogTextGun2h={^H}可用于装备幻化。
+
+tagWeaponRakeA000={^T}耙 {^S}(农具)
+tagWeaponShovelA000={^T}锹 {^S}(农具)
+tagWeaponPickA000={^T}矿工镐 {^S}(矿用)
+tagWheelBarrow={^T}独轮车 {^S}(矿用)
+
+tagDevotionPotion=激励精华 ^s
+tagDevotionPotionDesc={^N}{^N}{^H} +100 虔诚点
+
+tagConsumableTransmog_Chicken={^Y}无极 {^T}刷怪^-//{^S}观赏 {^F}公鸡^-
+tagConsumableTransmog_ChickenDesc=     {^K}仅供观赏
+tagConsumableTransmog_Seagull={^Y}武器 {^T}精球^-//{^S}观赏 {^F}海鸥^-
+tagConsumableTransmog_SeagullDesc=     {^K}仅供观赏
+tagConsumableTransmog_Squirrel={^S}观赏 {^F}松鼠^-
+tagConsumableTransmog_SquirrelDesc=     {^K}仅供观赏
+tagConsumableTransmog_Dog={^S}观赏 {^F}狼狗^-
+tagConsumableTransmog_DogDesc=     {^K}仅供观赏
+
+######################### tags_grimmest.txt #########################
+tagGrimmestNotifyIntro=不要让守卫抓住你与泽克对话！
+tagGrimmestNotifyError=初始化索引有问题
+
+tagGrimmestNotifyIsOff=^rＧ^crimmest^- ~ 关闭
+tagGrimmestNotifyIsOff_1=^rＧ^crimmest^s ~ 密度 [一档 x 2]
+tagGrimmestNotifyIsOff_2=^rＧ^crimmest^s ~ 密度 [二挡 x 3]
+tagGrimmestNotifyIsOff_3=^rＧ^crimmest^s ~ 密度 [三挡 x 5]
+tagGrimmestNotifyIsOff_4=^rＧ^crimmest^s ~ 密度 [四挡 x 7]
+tagGrimmestNotifyIsOff_5=^rＧ^crimmest^s ~ 密度 [五档 x 10]
+
+tagGrimmestNotifyIsLow=^rＧ^crimmest^- ~ 倍率 (普通级)
+tagGrimmestNotifyIsLow_1=^rＧ^crimmest^- ~ 倍率 (普通级) [一档 x 2]
+tagGrimmestNotifyIsLow_2=^rＧ^crimmest^- ~ 倍率 (普通级) [二挡 x 3]
+tagGrimmestNotifyIsLow_3=^rＧ^crimmest^- ~ 倍率 (普通级) [三挡 x 5]
+tagGrimmestNotifyIsLow_4=^rＧ^crimmest^- ~ 倍率 (普通级) [四挡 x 7]
+tagGrimmestNotifyIsLow_5=^rＧ^crimmest^- ~ 倍率 (普通级) [五档 x 10]
+
+tagGrimmestNotifyIsMod=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^-
+tagGrimmestNotifyIsMod_1=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [一档 x 2]
+tagGrimmestNotifyIsMod_2=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [二挡 x 3]
+tagGrimmestNotifyIsMod_3=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [三挡 x 5]
+tagGrimmestNotifyIsMod_4=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [四挡 x 7]
+tagGrimmestNotifyIsMod_5=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML1=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^-
+tagGrimmestNotifyIsML1_1=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [一档 x 2]
+tagGrimmestNotifyIsML1_2=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [二挡 x 3]
+tagGrimmestNotifyIsML1_3=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [三挡 x 5]
+tagGrimmestNotifyIsML1_4=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [四挡 x 7]
+tagGrimmestNotifyIsML1_5=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML2=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^-
+tagGrimmestNotifyIsML2_1=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [一档 x 2]
+tagGrimmestNotifyIsML2_2=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [二挡 x 3]
+tagGrimmestNotifyIsML2_3=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [三挡 x 5]
+tagGrimmestNotifyIsML2_4=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [四挡 x 7]
+tagGrimmestNotifyIsML2_5=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML3=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^-
+tagGrimmestNotifyIsML3_1=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [一档 x 2]
+tagGrimmestNotifyIsML3_2=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [二挡 x 3]
+tagGrimmestNotifyIsML3_3=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [三挡 x 5]
+tagGrimmestNotifyIsML3_4=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [四挡 x 7]
+tagGrimmestNotifyIsML3_5=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [五档 x 10]
+
+tagGrimmestNotifyIsM11=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^-
+tagGrimmestNotifyIsM11_1=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [一档 x 2]
+tagGrimmestNotifyIsM11_2=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [二挡 x 3]
+tagGrimmestNotifyIsM11_3=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [三挡 x 5]
+tagGrimmestNotifyIsM11_4=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [四挡 x 7]
+tagGrimmestNotifyIsM11_5=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [五档 x 10]
+
+tagGrimmestNotifyUndef=^rＧ^crimmest^- ~ 状态
+tagGrimmestNotifyHeroIsOnMax=倍率处于最大值
+tagGrimmestNotifyHeroIsOnMin=倍率已关闭
+tagGrimmestNotifyMobIsOnMax=怪物密度已最大
+tagGrimmestNotifyMobIsOnMin=怪物密度已关闭
+tagGrimmestOpenedDC=恶魔十字已开放，设置已保留
+tagGrimmestNotifyDensityOn=我看到了双倍，伙计。
+tagGrimmestNotifyDensityOff=没关系，伙计。
+
+tagGrimmestDEBUGBossSpawn=Boss 产生
+tagGrimmestDEBUGNemesisSpawn=复仇怪产生
+tagGrimmestDEBUGBossExchange=Boss 交换
+tagGrimmestDEBUGInit=最大难度初始化
+tagGrimmestDEBUGIncrease=难度增加
+
+tagGrimmestNPC=泽克
+tagGrimmestNPCProfession=倍率调节者
+tagGrimmestPotion={^A}嘛{^B}哩{^F}嘛{^I}哩{^K}呗{^L}呗{^R}哄{^S}
+tagBlueprintGrimmestPotion=物品图纸: {^A}嘛{^B}哩{^F}嘛{^I}哩{^K}呗{^L}呗{^R}哄
+tagGrimmestPotionDESC=右键点击召唤泽克，用以调节怪物倍率。{^N}{^N}{^S}(重启游戏生效)
+
+tagChestNemesis_Dropped=复仇怪战利品
+
+######################### 
+tagQualityArmorFabric01=鲍里斯的
+tagStyleArmorFabric01=
+
+# tags_creatures.txt
+tagQuestForgottenIsles=教主
+
+# tags_items.txt
+tagComponentHelp=[右键单击应用或组合]
+
+# tags_storyelements.txt
+# Region Names 地区名称
+tagMapForgottenIsles01=遗忘岛郊区
+tagMapForgottenIsles02=遗忘岛
+tagMapForgottenIsles03=被遗忘的邪教徒地穴
+tagMapForgottenIsles04=被遗忘的地牢
+tagMapForgottenIsles05=被遗忘的竞技场
+tagMapForgottenIsles06=被遗忘的大陆
+
+# Notifications 通知
+tagNotification_WelcomeHome=享受遗忘岛！
+tagNotification_ForgottenIslesFound=真是一团糟...
+
+# NPC Names 名字
+tagNPC_CultistMember=邪教徒成员
+tagNPC_ExhaustedCitizen=疲惫的居民
+tagNPC_Guard_DCRangedMay=五月 - 守望者
+tagNPC_Guard_DCRangedLisa=丽莎 - 守望者
+tagNPC_Guard_DCMeleeLeroy=勒鲁瓦 - 守望者
+tagNPC_Jailor2=邪教幸存者
+
+# tags_ui.txt
+//tagGamePaused=^t遗忘岛^-游戏已暂停
+tagFIQuests=^t遗忘岛 ^lForgotten Isles{^R} ★ ^-任务
+
+# tags_uimain.txt
+//tagTitleScreenText=恐怖黎明{^n}{^l}遗忘岛{^n}©2021 板条箱娱乐有限责任公司。{^n}Discord: Propylaia #3406
+//tagMenuButton05=遗忘岛
+
+######################### tags_Helliquary.txt
+tagHelliquaryQuests=^t◥◣天台◢◤^k - 挑战 ^qHelliquary{^R} ★ ^-任务
+
+# 以下内容源自 GI v1.89 ~ v1.97c (x64)
+tagHead_Halloween01=^f万圣节帽 ^dfor GI
+tagHead_Halloween01Desc="除非你是女巫，否则不要戴它！"
+tagHead_Halloween02=^f特殊帽子 ^dfor GI
+tagByscillaShoulder=^f拜斯迈的护肩 ^dfor GI
+tagHead_Mogdrogen01=^f莫格卓根的鹿角 ^dfor GI
+tagWeaponMeleeSwordOSW1013=神马剑 ^dfor GI
+tagWeaponMeleeSwordOSW1013Desc=
+
+# Style 样式
+tagStyle_Halloween01=^x魅惑^-
+tagStyle_Halloween02=^x诅咒^-
+
+# Grim League S03
+tagSummonMoira_01={^Y}召唤 {^R}莫伊拉 1
+tagSummonMoira_02={^Y}召唤 {^R}莫伊拉 2
+tagSummonMoira_03={^Y}召唤 {^R}莫伊拉 3
+tagSummonMoira_04={^Y}召唤 {^R}莫伊拉 4
+tagSummonMoira_04m1={^Y}召唤 {^R}莫伊拉 4m1
+tagSummonMoira_04m2={^Y}召唤 {^R}莫伊拉 4m2
+tagSummonMoira_05={^Y}召唤 {^R}莫伊拉 5
+
+#NPCs - Not So Grim v1.2（没那么恐怖）
+tagNPC_levels_merchant_01={^R}神秘陌生人
+
+######################### Insanity Infinite.txt
+tagItemSkillIM03bo=疯狂佣兵
+tagItemSkillDescIM03bo=召唤一个佣兵在战斗中守护你。
+
+tagAlliedMerc1=野蛮人
+tagAlliedMerc2=狂战士
+tagAlliedMerc3=女术士
+tagAlliedMerc4=女刺客
+tagAlliedMerc5=流放者
+tagAlliedMerc6=死灵法师
+tagAlliedMerc7=游侠
+tagAlliedMerc8=烈焰术士
+tagAlliedMerc9=破碎者
+tagHumanHeroH0207=克雷斯
+
+noTagUnknownRace=冥界生物
+
+######################### tags_bladevortex.txt
+# tag For Blade vortex Mod by Okami29
+
+tag_bv_fire=刀刃漩涡 - 火焰
+tagItemSkillVortexA=
+tag_bv_cold=刀刃漩涡 - 冰冻
+tagItemSkillVortexB=
+tag_bv_poison=刀刃漩涡 - 毒素
+tagItemSkillVortexC=
+tag_bv_sword=刀刃漩涡 - 剑阵
+tagItemSkillVortexD=
+tag_bv_trans=刀刃漩涡 - 超然
+tagItemSkillVortexE=
+tag_bv_blades=刀刃漩涡 - 流放
+tagItemSkillVortexF=
+
+tag_Noctirn=夜曲//Noctirn
+
+######################### tags_weapons.txt
+# tag For Weapons Mod by Okami29
+
+tag_wp_awekened_axe=觉醒之斧//Awakened Axe
+tag_wp_awekened_sickle01=觉醒的近端恐惧//Awakened Proximal Fear
+tag_wp_awekened_sickle02=觉醒的信仰镰刀//Awakened Sickle of Faith
+tag_wp_awekened_crossbow=觉醒的饥饿者//Awakened The Hungerer
+tag_wp_awekened_cold_dagger=暴雪的觉醒//Blizzard's Awakening
+tag_wp_awekened_illidan_knife=伊利丹的刀//Illidan's Knife
+tag_wp_awekened_arcane_dagger=觉醒的宇宙//Awakened Universe
+tag_wp_awekened_swordfire=恶魔之剑//Diabolic Sword
+tag_wp_awekened_aetherhammer=觉醒的虚化大锤//Awakened Aether Hammer
+tag_wp_awekened_demonshield=觉醒的恶魔护盾//Awakened Demon shield
+tag_wp_awekened_demonshield_skill=恶魔之壳//Demonic Shell
+tag_wp_awekened_demonshield_skillDesc=以你的生命为代价大量增加你所有的属性和伤害，只要你能保持活着！
+
+tag_wp_awekened_demonshield_skill
+tag_wp_awekened_shuriken=巨龙之怒//Dragon's wrath
+
+#creatures 生物
+
+tag_wp_bahamut=巴哈姆特, 龙之王//Bahamut, King of the Dragons
+tag_wp_bahamut_magma_ball=岩浆球//Magma Ball
+
+tag_wp_envy=嫉妒: 贪婪的女王//Envy: The Covetous Queen
+
+######################### DI_items.txt
+# tag For Weapons Mod by DenisMashutikov
+
+tagDIHead001=觉醒 - 探索者的风采//头盔
+
+tagDIShield001=觉醒 - 鲍耶的悔恨//盾牌
+
+tagDIWeaponSword001=觉醒 - 小兰斯
+tagDIWeaponSword002=觉醒 - 疯狂
+tagDIWeaponSword003=觉醒 - 空气分裂器
+tagDIWeaponSword004=觉醒 - 毁灭
+tagDIWeaponSword005=觉醒 - 撕咬
+tagDIWeaponSword006=觉醒 - 耻辱之刃
+tagDIWeaponSword007=觉醒 - 剧毒拳头
+tagDIWeaponSword008=觉醒 - 北风
+
+tagDIWeaponAxe001=觉醒 - 斯沃特之手
+tagDIWeaponAxe002=觉醒 - 渴望漩涡
+tagDIWeaponAxe003=觉醒 - 破碎灵魂
+tagDIWeaponAxe004=觉醒 - 怒吼者
+tagDIWeaponAxe005=觉醒 - 裂肉者
+tagDIWeaponAxe006=觉醒 - 奥宾的许多手指
+tagDIWeaponAxe007=觉醒 - 疯狂双胞胎
+tagDIWeaponAxe008=觉醒 - 即将到来的残酷
+tagDIWeaponAxe009=觉醒 - 赫威尔
+tagDIWeaponAxe010=觉醒 - 被遗忘者
+
+######################### tags_combomod.txt
+tagCMPotion002=-经验药水 ( ＧＡＬ ) ^s
+tagCMPotion002Desc=使用它进行反向升级！不要在破碎幻界使用它！
+tagCMConsumableSkill001=1000% 减少经验
+tagCMConsumableSkill001Desc=将此用于反向练级！不要在破碎幻界使用它！
+
+######################### testTags.txt
+# Cosmetic Wings - D2R wanderer wings by okami29
+tagPrideWings={^D}H08{^T}永恒{^K}之翼
+tagPrideWings1={^D}H09{^T}永恒{^K}之翼{^Q} - {^S}毒云
+tagPrideWingsDesc=由 okami29 移植于^n{^Q}《暗黑破坏神 3》
+tagBlueprint_Wings=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+
+tagAionWings1={^K}灵幻{^T}之翼
+tagX1D3_AngelicWings01={^K}永恒{^T}之翼
+tagX1D3_AngelicWings01Desc=永恒之翼源自永恒之塔。//Aion wings from Aion fo Darksiders 3
+
+tagAionSpirit={^D}H22{^T}古灵{^K}之翼
+tagAionWings={^D}H05{^T}灵幻{^K}之翼{^Q} - {^B}蓝
+tagAionWingsRed={^D}H07{^T}灵幻{^K}之翼{^Q} - {^R}红//Red Wings from Aion
+tagAionWingsG={^D}H23{^T}黄金{^K}之翼
+tagAionWingsC={^D}H40{^T}光环{^K}之翼 {^D}非成品
+tagDfWings={^D}H24{^T}黑羽{^K}之翼
+tagGargoyleWings={^D}H25{^T}炎魔{^K}之翼
+tagLilithWings={^D}H21{^T}莉莉丝{^K}之翼//Lilith's Embrace
+tagMistForgedWings={^D}H41{^T}雾铸{^K}之翼 {^D}非成品//Mist Forged Wings
+tagKorvaakWingsR={^D}H16{^T}寇瓦克{^K}之翼{^Q} - {^R}红
+tagKorvaakWings={^D}H17{^T}寇瓦克{^K}之翼{^Q} - {^A}青
+tagMercyWings={^D}H26{^T}剑锋{^K}之翼
+tagRotWings={^D}H27{^T}禁地{^K}之翼
+tagtmountWings={^D}H10{^T}恶魔{^K}之翼{^Q} - {^S}突袭
+tagstormWings={^D}H11{^T}恶魔{^K}之翼{^Q} - {^S}风暴
+tagTheodinWings={^D}H18{^T}希厄丁{^K}之翼{^Q} - {^G}绿
+tagTheodinWingsB={^D}H19{^T}希厄丁{^K}之翼{^Q} - {^B}蓝
+tagBloodstainedWings={^D}H28{^T}蓝灵{^K}之翼
+tagTyrael_hotsWings={^D}H12{^T}恶魔{^K}之翼{^Q} - {^S}召鸦
+tagYellowWings={^D}H29{^T}飘零{^K}之翼
+tagSummonRaven={^C}召唤{^Z}风暴乌鸦
+tagCapeWings={^D}H30{^T}披风{^K}之翼
+tagCelestialWings={^D}H13{^T}紫禁{^K}之翼{^Q} - {^I}紫
+tagCelestial_BlueWings={^D}H14{^T}紫禁{^K}之翼{^Q} - {^B}蓝
+tagCelestial_GreenWings={^D}H15{^T}紫禁{^K}之翼{^Q} - {^G}绿
+tagCosmicWings={^D}H31{^T}宇宙{^K}之翼
+tagUsielWings={^D}H20{^T}奥塞尔{^K}之翼
+tagValorWings={^D}H32{^T}勇气{^K}之翼
+tagValkyrieWings={^D}H33{^T}武神{^K}之翼
+tagDarkgenesis1={^D}H01{^T}创世纪{^K}之翼{^Q} {^S}Ⅰ
+tagDarkgenesis2={^D}H02{^T}创世纪{^K}之翼{^Q} {^S}Ⅱ
+tagDarkgenesis3={^D}H03{^T}创世纪{^K}之翼{^Q} {^S}Ⅲ
+tagDarkgenesis4={^D}H04{^T}创世纪{^K}之翼{^Q} {^S}Ⅳ
+tagtentacles={^D}H34{^T}触手{^K}之翼
+tag_poe_dhunter={^D}H35{^T}猎龙{^K}之翼
+tag_poe_dhunterDesc=由 okami29 移植于^n{^Q}《流放之路》//Path of Exile Dragon hunter Wings
+tag_poe_inkwings={^D}H36{^T}超越{^K}之翼
+tag_poe_automaton={^D}H37{^T}自动{^K}之翼
+tag_poe_Sanctum={^D}H38{^T}圣神{^K}之翼
+tag_poe_SinInnocence={^D}H39{^T}无罪{^K}之翼
+tagAscensionWings={^D}H42{^T}扬升{^K}之翼
+tagDKorvaakWings={^D}H43{^T}变换{^K}之翼
+tagKayleWings={^D}H44{^T}凯尔{^K}之翼
+tagD2_WandererWings={^D}H45{^T}流浪{^K}之翼
+tagD2I_GigawhaleWings={^D}H48{^T}巨鲸{^K}之翼
+tag_poe_Nightfall={^D}H46{^T}黄昏{^K}之翼
+tag_poe_Twilight={^D}H47{^T}暮光{^K}之翼
+tagWingsIllusionistDesc=可作为勋章幻化应用。
+tag_poe_iridescent={^D}H49{^T}彩虹{^K}之翼
+tag_d4_inarius={^D}H50{^T}伊纳瑞斯{^K}之翼//Inarius wings
+tag_d3s28={^D}H51{^T}DIII第28季{^K}之翼//Diablo 3 Season 28 wings
+tagTlirobe={^D}H52{^T}白袍{^K}之翼//Torchlight Frost hunter robe
+
+# Wings Mod
+tagEssenceAether={^D}M01{^T}天使{^K}之翼{^Q} - {^A}虚化//Aether
+tagBlueprint_Wings01=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceBlack={^D}M02{^T}天使{^K}之翼{^Q} - {^M}死亡//Death
+tagBlueprint_Wings02=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceStorm={^D}M03{^T}天使{^K}之翼{^Q} - {^T}风暴//Storm
+tagBlueprint_Wings03=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceChaos={^D}M04{^T}天使{^K}之翼{^Q} - {^H}混沌//Chaos
+tagBlueprint_Wings04=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceGold={^D}M05{^T}天使{^K}之翼{^Q} - {^Y}众神//Gods
+tagBlueprint_Wings05=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceAcid={^D}M06{^T}天使{^K}之翼{^Q} - {^L}毒酸//Acid
+tagBlueprint_Wings06=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceFire={^D}M07{^T}天使{^K}之翼{^Q} - {^O}火焰//Fire
+tagBlueprint_Wings07=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceElemental={^D}M08{^T}天使{^K}之翼{^Q} - {^Z}元素//Elements
+tagBlueprint_Wings08=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceBlood={^D}M09{^T}天使{^K}之翼{^Q} - {^R}流血//Blood
+tagBlueprint_Wings09=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+tagEssenceCold={^D}M10{^T}天使{^K}之翼{^Q} - {^W}冰冻//Ice
+tagBlueprint_Wings10=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+DemonwingsBlood={^D}H06{^T}灵幻{^K}之翼{^Q} - {^I}紫//purple
+tagBlueprint_Wings00=      {^C}★ {^O}翅膀图纸 {^C}★      {^-}
+
+# ModdingTutorial_1
+tagAreaName=测试十字
+
+tagNPC=流浪汉 哈维
+tagQuestGiver=懒惰的 NPC
+tagBoss=危险的 Boss
+
+tagHelm=很酷的头盔 {^S}(测试专用)
+
+tagDoor=华丽的大门
+
+tagPotionChest=装药水和装备的箱子
+tagGreatChest=装好东西的箱子
+
+tagEnemy_Boar_A01=测试 猪
+tagEnemy_Boar_B01=测试 怒猪
+tagEnemy_Prawn_A01=测试 虫子
+tagEnemy_Prawn_B01=测试 大虫子
+
+tagEnemyHero_Boar01=精英 猪
+
+######################### hairstyles_tags.txt
+//Quality//Color// 品质/发色
+tagFHairColor01=^s(棕)
+tagFHairColor02=^s(黑)
+tagFHairColor03=^s(金)
+tagFHairColor04=^s(灰)
+tagFHairColor05=^s(褐)
+
+//Styles// 发型
+tagFHairPulledBack={^T}马尾
+tagFHairUnkempt={^T}蓬披
+tagFHairTiedLoose={^T}绑扎
+tagFHairPunk={^T}朋克
+tagFHairBuzzPunk={^T}另类
+tagFHairDefault={^T}默认
+tagFHairBald={^T}秃头
+
+######################### tags_MirageArcher.txt
+# tag For Mirage Archer Mod 标签属于幻影弓手 Mod by Okami29
+tagMAQuests=^T幻影弓手 ^oby ^lOkami29 ^r☆ 任务
+
+tag_MA_pet=希尔瓦娜 - 幻影弓手
+tag_MA_skill=幻影弓手
+tag_MA_petskill=幻影箭
+tag_MA_ring=幻影弓手戒指
+
+######################### tags_combomod.txt
+tag_RecycleItem=^f回收^s垃圾
+tag_RecycleItemDesc=切换回收掉落物品的功能。^n^g默认为^r禁用^g状态^-
+tag_RecycleEnabled=^y> 垃圾回收已启用 <
+tag_RecycleDisabled=^r> 垃圾回收已禁用 <
+
+### LootSphere 战利品球
+tag_LootSphereIronBits=战利品球 (铁币)
+tag_LootSphereIronBitsDesc="装有大量的铁币。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereCommon=战利品球 (普通)
+tag_LootSphereCommonDesc="装有一些战利品。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereRandom=战利品球 (随机)
+tag_LootSphereRandomDesc="可容纳 1 至 60 件装备。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereUncommon=战利品球 (稀有)
+tag_LootSphereUncommonDesc="装有很多战利品。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereValuable=战利品球 (珍贵)
+tag_LootSphereValuableDesc="装有很多珍贵的战利品。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereLegendary=战利品球 (传奇)
+tag_LootSphereLegendaryDesc="装有大量传说级的战利品。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMaterialsLow=战利品球 (普通组件)
+tag_LootSphereMaterialsLowDesc="包含一些组件。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMaterialsNormal=战利品球 (稀有组件)
+tag_LootSphereMaterialsNormalDesc="包含一些特别组件。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMaterialsValuable=战利品球 (珍贵组件)
+tag_LootSphereMaterialsValuableDesc="包含大量有价值的组件。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMaterialsSpecial=战利品球 (特殊材料)
+tag_LootSphereMaterialsSpecialDesc="包含大量的特殊材料（如冥神之血）。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereDivine=战利品球 (神圣)
+tag_LootSphereDivineDesc="装有大量传说级的战利品。有机会包含多个猎物球。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMI=战利品球 (怪物特有)
+tag_LootSphereMIDesc="只容纳很少出现的怪物。你应该把它打开。" (直接丢地上销毁就是打开)
+tag_LootSphereMagical=战利品球 (稀有)
+tag_LootSphereMagicalDesc="装有很多珍贵的战利品。有可能包含多个设计图。你应该把它打开。" (直接丢地上销毁就是打开)
+
+#################### 316Mod 血玫瑰与X魔 (Blood Rose and X Devil) v1.2 ####################
+tag316ModQuests={^T}血玫瑰与X魔 {^H}v1.2{^R} ★ ^-任务
+
+### Creatures 生物
+tagPetLady=^f血玫瑰 ^s(近)
+tagPetLady2=^f血玫瑰 ^s(远)
+tagPetLadyFake=血塑体
+tagPetLifeLaunch=魂元
+tagPetLifeMissile=魂杀弹
+
+tagMODboss01=莫格卓根 ~ 真身
+tagMODboss02=罗卡 ~ 真身
+tagMODboss03=掠夺者 ~ 真身
+
+### Items 物品
+tagLady01MOD={^A}召唤 {^R}血玫瑰
+tagLady01MODDesc={^K}"召唤一个自称血玫瑰的半吸血鬼娘为你服务，没人知道她为何要听命于你。"
+
+# 套装 0
+tagRelicMOD000={^R}违逆的圣物//316aMod
+tagRelicMOD000Desc={^K}"一个被毁坏并诅咒的圣物，上面一个大大的X刻痕仿佛是对此物惩罚一般，但从刻痕中渗出鲜红色能量给人的感觉就是像在反抗这一切。"{^N}{^N}{^G}解锁潜能: {^P}诅咒
+tagBlueprint_RelicMOD000=遗物图纸: {^R}违逆的圣物
+
+# 套装 1
+tagFist1MOD001=(套) 跃动的能量//316aMod
+tagFist1MOD001Desc={^G}解锁技能: {^R}追杀掌{^G}双持近战武器解锁
+tagBlueprint_Fist1MOD001=装备图纸: {^S}(套) {^I}跃动的能量
+
+tagFist2MOD001=(套) 奔涌的能量//316aMod
+tagFist2MOD001Desc={^G}解锁技能: {^R}杀破冲、杀气震、杀星绞
+tagBlueprint_Fist2MOD001=装备图纸: {^S}(套) {^I}奔涌的能量
+
+tagItemSetMOD001Name=两股无形的能量
+tagItemSetMOD001Desc={^K}"你感觉有一股无法形容的能量爆发而出。"{^N}{^N}{^G}解锁技能: {^R}破灭律令
+
+# 套装 1R
+tagGun1MOD001=(套) 枪形的能量//316aMod
+tagGun1MOD001Desc={^G}解锁技能: {^R}射魄弹
+tagBlueprint_Gun1MOD001=装备图纸: {^S}(套) {^I}枪形的能量
+
+tagFocusMOD001=(套) 书形的能量//316aMod
+tagFocusMOD001Desc={^G}解锁技能: {^R}动魄枪法 — 散弹连射
+tagBlueprint_FocusMOD001=装备图纸: {^S}(套) {^I}书形的能量
+
+tagItemSetMOD001RName=两股有形的能量
+tagItemSetMOD001RDesc={^K}"你的灵魂即将变成世上最恐怖的杀器。"{^N}{^N}{^G}解锁技能: {^R}百魂诀
+
+# 套装 2
+tagHeadMOD002=(套) 破裂的面具//316aMod
+tagHeadMOD002_lite=破裂的面具
+tagHeadMOD002Desc={^Q} 失效技能: {^G}<{^Y}审判{^G}>{^I}重生之语{^G}<{^T}奥术{^G}>{^I}心智迅捷{^N}{^N}{^G}解锁技能: {^R}意志波
+tagBlueprint_HeadMOD002=装备图纸: {^S}(套) {^I}破裂的面具
+
+tagFeetMOD002=(套) 血染的战靴//316aMod
+tagFeetMOD002Desc={^Q} 失效技能: {^G}<{^L}死灵{^G}>{^I}折磨印记{^G}<{^T}奥术{^G}>{^I}麦文的守护领域{^N}{^N}{^G}解锁技能: {^R}踩死它
+tagBlueprint_FeetMOD002=装备图纸: {^S}(套) {^I}血染的战靴
+
+tagHandsMOD002=(套) 古旧的手甲//316aMod
+tagHandsMOD002Desc={^Q} 失效技能: {^G}<{^T}奥术{^G}>{^I}奥术意志{^G}<{^T}奥术{^G}>{^I}伊斯坎德拉的元素转换{^N}{^N}{^G}解锁技能: {^R}杀无赦
+tagBlueprint_HandsMOD002=装备图纸: {^S}(套) {^I}古旧的手甲
+
+tagLegsMOD002=(套) 灰暗的腿甲//316aMod
+tagLegsMOD002Desc={^Q} 失效技能: {^G}<{^Q}神秘{^G}>{^I}索拉尔的巫火{^G}<{^O}士兵{^G}>{^I}久经沙场{^G}<{^O}士兵{^O}>{^I}曼海尔的意志
+tagBlueprint_LegsMOD002=装备图纸: {^S}(套) {^I}灰暗的腿甲
+
+tagShoulderMOD002=(套) 粗糙的肩甲//316aMod
+tagShoulderMOD002Desc={^Q} 失效技能: {^G}<{^T}奥术{^G}>{^I}艾瑞奥特之镜{^G}<{^Z}夜刃{^G}>{^I}气爆{^G}<{^B}萨满{^G}>{^I}莫格卓根的契约
+tagBlueprint_ShoulderMOD002=装备图纸: {^S}(套) {^I}粗糙的肩甲
+
+tagTorsoMOD002=(套) 补丁的大衣//316aMod
+tagTorsoMOD002Desc={^Q} 失效技能: {^G}<{^L}死灵{^G}>{^I}幽灵束缚{^G}<{^Q}神秘{^G}>{^I}德雷格之血{^N}{^N}{^G}解锁技能: {^R}真实之血
+tagBlueprint_TorsoMOD002=装备图纸: {^S}(套) {^I}补丁的大衣
+
+tagWaistMOD002=(套) 焦黑的腰带//316aMod
+tagWaistMOD002Desc={^Q} 失效技能: {^G}<{^R}爆破{^G}>{^I}附身烈焰{^G}<{^R}爆破{^G}>{^I}奥祖因的选召{^G}<{^R}爆破{^G}>{^I}复仇烈焰
+tagBlueprint_WaistMOD002=装备图纸: {^S}(套) {^I}焦黑的腰带
+
+tagItemSetMOD002Name=一身奇怪的装束
+tagItemSetMOD002Desc={^Q}"一身破破烂烂的装束，但总让人感觉有些异样，你戴上这具带有X形裂痕的面具，仿佛有大量的记忆忽然冲入脑中，为你讲述了一个可以颠覆这个世界存在根基的恐怖真相... "{^N}{^N}{^G}解锁技能: {^R}解放
+
+# 套装 3
+tagMedalMOD003=(套) 未知的符号//316aMod
+tagMedalMOD003Desc={^Q} 失效技能: {^G}<{^O}士兵{^G}>{^I}军事素养{^G}<{^O}士兵{^G}>{^I}战斗警觉{^G}<{^O}士兵{^G}>{^I}曼海尔的壁垒
+tagBlueprint_MedalMOD003=装备图纸: {^S}(套) {^I}未知的符号
+
+tagNeckMOD003=(套) 神秘的符号//316aMod
+tagNeckMOD003Desc={^Q} 失效技能: {^G}<{^T}奥术{^G}>{^I}心灵专注{^G}<{^T}奥术{^G}>{^I}撕裂现实{^G}<{^T}奥术{^G}>{^I}星之契约
+tagBlueprint_NeckMOD003=装备图纸: {^S}(套) {^I}神秘的符号
+
+tagRing1MOD003=(套) 奇特的符号//316aMod
+tagRing1MOD003Desc={^Q} 失效技能: {^G}<{^Q}神秘{^G}>{^I}附身{^G}<{^Q}神秘{^G}>{^I}拜斯迈的羁绊{^G}<{^O}士兵{^G}>{^I}奥莱隆之怒
+tagBlueprint_Ring1MOD003=装备图纸: {^S}(套) {^I}奇特的符号
+
+tagRing2MOD003=(套) 诡异的符号//316aMod
+tagRing2MOD003Desc={^Q} 失效技能: {^G}<{^L}死灵{^G}>{^I}死亡主宰{^G}<{^L}死灵{^G}>{^I}坟墓呼唤{^G}<{^B}萨满{^G}>{^I}原始羁绊
+tagBlueprint_Ring2MOD003=装备图纸: {^S}(套) {^I}诡异的符号
+
+tagItemSetMOD003Name=四枚独特的符号
+tagItemSetMOD003Desc={^K}"四枚从没见过的符号，但它们又给人一种从灵魂中传来的熟知感。"{^N}{^N}{^G}解锁潜能: {^R}多元自我
+
+### Skills 技能
+tagSkillClassName0203=暴力巫师 {^T}(爆破+神秘)
+
+tagSkillpassiveMODName={^R}潜能^z
+tagSkillpassiveMODDesc={^K}有待激发的潜在能力。
+
+tagSkillpassiveDebuffMODName={^P}诅咒^z
+tagSkillpassiveDebuffMODDesc={^K}受到诅咒。
+
+tagSkillLifestrikeName={^Y}潜能: {^R}追杀掌
+tagSkillLifestrikeDesc={^K}穿越异空间，打出出其不意的致命一击。{^N}{^O}属于位移型近战攻击，作为起手招式基础攻击，在冷却时间中会使出{^R}杀破拳法{^O}。
+
+tagSkillLifeblaststrikeName={^Y}潜能: {^R}命碎^z
+tagSkillLifeblaststrikeDesc={^K}将目标的生命能量在手中捏爆炸裂。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillLifewaveName={^Y}潜能: {^R}杀破冲^z
+tagSkillLifewaveDesc={^K}双手的灭杀法能合并释放出贯穿一切的杀气浪。{^N}{^O}不能直接使用，需在解锁后在默认攻击中以一定几率释放。
+
+tagSkillLifeshockName={^Y}潜能: {^R}杀气震^z
+tagSkillLifeshockDesc={^K}双手的灭杀法能自上而下的重击，撼天动地。{^N}{^O}不能直接使用，需在解锁后在默认攻击中以一定几率释放。
+
+tagSkillLifearcName={^Y}潜能: {^R}杀星绞^z
+tagSkillLifearcDesc={^K}操控灭杀法能凝聚成流星，高速环绕周身扫掠敌人。{^N}{^O}不能直接使用，需在解锁后在默认攻击中以一定几率释放。
+
+tagSkillweaponpoolName={^Y}潜能: {^R}杀破拳法
+tagSkillweaponpoolDesc={^K}在默认基站攻击中使用{^R}杀破冲、杀破震、杀破铰^-。
+
+tagSkillLifebeamName={^Y}潜能: {^R}破灭律令
+tagSkillLifebeamDesc={^K}将高纯度的灭杀能量聚结于手中，发射出一道耀眼的毁灭之光，一旦被射中定会神形俱灭。{^N}{^O}需要持续施法；基础射速40-60hz，可以射穿敌人，能量消耗极端，建议在激活{^R}解放{^O}后使用。
+
+tagSkillLifebeamboltName={^Y}潜能: {^R}破灭闪电^z
+tagSkillLifebeamboltDesc={^K}环绕破灭射线的赤红闪电束。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillLifeshootName={^Y}潜能: {^R}射魄弹
+tagSkillLifeshootDesc={^K}射出灵魂能量弹击穿一切事物。{^N}{^O}属于远程攻击，可以射穿敌人，作为基础攻击，随机使出{^R}动魄枪法{^O}。
+
+tagSkillLifeblastName={^Y}潜能: {^R}魂碎^z
+tagSkillLifeblastDesc={^K}将敌人的灵魂也一并击碎，并化为灭杀法能向四周散射出去。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillweaponpoolRName={^Y}潜能: {^R}动魄枪法
+tagSkillweaponpoolRDesc={^K}使弹道变幻莫测，使一把枪就能形成火力网。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillLifelaunchName={^Y}潜能: {^R}多元自我
+tagSkillLifelaunchDesc={^K}将自己的灵魂分裂出4个魂元，它们会四处搜寻并杀敌。{^N}{^O}此技能受玩家等级和宠物加成，魂元是无敌的而且攻击欲望极高。
+tagSkillLifelaunchTracker=当前召唤魂元数量
+
+tagSkillLifeboltName=魂元闪电 — 魂元发射出的连锁闪电
+tagSkillLifeboltDesc={^K}魂元发射出的连锁闪电。{^N}{^O}此技能受玩家等级加成。
+
+tagSkillLifemissileName={^Y}潜能: {^R}百魂诀
+tagSkillLifemissileDesc={^K}将自己的灵魂分裂出大量更小的魂元，它们会像导弹一样向敌对者实施自杀式攻击。{^N}{^O}此技能受玩家等级和宠物加成。
+tagSkillLifemissileTracker=当前召唤魂弹数量
+
+tagSkillenableDMName={^Y}潜能: {^R}双拳
+tagSkillenableDMDesc={^K}允许两手各持一把近战武器。
+
+tagSkillenableDRName={^Y}潜能: {^R}双枪
+tagSkillenableDRDesc={^K}允许两手各持一把远程武器。
+
+tagSkillMindwaveName={^Y}潜能: {^R}意志波
+tagSkillMindwaveDesc={^K}你满脑子都是怪异的想法，没人能理解你，你决定将它们一股脑释放出去，让它们都尝尝这种滋味。
+
+tagSkillLifeblazeName={^Y}潜能: {^R}踩死它^z
+tagSkillLifeblazeDesc={^K}以踩死恶心虫子的势头重重地踩向地面，然后心情舒畅多了。
+
+tagSkillLifebloodName={^Y}潜能: {^R}真实之血
+tagSkillLifebloodDesc={^K}你的血液是天神们无法否定的真实存在，它们会使你拥有对抗天神的金刚不坏之身和无限的潜力。{^N}{^O}需要消耗非常高的能量才能激活 (门槛)，并且激活后会持续消耗能量，能量不足将自动解除，建议与{^R}解放{^O}配合使用。
+
+tagSkillLifekillName={^Y}潜能: {^R}杀无赦
+tagSkillLifekillDesc={^K}灭杀法能充满全身，你的两眼在放光，你的双拳在喷火！{^N}{^O}需要消耗非常高的能量才能激活 (门槛)，并且激活后会持续消耗能量，能量不足将自动解除，建议与{^R}解放{^O}配合使用。
+
+tagSkillLifeboomName={^Y}潜能: {^R}死爆^z
+tagSkillLifeboomDesc={^K}杀死目标，其身体的生命能量将转化为灭杀能量并一瞬间释放出来产生爆炸。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillLifebloodbuffName={^Y}潜能: {^R}觉者^z
+tagSkillLifebloodbuffDesc={^K}越接近这虚假生命的终结，越能看透这个世界的真相。{^N}{^O}附属技能，不能直接使用。
+
+tagSkillNeverdeadName={^Y}潜能: {^R}解放
+tagSkillNeverdeadDesc={^K}知晓一切的真相后，你将不再受命运摆布，但你也会成为所有天神的敌人，承受来自它们的诅咒。{^N}{^O}需要消耗极高的能量才能激活 (门槛)，激活后会持续消耗生命直至死亡，建议与{^R}真实之血{^O}配合使用。
+
+tagSkillTrueName={^Y}潜能: {^R}恐怖真相^z
+tagSkillTrueDesc={^K}恐怖又残酷的真相灌入任何灵魂的潜意识中，摧毁一切不属于它们的虚假的力量。{^N}{^O}附属技能，不能直接使用。可以解除所有自己身上的减益 (DeBuff)，也可破除所有敌人自身的增益 (Buff)。
+
+tagSkillLadyName={^A}召唤 {^R}血玫瑰
+tagSkillLadyDesc={^K}召唤名为{^R}血玫瑰{^K}的半吸血鬼娘为你服务，没人知道她为何要听命于你。{^N}{^O}血玫瑰根据所持装备不同有多种战斗姿态，召唤时随机出现，如出现的不是你想要的那种，请重新召唤试试。{^N}{^G}血玫瑰离开时会扔下一些图纸和特种药水，请捡起这些东西，体会碾压天神的快感。{^N}{^P}由于血玫瑰患有严重的贫血症，所以在战斗中经常莫名其妙的昏倒 (福利)。
+
+tagSkillLadyAureName=血惑 — 用姿色吸引敌人，使它们无暇他顾
+tagSkillLadyAureDesc={^K}用姿色吸引敌人，使它们无暇他顾。
+
+tagSkillLadyShadowStrikeName=血闪 — 闪现至敌人面前跳跃劈砍
+tagSkillLadyShadowStrikeDesc={^K}闪现至敌人面前跳跃劈砍。
+
+tagSkillLadyBlitzName=血冲 — 踏着鲜血冲向敌人
+tagSkillLadyBlitzDesc={^K}踏着鲜血冲向敌人。
+
+tagSkillLadyNovaName=血牙 — 向四周散射大量吸血鬼之牙
+tagSkillLadyNovaDesc={^K}向四周散射大量吸血鬼之牙。
+
+tagSkillLadyRainName=血雨 — 大量吸血鬼之牙从天而降
+tagSkillLadyRainDesc={^K}大量吸血鬼之牙从天而降。
+
+tagSkillLadyShootName=血弹 — 将血化的子弹射向敌人
+tagSkillLadyShootDesc={^K}将血化的子弹射向敌人。
+
+tagSkillLadyhealName=血链 — 用血链传导生命力
+tagSkillLadyhealDesc={^K}用血链传导生命力。
+
+tagSkillLadyFakeName=血塑 — 用血制造出自己的分身来诱惑敌人
+tagSkillLadyFakeDesc={^K}用血制造出自己的分身来诱惑敌人。
+
+tagSkillLadyNovaFakeName=血胶 — 分身自爆化为粘稠的胶状血液将周围的敌人黏住
+tagSkillLadyNovaFakeDesc={^K}分身自爆化为粘稠的胶状血液将周围的敌人黏住。
+
+tagSkillbossName={^Y}违逆: {^R}弑神
+tagSkillbossDesc={^K}强制将天神们的真身拉进这个世界，并向他们挑战。
+
+//tagQuests={^T}血玫瑰与X魔(Blood Rose and X Devil) {^H}v1.2{^R} ★ ^-任务

@@ -1,0 +1,74 @@
+tagGrimmestNotifyIntro=不要让守卫抓住你与泽克对话！
+tagGrimmestNotifyError=初始化索引有问题
+
+tagGrimmestNotifyIsOff=^rＧ^crimmest^- ~ 关闭
+tagGrimmestNotifyIsOff_1=^rＧ^crimmest^s ~ 密度 [一档 x 2]
+tagGrimmestNotifyIsOff_2=^rＧ^crimmest^s ~ 密度 [二挡 x 3]
+tagGrimmestNotifyIsOff_3=^rＧ^crimmest^s ~ 密度 [三挡 x 5]
+tagGrimmestNotifyIsOff_4=^rＧ^crimmest^s ~ 密度 [四挡 x 7]
+tagGrimmestNotifyIsOff_5=^rＧ^crimmest^s ~ 密度 [五档 x 10]
+
+tagGrimmestNotifyIsLow=^rＧ^crimmest^- ~ 倍率 (普通级)
+tagGrimmestNotifyIsLow_1=^rＧ^crimmest^- ~ 倍率 (普通级) [一档 x 2]
+tagGrimmestNotifyIsLow_2=^rＧ^crimmest^- ~ 倍率 (普通级) [二挡 x 3]
+tagGrimmestNotifyIsLow_3=^rＧ^crimmest^- ~ 倍率 (普通级) [三挡 x 5]
+tagGrimmestNotifyIsLow_4=^rＧ^crimmest^- ~ 倍率 (普通级) [四挡 x 7]
+tagGrimmestNotifyIsLow_5=^rＧ^crimmest^- ~ 倍率 (普通级) [五档 x 10]
+
+tagGrimmestNotifyIsMod=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^-
+tagGrimmestNotifyIsMod_1=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [一档 x 2]
+tagGrimmestNotifyIsMod_2=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [二挡 x 3]
+tagGrimmestNotifyIsMod_3=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [三挡 x 5]
+tagGrimmestNotifyIsMod_4=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [四挡 x 7]
+tagGrimmestNotifyIsMod_5=^rＧ^crimmest^- ~ 倍率 ^y(敌对级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML1=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^-
+tagGrimmestNotifyIsML1_1=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [一档 x 2]
+tagGrimmestNotifyIsML1_2=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [二挡 x 3]
+tagGrimmestNotifyIsML1_3=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [三挡 x 5]
+tagGrimmestNotifyIsML1_4=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [四挡 x 7]
+tagGrimmestNotifyIsML1_5=^rＧ^crimmest^- ~ 倍率 ^g(鄙视级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML2=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^-
+tagGrimmestNotifyIsML2_1=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [一档 x 2]
+tagGrimmestNotifyIsML2_2=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [二挡 x 3]
+tagGrimmestNotifyIsML2_3=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [三挡 x 5]
+tagGrimmestNotifyIsML2_4=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [四挡 x 7]
+tagGrimmestNotifyIsML2_5=^rＧ^crimmest^- ~ 倍率 ^b(厌恶级)^- [五档 x 10]
+
+tagGrimmestNotifyIsML3=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^-
+tagGrimmestNotifyIsML3_1=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [一档 x 2]
+tagGrimmestNotifyIsML3_2=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [二挡 x 3]
+tagGrimmestNotifyIsML3_3=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [三挡 x 5]
+tagGrimmestNotifyIsML3_4=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [四挡 x 7]
+tagGrimmestNotifyIsML3_5=^rＧ^crimmest^- ~ 倍率 ^p(憎恨级)^- [五档 x 10]
+
+tagGrimmestNotifyIsM11=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^-
+tagGrimmestNotifyIsM11_1=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [一档 x 2]
+tagGrimmestNotifyIsM11_2=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [二挡 x 3]
+tagGrimmestNotifyIsM11_3=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [三挡 x 5]
+tagGrimmestNotifyIsM11_4=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [四挡 x 7]
+tagGrimmestNotifyIsM11_5=^rＧ^crimmest^- ~ 倍率 ^r(复仇级)^- [五档 x 10]
+
+tagGrimmestNotifyUndef=^rＧ^crimmest^- ~ 状态
+tagGrimmestNotifyHeroIsOnMax=倍率处于最大值
+tagGrimmestNotifyHeroIsOnMin=倍率已关闭
+tagGrimmestNotifyMobIsOnMax=怪物密度已最大
+tagGrimmestNotifyMobIsOnMin=怪物密度已关闭
+tagGrimmestOpenedDC=恶魔十字已开放，设置已保留
+tagGrimmestNotifyDensityOn=我看到了双倍，伙计。
+tagGrimmestNotifyDensityOff=没关系，伙计。
+
+tagGrimmestDEBUGBossSpawn=Boss 产生
+tagGrimmestDEBUGNemesisSpawn=复仇怪产生
+tagGrimmestDEBUGBossExchange=Boss 交换
+tagGrimmestDEBUGInit=最大难度初始化
+tagGrimmestDEBUGIncrease=难度增加
+
+tagGrimmestNPC=泽克
+tagGrimmestNPCProfession=倍率调节者
+tagGrimmestPotion={^A}嘛{^B}哩{^F}嘛{^I}哩{^K}呗{^L}呗{^R}哄{^S}
+tagBlueprintGrimmestPotion=物品图纸: {^A}嘛{^B}哩{^F}嘛{^I}哩{^K}呗{^L}呗{^R}哄
+tagGrimmestPotionDESC=右键点击召唤泽克，用以调节怪物倍率。{^N}{^N}{^S}(重启游戏生效)
+
+tagChestNemesis_Dropped=复仇怪战利品

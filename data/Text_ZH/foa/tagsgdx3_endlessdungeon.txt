@@ -1,0 +1,11 @@
+
+
+#Shattered Bosses
+tagGDX3EndlessDungeon_Boss01="饥饿者"纳迪乌斯
+tagGDX3EndlessDungeon_Boss02=虚无使者波多米塔斯
+tagGDX3EndlessDungeon_Boss03=斯里夫·虚嚎
+tagGDX3EndlessDungeon_Boss04=赫拉恩·末日坚城
+
+
+
+

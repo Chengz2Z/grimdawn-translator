@@ -1,0 +1,217 @@
+#Ascension
+tagAltarWindow=Ascension Window
+tagTooltipAscensionHeader=Ascended Bonus
+tagTooltipMonsterBonusHeader=Monster Bonus
+tagAltarBusy=The Altar is busy talking with another player.
+tagAltarActivated=The Altar has already been activated.
+
+tagAscensionAltarError=Earn the trust of the Kurn to access the Ascension Altar.
+tagAscensionAltar=Ascension Altar
+tagAscensionAltarLootBonuses=Loot Bonuses
+tagAscensionAltarMonsterBonuses=Monster Bonuses
+tagAscensionMonsterBonuses= to Minions
+tagAscensionBossBonuses= to Bosses
+
+tagAscensionAltarFull=No empty slots
+tagAscensionAltarAddReagent=Left-click to add to the altar.
+tagAscensionAltarRemoveReagent=Click to remove from altar.
+
+tagAscensionEnable=Magic and Rare items can Ascend
+tagSuperbossEnable=The Dread can appear
+tagMonsterTotemEnable=Tempest Totems can appear
+tagRoguelikeChestEnable=Bonus spoils in Roguelike Dungeons
+tagTreasureTroveEnable=Resplendent Troves can appear
+tagMarkedChestEnable=Loot chests can become Voidmarked
+tagSoulDropsEnable=Soul Fragments and Echoes can drop
+
+tagSuperBossSpawned=Something stirs within the shadows...
+
+tagExclusiveAscensionFormula01={^E}Additional chance of Lightning items
+tagExclusiveAscensionFormula02={^E}Additional chance of Acid and Poison items
+tagExclusiveAscensionFormula03={^E}Additional chance of Physical items
+tagExclusiveAscensionFormula04={^E}Additional chance of Chaos items
+tagExclusiveAscensionFormula05={^E}Additional chance of Bleed items
+tagExclusiveAscensionFormula06={^E}Additional chance of Fire items
+tagExclusiveAscensionFormula07={^E}Additional chance of Pet items
+tagExclusiveAscensionFormula08={^E}Additional chance of Pierce items
+tagExclusiveAscensionFormula09={^E}Additional chance of Aether items
+tagExclusiveAscensionFormula10={^E}Additional chance of Vitality items
+tagExclusiveAscensionFormula11={^E}Additional chance of Cold items
+
+tagAscensionFormula01={^H}{%+.0f0}%{^E} Experience gain
+tagAscensionFormula02={^H}{%+.0f0}%{^E} Reputation gain
+tagAscensionFormula03={^H}{%+.0f0}%{^E} chance of Soul Fragments/Echo drops
+tagAscensionFormula04={^H}{%+.0f0}%{^E} chance of Roguelike spoils
+tagAscensionFormula05={^H}{%+.0f0}%{^E} chance of Tempest Totems
+tagAscensionFormula06={^H}{%+.0f0}%{^E} chance to spawn The Dread
+tagAscensionFormula07={^H}{%+.0f0}%{^E} chance of Double Rare drops
+tagAscensionFormula08={^H}{%+.0f0}%{^E} Iron Bits drops
+tagAscensionFormula09={^H}{%+.0f0}%{^E} chance of Voidmarked chests
+tagAscensionFormula10={^H}{%+.0f0}%{^E} chance of Resplendent Troves
+tagAscensionFormula11={^H}{%+.0f0}%{^E} chance of Monster Gear drops
+tagAscensionFormula12={^H}{%+.0f0}%{^E} faster Nemesis Spawns
+
+tagAscendItemTitle=Possible Ascension Bonuses
+tagAscendItemModifier={%s0} Skill Modifier
+tagAscendItemCommonModifier=Enhanced {%s0} Skill Modifier
+tagAscendItemOffensive=Offensive Attributes
+tagAscendItemDefensive=Defensive Attributes
+tagAscendItemButton=Ascend Item
+tagAscendItemButtonInfo=Ascend the item, granting it additional attributes. Common items can generate more potent results. An item can only be Ascended once.
+tagAscendItemCost=Ascension Cost
+
+#LootFilterUI
+tagLootFilter40=Ascended
+tagLootFilter40Info=Show/Hide items that became Ascended.{^N}{^N}Use this filter if you wish to only see Rare items that are classified as Ascended by also unchecking the Rare filter.
+
+
+#Reroll
+tagReroll=Alter
+tagRerollInfo=Alteration is an arcane art by which the very properties of powerful items are fundamentally rerolled. The Inventor has not yet learned this ability.
+tagRerollInfoB=Alteration is an arcane art by which the very properties of powerful items are fundamentally rerolled. This process requires arcane ashes as a catalyst.
+tagRerollCost=Alteration Cost:
+tagRerollItemSeedInfo=Alter the item's Seed, causing all of its attribute values to roll again within their respective ranges.
+tagRerollPrefixInfo=Alter the item's Prefix, resulting in a new Prefix of equal or higher quality.
+tagRerollSuffixInfo=Alter the item's Suffix, resulting in a new Suffix of equal or higher quality.
+tagRerollAscendedAffixInfo=Alter the item's Ascension bonus, resulting in a new bonus of equal quality.
+tagRerollWarning=Altering this item will make it untradeable. Continue?
+tagRerollQuantity=Rerolls: %d
+
+#Cauldron
+tagCauldron=Cauldron
+
+#Faction
+
+tagFactionUser17=Kurn
+tagFactionUser17Info=Headquarters: Asterkarn {^n}{^n} The proud denizens of Asterkarn have a long and tumultuous history, riddled with strife and bloody wars. None was greater than their lengthy conflict with the Erulans to the east, which makes any current relations strained at best. The remaining Kurn must contend with the ramifications of their past, and the dark choices that were made to ensure their people survived. {^n}{^n} The Kurn are rightfully suspicious of outsiders, but even their most stalwart defenders will acknowledge the grave threat that festers within the heart of Astekarn.
+tagFactionUser17Rewards1=N/A
+tagFactionUser17Rewards2=N/A
+tagFactionUser17Rewards3=N/A
+tagFactionUser17Rewards4=Empty
+tagFactionUser17Rewards5=Access to Faction Vendor
+tagFactionUser17Rewards6=New Quest {^n}Access to Bounty Table {^n}Faction Armor {^n}Potion Formulas {^n}Faction Blueprint {^n}Kurnhold Welcomes Visiting Merchants
+tagFactionUser17Rewards7=New Quest {^n}Faction Augments {^n}Faction Weapons {^n}Faction Accessories {^n}Faction Writs {^n}Faction Blueprint {^n}Additional Visiting Merchants
+tagFactionUser17Rewards8=Rare Augments {^n}Faction Mandates {^n}Elite Faction Armor {^n}Legendary Faction Blueprints
+tagFactionUser18=Bloodbound
+tagFactionUser18Info= While many mortals cling to the promises of the Cult of Ch'thon out of desperation, the Bloodbound Kurn worship the dying god with their entire being. They are the resolute bannermen of the end times, who's actions have left a festering wound upon Asterkarn that refuses to heal. These Dread Wastes are now their stronghold, a land within which all life is irredeemably warped by the corrupting nature of the void. {^n}{^n} The Bloodbound were once responsible for the horrific summoning of the Loghorrean, the eponymous voice of Ch'thon, which devastated both the Kurn and Erulan forces alike during their grisly war. What other terrors eagerly await on the brink of the veil while their willing servants gather blood in their name?
+tagFactionUser18Rewards1=Nemesis Spawns
+tagFactionUser18Rewards2=Additional Hero Spawns
+tagFactionUser18Rewards3=Extra Spawns
+tagFactionUser18Rewards4=Empty
+tagFactionUser18Rewards5=N/A
+tagFactionUser18Rewards6=N/A
+tagFactionUser18Rewards7=N/A
+tagFactionUser18Rewards8=N/A
+tagFactionUser19=Traps
+tagFactionUser19Info=Don't step on it.
+tagFactionUser19Rewards1=N/A
+tagFactionUser19Rewards2=N/A
+tagFactionUser19Rewards3=N/A
+tagFactionUser19Rewards4=N/A
+tagFactionUser19Rewards5=N/A
+tagFactionUser19Rewards6=N/A
+tagFactionUser19Rewards7=N/A
+tagFactionUser19Rewards8=N/A
+tagFactionUser20=The Dread
+tagFactionUser20Info=It's coming.
+tagFactionUser20Rewards1=N/A
+tagFactionUser20Rewards2=N/A
+tagFactionUser20Rewards3=N/A
+tagFactionUser20Rewards4=N/A
+tagFactionUser20Rewards5=N/A
+tagFactionUser20Rewards6=N/A
+tagFactionUser20Rewards7=N/A
+tagFactionUser20Rewards8=N/A
+tagFactionUser21=Noktukari
+tagFactionUser21Info=Headquarters: Ulo's Springs {^n}{^n} The Hranaak are a relic of a bygone era, a long-lived people tasked with maintaining the natural order. It was they who taught the first Kurn the runes and guided them to thrive alongside nature's bounty.{^n}{^n} Alas, of the few that remain in this world, many Hranaak succumbed to despair and now strive to bring about the end days, firmly convinced that Cairn is sick and in desperate need of the progenitor god's gaze. These fallen Hranaak are a vile and withered echo of their former selves. {^n}{^n} Rather than accelerate the inevitable, some Hranaak chose seclusion, waiting out their final days in meditation and stoic contemplation. The elder one known as Noktukari dwells hidden away in Ulo's Springs. He still bears a wealth of knowledge and forgotten artifacts, if only humanity was still worthy of these treasures...
+tagFactionUser21Rewards1=N/A
+tagFactionUser21Rewards2=N/A
+tagFactionUser21Rewards3=N/A
+tagFactionUser21Rewards4=N/A
+tagFactionUser21Rewards5=Access to Faction Vendor
+tagFactionUser21Rewards6=Enchanted Potion Containers {^n}Relic Blueprints
+tagFactionUser21Rewards7=Infused Potion Containers {^n}Relic Blueprints {^n}Noktukari's Runed Orb is shared with Kurnhold
+tagFactionUser21Rewards8=Perfected Potion Containers {^n}Potion Formulas {^n}Legendary Faction Blueprints
+tagFactionUser22=Asterkarn Dead
+tagFactionUser22Info=They're mostly dead.
+tagFactionUser22Rewards1=N/A
+tagFactionUser22Rewards2=N/A
+tagFactionUser22Rewards3=N/A
+tagFactionUser22Rewards4=N/A
+tagFactionUser22Rewards5=N/A
+tagFactionUser22Rewards6=N/A
+tagFactionUser22Rewards7=N/A
+tagFactionUser22Rewards8=N/A
+
+
+#Quest
+tagCodexJournalSubHeadingKurn=Survivors - Kurn
+tagCodexJournalSubHeadingAsterkarn=History - Asterkarn
+
+
+#SystemStatsSkillUI
+
+SkillChanceWeightMod=+{%d0}% {^E}Chance to be Used
+LifeMonitorPercentMod=+{^E}Activates when Health drops below {^H}{%.1f0}%
+LifeMonitorPercentCooldown={^E}Potion auto-activates when Health drops below {^H}{%.1f0}%{^E} once every {^H}{%.1f1} {^E}seconds
+LifeMonitorPercentCooldownMod={^E}Potion auto-activates when Health drops below {^H}{%.1f0}%{^E} once every {^H}{%.1f1} {^E}seconds
+AbsorbShieldPercentHealth={%.0f0}% {^E}of Current Health gained as Damage Absorption
+ComboMaxCharge={%d0} {^E}Max Onslaught Stacks
+ComboMaxChargeMod=+{%d0} {^E}Onslaught Stacks
+ComboChargeDuration={^E}Onslaught Stack Duration
+ComboChargeLevels={^E}Onslaught Stacks: 
+tagHUDComboCharge=Onslaught Stacks
+tagHUDComboChargeMultiplier={%d0}% {^E}Additional damage to the next offensive Cooldown Ability
+PermanentDuration=Permanent duration for {%s0}
+tagSkillShapeshiftAbilities={%s0} Abilities:
+SkillComboChargeSpendReduction=+{%.0f0}% {^E}Chance to not consume Onslaught Stacks
+PotionPotency={%.0f0}% {^E}Potion Modifier Potency
+PotionPotencyMod=+{%.0f0}% {^E}Potion Modifier Potency
+PotionInfusion=+{%.0f0}% {^E}Potion Base Potency but base properties are over-time instead of instant
+PotionInfusionMod=+{%.0f0}% {^E}Potion Base Potency but base properties are over-time instead of instant
+PotionTransfusion=+{%.0f0}% {^E}Potion Modifier Potency but base properties are disabled
+PotionTransfusionMod=+{%.0f0}% {^E}Potion Modifier Potency but base properties are disabled
+PotionPurity={^E}Protection from deadly environmental contagions
+PotionTrueSight={^E}Hidden objects become revealed
+PotionExclusive=^oExclusive Modifier - Only one Exclusive Modifier can be active at any one time.
+FilterCaster={^E}Potion benefits nearby allies instead of the user
+BeamNumber={%d0} {^E}Beam(s)
+BeamNumberMod=+{%d0} {^E}Beam(s)
+BeamAngle={%.1f0} {^E}Degree Beam Arc
+BeamAngleMod=+{%.1f0} {^E}Degree Beam Arc
+DefenseNegativeDamageMult=+{%.0f0}% {^E}Damage Taken
+MaxDurationRefresh=Max Duration Extension
+tagSkillDurationRefresh={%t0} to extend duration by {^H}{%.1f1} {%z2}
+tagSkillDurationRefreshName={%t0} to extend duration of {%s1} by {^H}{%.1f2} {%z3}
+tagSkillDurationRefreshMax={%t0} to refresh duration by {^H}{%.1f1} {%z2} (Max {^H}{%.1f3} {%z4})
+tagSkillDurationRefreshNameMax={%t0} to refresh duration of {%s1} by {^H}{%.1f2} {%z3} (Max {^H}{%.1f4} {%z5})
+tagSkillCooldownRefresh={%t0} to reduce cooldown by {^H}{%.1f1} {%z2}
+tagSkillCooldownRefreshName={%t0} to reduce cooldown of {%s1} by {^H}{%.1f2} {%z3}
+ProjectileDuration=Projectile Duration
+
+tagRefreshSkillCondition01={%d0}% {^E}Chance at {^H}{%.0f1}% {^E}Health
+tagRefreshSkillCondition02={%d0}% {^E}Chance at {^H}{%.0f1}% {^E}Energy
+tagRefreshSkillCondition03={%d0}% {^E}Chance when Hit
+tagRefreshSkillCondition04={%d0}% {^E}Chance when Hit by Melee Attacks
+tagRefreshSkillCondition05={%d0}% {^E}Chance when Hit by Ranged Attacks
+tagRefreshSkillCondition06={%d0}% {^E}Chance when a Buff is Cast
+tagRefreshSkillCondition07={%d0}% {^E}Chance on Attack
+tagRefreshSkillCondition08={^E}Active while Equipped
+tagRefreshSkillCondition09={%d0}% {^E}Chance when Hit by a Critical
+tagRefreshSkillCondition10={%d0}% {^E}Chance on Critical Attack
+tagRefreshSkillCondition11={%d0}% {^E}Chance on Block
+tagRefreshSkillCondition12={%d0}% {^E}Chance on Enemy Death
+
+tagPotionContainerUpgradeNotify=Potion Container Upgraded!
+tagPotionModifierUnlockNotify=New Potion Modifier Unlocked!
+tagPotionContainerUpgrade={^E}Unlocks {^b}{%s0} {^E}Rank {^H}{%d1}
+tagPotionModifierUnlock={^E}Unlocks {^b}{%s0}
+tagPotionUnlockLearned={^r}[Already Unlocked]
+
+#Char Stats Tab 2
+
+#Character
+tagCharStatsBerserkerSkillsBonus=Berserker Skills
+tagCharStatsBerserkerSkillsBonusInfo=Bonus to all learned skills in the Berserker Mastery.
+tagCharIncreasedGold={%+.0f0}% {^E}Iron Bits Gained
+tagCharIncreasedGoldR={%+.0f0}-{%.0f1}% {^E}Iron Bits Gained

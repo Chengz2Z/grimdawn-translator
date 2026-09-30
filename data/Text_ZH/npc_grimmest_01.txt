@@ -1,0 +1,18 @@
+泽克//Zeke for DoM
+嗨！我可以为你^k调节 ^rG^crimmest ^k设置^w。//How can I help you today? ^cAdjust Grimmest Settings
+^g提高精英倍率//Increase Hero Rate
+还需要调节吗？//Anything else?
+是的。//Yes.
+
+不，谢谢。//No, thank you.
+^y降低精英倍率//Decrease Hero Rate
+
+^r重置精英倍率//Reset Hero Rate
+
+^g增加怪物密度//Increase Mob Density
+
+^y减少怪物密度//Decrease Mob Density
+
+^r重置怪物密度//Reset Mob Density
+
+再见//Goodbye

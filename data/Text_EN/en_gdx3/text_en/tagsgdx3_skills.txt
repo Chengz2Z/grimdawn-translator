@@ -1,0 +1,551 @@
+tagSkillClassName10=Berserker
+
+tagSkillClassName0110=Thane
+tagSkillClassName0210=Dreadnaught
+tagSkillClassName0310=Mystic
+tagSkillClassName0410=Reaver
+tagSkillClassName0510=Evoker
+tagSkillClassName0610=Primalist
+tagSkillClassName0710=Runekeeper
+tagSkillClassName0810=Veilwalker
+tagSkillClassName0910=Zealot
+
+tagSkillClassDescription10=Berserkers are the brutal unflinching defenders of Asterkarn that have embraced the beast god Mogdrogen's gifts to shapeshift into ferocious beastlike forms. They harness the bitter unforgiving winds of Asterkarn to infuse their weapons and shatter their foes. When they are not assuming their wereforms, Berserkers bring down their prey in savage dual weapon combat, but any weapon can prove deadly in their capable hands, or talons.
+
+#Class10
+tagGDX3Class10SkillName00A=Berserker
+tagGDX3Class10SkillDescription00A=Unbridled ferocity honed into an unstoppable warrior.
+
+tagGDX3Class10SkillName01A=Werewolf
+tagGDX3Class10SkillDescription01A=Kurn berserkers blessed with Mogdrogen's gift were some of the most terrifying troops fielded in their ancient war with Erulan. To this day, tales of these warriors paint the Kurn as savage bloodthirsty monsters. With Mogdrogen's gift, you assume the form of the werewolf, gaining new bonuses and abilities for as long as the transformation persists. ^oWerewolf form has its own basic attack and cannot trigger weapon pool skills.
+tagGDX3Class10SkillName01B=Voracity
+tagGDX3Class10SkillDescription01B=Your voracious lupine hunger can only be sated by the precious vitality of your enemies. ^oModifies Feral Claws while in Werewolf form.
+tagGDX3Class10SkillName01C=Recklessness
+tagGDX3Class10SkillDescription01C=You tear at your foes with reckless abandon, extending your lupine rampage with every ^ocritical blow.
+tagGDX3Class10SkillName01D=Blight of Ch'thon
+tagGDX3Class10SkillDescription01D=The corrupted blood of Ch'thon has taken hold within you, twisting your transformation into a ravenous abomination bent on destruction.
+tagGDX3Class10SkillWerewolfAbilityName01A=Feral Claws
+tagGDX3Class10SkillWerewolfAbilityDescription01A=You swipe at your foes with savage claws, cutting through their ranks.
+tagGDX3Class10SkillWerewolfAbilityName02A=Rip and Tear
+tagGDX3Class10SkillWerewolfAbilityDescription02A=You rip and tear through your foes in a straight line, tossing the weak aside as the fodder they are.
+
+tagGDX3Class10SkillName02A=Wereraven
+tagGDX3Class10SkillDescription02A=Kurn mystics are known to take on the aspect of dread ravens to terrorize the enemy with their talons and ice magic. Through Mogdrogen's guidance and blessing, you too can assume the form of the wereraven, gaining new bonuses and abilities for as long as the transformation persists. ^oWereraven form has its own basic attack and cannot trigger weapon pool skills.
+tagGDX3Class10SkillName02B=Glacial Talons
+tagGDX3Class10SkillDescription02B=Your icy talons are imbued with the glaciers of Asterkarn, giving them longer reach and a lasting chill. ^oModifies Ice Talons while in Wereraven form.
+tagGDX3Class10SkillName02C=Everwinter
+tagGDX3Class10SkillDescription02C=You exert complete control over the icy chill of Asterkarn, greatly enhancing the chilling effects of your abilities while transformed into a Wereraven.
+tagGDX3Class10SkillName02D=Talons of Ch'thon
+tagGDX3Class10SkillDescription02D=Dipped within the tainted blood of Ch'thon, your raven talons tear through reality itself, sending ripples through the cosmos.
+tagGDX3Class10SkillWereravenAbilityName01A=Ice Talons
+tagGDX3Class10SkillWereravenAbilityDescription01A=You conjure vicious ice talons to tear through enemies in front of you.
+tagGDX3Class10SkillWereravenAbilityName02A=Cold Snap
+tagGDX3Class10SkillWereravenAbilityDescription02A=You slam your talons into the ground, unleashing a cascade of ice. ^oThe ice initially deals 25% reduced damage before reaching its full strength as it expands outward.
+
+tagGDX3Class10SkillName03A=Onslaught
+tagGDX3Class10SkillDescription03A=Kurn berserkers would lull their enemies into a false sense of confidence by engaging in a series of feints before unleashing a devastating well-timed blow. ^oWhen used as your default weapon attack, Onslaught generates stacks. Your next activated cooldown attack will consume all stacks to deal additional damage.
+tagGDX3Class10SkillName03B=Open Wounds
+tagGDX3Class10SkillDescription03B=Your onslaught wears down your foes with countless grievous wounds.
+tagGDX3Class10SkillName03C=Endless Rage
+tagGDX3Class10SkillDescription03C=You extend your onslaught, building ever more rage before unleashing it upon your foes.
+tagGDX3Class10SkillName03D=Covenant of Ch'thon
+tagGDX3Class10SkillDescription03D=You brand your weapons with the sigils of Ch'thon, funneling your rage into grisly blows that echo with the power of the void.
+
+tagGDX3Class10SkillName04A=Leap
+tagGDX3Class10SkillDescription04A=Ever the first into the fray, you leap with such ferocity that the very earth shatters upon your arrival.
+tagGDX3Class10SkillName04B=Fault Line
+tagGDX3Class10SkillDescription04B=You leap with such ferocity that the resulting shockwave sends ripples through the very earth. ^oThe fault lines initially deal 25% reduced damage before reaching their full strength as they expand outward.
+
+tagGDX3Class10SkillName05A=Rallying Cry
+tagGDX3Class10SkillDescription05A=You unleash a boisterous battle cry that reinvigorates you and your allies and rallies them back into the fray.
+tagGDX3Class10SkillName05B=Impulse
+tagGDX3Class10SkillDescription05B=Your rallying cry triggers a rush of adrenaline that leaves you feeling unstoppable.
+tagGDX3Class10SkillName05C=Frenzied Cry
+tagGDX3Class10SkillDescription05C=Kurn berserkers are an unquenchable force of destruction upon the field of battle. Their battle cries drown out the sounds of carnage. When embracing the path of the frenzied berserker, Rallying Cry can be used more frequently. ^oThis is a melee and ranged dual-wielding technique. Also enables the ability to dual wield melee and ranged weapons.
+
+tagGDX3Class10SkillName06A=Amatok's Pact
+tagGDX3Class10SkillDescription06A=The Kurn are spiritual people, believing their fates to be firmly tied to the will of their gods. Chief among them is Amatok, the Spirit of Winter. Without his mercy, none would survive Asterkarn's brutal winters. You form a pact with Amatok, granting his blessing to you and nearby allies.
+tagGDX3Class10SkillName06B=Bloodfrenzy
+tagGDX3Class10SkillDescription06B=Amatok's bond stokes the fury and bloodthirst in your hearts.
+tagGDX3Class10SkillName06C=Icebound
+tagGDX3Class10SkillDescription06C=Your bond with Amatok deepens, infusing you with winter's chill and hardening your body against maladies.
+
+tagGDX3Class10SkillName07A=Winds of Asterkarn
+tagGDX3Class10SkillDescription07A=The chill in the Asterkarn peaks is legendary. Some have come to call the wind the reaper's caress, but to the Kurn it is Amatok's Breath. Their mystics have learned to channel its fury. For as long as the spell is maintained, the bitter winds of Asterkarn will assail your foes and tear flesh from bone. ^oAt 100% Cast Speed, Winds of Asterkarn deals damage and drains Energy every 0.16s and grows in size every 0.48s until it reaches maximum size.
+tagGDX3Class10SkillName07B=Hailstorm
+tagGDX3Class10SkillDescription07B=As the winds howl around you, icy hail forms and descends upon your foes.
+
+tagGDX3Class10SkillName08A=Heart of Asterkarn
+tagGDX3Class10SkillDescription08A=Those that have embraced the chill of Asterkarn in their hearts are forever changed by the ordeal. They brave Cairn's dangers knowing that Amatok walks with them.
+
+tagGDX3Class10SkillName09A=Bloodborne
+tagGDX3Class10SkillDescription09A=Those that give in completely to their primal impulses discover newfound might and sharpened senses. Only the release of death can stop a warrior in such a state of mind.
+
+tagGDX3Class10SkillName10A=Battle Surge
+tagGDX3Class10SkillDescription10A=To a trained berserker, there is no greater thrill than the glory of combat. As you land ^ocritical blows^h, you feel invigorated.
+
+tagGDX3Class10SkillName11A=Untamed Rage
+tagGDX3Class10SkillDescription11A=A wild beast is most dangerous when cornered, so too is a wounded berserker. As harm comes to you, it only deepens your rage.
+
+tagGDX3Class10SkillName12A=Form of the Beast
+tagGDX3Class10SkillDescription12A=Berserkers that submit wholly to the transformation risk losing themselves to the beast within, but find that they can tap into primal strength that goes beyond their mortal limits. ^o[Bonuses active while in Werewolf or Wereraven form and requires one to unlock]
+
+tagGDX3Class10SkillName13A=Implements of War
+tagGDX3Class10SkillDescription13A=Kurn berserkers have honed the art of two-weapon combat to deadly perfection. Their weapons are not just tools, but an extension of their relentless onslaught. ^oThis is a dual weapon bonus. Also enables the ability to dual wield weapons.
+
+tagGDX3Class10SkillName14A=Bloodfangs
+tagGDX3Class10SkillDescription14A=A cruel double strike leaves your enemies bleeding out. ^oCan activate with all default weapon attacks.
+
+tagGDX3Class10SkillName15A=Avalanche
+tagGDX3Class10SkillDescription15A=You harness the might of Amatok in your attack, sending an avalanche of crushing ice with your attack. ^oCan activate with all default weapon attacks.
+
+tagGDX3Class10SkillName16A=Bonechilling Cry
+tagGDX3Class10SkillDescription16A=You unleash a bloodcurdling battle cry that shatters enemy defenses and leaves your foes demoralized and broken.
+
+
+#ItemSkills
+tagGDX3ItemSkillB301Name=Nyarlathon's Proclamation
+tagGDX3ItemSkillB301Desc=Invoke the proclamation of the end times, shattering the minds of your foes and exposing their weaknesses.
+
+tagGDX3ItemSkillB302Name=Tempestborn
+tagGDX3ItemSkillB302Desc=The tempest within your heart is unleashed upon nearby foes.
+
+tagGDX3ItemSkillB303Name=Volcano
+tagGDX3ItemSkillB303Desc=The earth rips open to unleash its molten fury.
+
+tagGDX3ItemSkillB304Name=Storm Sparks
+tagGDX3ItemSkillB304Desc=A nova of chaotic sparks erupts from you.
+
+tagGDX3ItemSkillB305Name=Wrath Sparks
+tagGDX3ItemSkillB305Desc=A nova of chaotic aether sparks erupts from you.
+
+tagGDX3ItemSkillB306Name=Briar Thorns
+tagGDX3ItemSkillB306Desc=Unleash a ring of savage thorns from the earth.
+
+tagGDX3ItemSkillB307Name=Aether Thorns
+tagGDX3ItemSkillB307Desc=Unleash a ring of corrupted thorns from the earth.
+
+tagGDX3ItemSkillB308Name=Ice Thorns
+tagGDX3ItemSkillB308Desc=Unleash a ring of icy thorns from the earth.
+
+tagGDX3ItemSkillB309Name=Aether Assault
+tagGDX3ItemSkillB309Desc=The aether energy coalesced within your grasp sears your foes with every strike. ^oWhen used as your default weapon attack, Aether Assault generates stacks. Your next activated cooldown attack will consume all stacks to deal additional damage.
+
+tagGDX3ItemSkillB310Name=Ice Thorn Smash
+tagGDX3ItemSkillB310Desc=Smash your shield into the ground, creating a field of icy thorns around you. ^oThis combat technique activates off of default weapon attacks.
+
+
+tagGDX3ItemSkillC301Name=Poison Spine Nova
+tagGDX3ItemSkillC301Desc=Poisonous spines erupt around you, impaling nearby foes.
+
+tagGDX3ItemSkillC302Name=Void Talons
+tagGDX3ItemSkillC302Desc=Void-tainted shards erupt from the earth in front of you.
+
+tagGDX3ItemSkillC303Name=Void Snap
+tagGDX3ItemSkillC303Desc=Void-tainted shards erupt around you in a devastating cascade.
+
+tagGDX3ItemSkillC304Name=Bloodmane
+tagGDX3ItemSkillC304Desc=The spirit of Bloodmane swells within you.
+
+tagGDX3ItemSkillC305Name=WORDS
+tagGDX3ItemSkillC305Desc=WORDS
+
+
+tagGDX3ItemSkillD301Name=Veilwind
+tagGDX3ItemSkillD301Desc=Conjure a blaze of veilwinds to scorch your foes. ^oVeilwinds scale with player damage bonuses.
+
+tagGDX3ItemSkillD302Name=Disorienting Strike
+tagGDX3ItemSkillD302Desc=Assault your foe from a defensive position, disorienting their senses. ^oThis is a shield combat technique that activates off of default weapon attacks.
+
+tagGDX3ItemSkillD303Name=Viletongue
+tagGDX3ItemSkillD303Desc=A tendril of corrosive energies lashes out at your foe.
+
+tagGDX3ItemSkillD304Name=Mark of Blood
+tagGDX3ItemSkillD304Desc=A vile mark taints your foe's blood with the void.
+
+tagGDX3ItemSkillD305Name=Warpstone Defender
+tagGDX3ItemSkillD305Desc=The shield acts as a conduit to the void, infusing your armaments with vile energies. ^oThis is a ranged one-handed weapon passive bonus.
+
+tagGDX3ItemSkillD306Name=Eon Bolt
+tagGDX3ItemSkillD306NameB=Eon Bolts
+tagGDX3ItemSkillD306Desc=A celestial bolt tears through reality around you.
+tagGDX3ItemSkillD306DescB=Celestial bolts tear through reality around you.
+
+tagGDX3ItemSkillD307Name=World Devourer
+tagGDX3ItemSkillD307Desc=An eruption of void energies coalesces around your target.
+
+tagGDX3ItemSkillD308Name=Merciless End
+tagGDX3ItemSkillD308Desc=Mark your target for a swift and imminent end.
+
+tagGDX3ItemSkillD309Name=Ruinous Crags
+tagGDX3ItemSkillD309Desc=Smash your foe with your shield with such force that the impact reverberates around you. ^oThis is a shield combat technique that activates off of default weapon attacks.
+
+tagGDX3ItemSkillD310Name=Sineater
+tagGDX3ItemSkillD310Desc=You carve out the sins of your foes to sustain your own essence.
+
+tagGDX3ItemSkillD311Name=Demolish
+tagGDX3ItemSkillD311Desc=Crush your foes with a devastating shockwave that takes advantage of inherent weakness. ^oThis combat technique activates off of default weapon attacks.
+
+tagGDX3ItemSkillD312Name=Widowspine
+tagGDX3ItemSkillD312Desc=A toxic barb erupts from you and penetrates your foes.
+
+tagGDX3ItemSkillD313Name=Infinity
+tagGDX3ItemSkillD313Desc=A burst of celestial bolts tears through reality around you.
+
+tagGDX3ItemSkillD314Name=Chilling Claws of Beronath
+tagGDX3ItemSkillD314Desc=Unleash the elemental fury of Beronath by viciously clawing through your foes. The resulting claw marks explode for additional double damage after a delay.
+
+tagGDX3ItemSkillD315Name=Storm Claws of Beronath
+tagGDX3ItemSkillD315Desc=Unleash the elemental fury of Beronath by viciously clawing through your foes. The resulting claw marks explode for additional double damage after a delay.
+
+tagGDX3ItemSkillD316Name=Infernal Claws of Beronath
+tagGDX3ItemSkillD316Desc=Unleash the elemental fury of Beronath by viciously clawing through your foes. The resulting claw marks explode for additional double damage after a delay.
+
+tagGDX3ItemSkillD317Name=Tainted Claws of Beronath
+tagGDX3ItemSkillD317Desc=Unleash the tainted fury of Beronath by viciously clawing through your foes. The resulting claw marks explode for additional double damage after a delay.
+
+tagGDX3ItemSkillD318Name=Stonehand
+tagGDX3ItemSkillD318Desc=Bash your opponents with a sickening explosive crunch that leaves them disoriented and broken. ^oRequires a melee weapon.
+
+tagGDX3ItemSkillD319Name=Void's Calling
+tagGDX3ItemSkillD319Desc=The void swells within you, empowering your minions with its dark gift.
+
+tagGDX3ItemSkillD320Name=Ravener's Maw
+tagGDX3ItemSkillD320Desc=You voraciously devour life essence around you.
+
+tagGDX3ItemSkillD321Name=Celestial Blaze
+tagGDX3ItemSkillD321Desc=A celestial blaze erupts and rapidly spreads among your foes.
+
+tagGDX3ItemSkillD322Name=Hellscape
+tagGDX3ItemSkillD322Desc=Hellish flames erupt from the ground around you.
+
+tagGDX3ItemSkillD323Name=Shatter Reality
+tagGDX3ItemSkillD323Desc=Tear through the veil of reality with brutal two-handed strikes. ^oThis is a two-handed melee and ranged combat technique that activates off of default weapon attacks.
+
+tagGDX3ItemSkillD324Name=Hellfury
+tagGDX3ItemSkillD324Desc=Raging hellfire envelops your foe, searing through their defenses.
+
+tagGDX3ItemSkillD325Name=Mark of the Stone Thane
+tagGDX3ItemSkillD325Desc=Invoke the will of the stone thanes upon your foe, crumbling their defenses.
+
+tagGDX3ItemSkillD326Name=Widow's Bite
+tagGDX3ItemSkillD326Desc=Inject your foe with a deadly venom that penetrates their defenses.
+
+tagGDX3ItemSkillD327Name=Bloodmist
+tagGDX3ItemSkillD327Desc=A mist of blood corrupts the very air it passes through.
+
+tagGDX3ItemSkillD328Name=Bileguard
+tagGDX3ItemSkillD328Desc=A wretched miasma shields you from toxins and physical blows.
+
+tagGDX3ItemSkillD329Name=Jackal's Step
+tagGDX3ItemSkillD329Desc=The spirit of the jackal enhances your danger sense.
+
+tagGDX3ItemSkillD330Name=Fatebreaker's Will
+tagGDX3ItemSkillD330Desc=Shatter the chains of fate and define your own destiny. ^oThis is a melee dual-wielding and ranged dual-wielding passive that enables the ability to dual wield weapons.
+
+tagGDX3ItemSkillD331Name=Molten Core
+tagGDX3ItemSkillD331Desc=A molten sphere collapses upon your foes, spreading flames and agony.
+
+tagGDX3ItemSkillD332Name=Wildhowl
+tagGDX3ItemSkillD332Desc=You howl with the wild spirit of Asterkarn, invigorating nearby allies for war.
+
+tagGDX3ItemSkillD333Name=Void Lash
+tagGDX3ItemSkillD333Desc=Void energies lash out at your foe, overpowering their senses.
+
+tagGDX3ItemSkillD334Name=Chrono Boost
+tagGDX3ItemSkillD334Desc=Time warps around you, granting accelerated reflexes.
+
+tagGDX3ItemSkillD335Name=Void Wave
+tagGDX3ItemSkillD335Desc=A wake of void energies washes over the battlefield.
+
+tagGDX3ItemSkillD336Name=Eldritch Scheme
+tagGDX3ItemSkillD336Desc=Eldritch energies erupt from you, mending your wounds and those of nearby allies.
+
+tagGDX3ItemSkillD337Name=Black Blade
+tagGDX3ItemSkillD337Desc=A cruel black blade pierces through your foes.
+
+tagGDX3ItemSkillD338Name=Deathweave
+tagGDX3ItemSkillD338Desc=Deathly energies weave through the air towards your foes, sapping them of life and granting you stacks of onslaught.
+
+tagGDX3ItemSkillD339Name=Blood Talons
+tagGDX3ItemSkillD339Desc=Twin talons shred through your foes.
+
+tagGDX3ItemSkillD340Name=Blasphemy
+tagGDX3ItemSkillD340Desc=A blasphemous ritual saps your vitality in exchange for empowering your minions.
+
+tagGDX3ItemSkillD341Name=Eye of Prodromus
+tagGDX3ItemSkillD341Desc=The chaotic eye of a herald zips around the battlefield.
+
+tagGDX3ItemSkillD342Name=Wildhowl Aura
+tagGDX3ItemSkillD342Desc=The wild spirit of Asterkarn empowers you and your allies.
+
+tagGDX3ItemSkillD343Name=Rewind Harm
+tagGDX3ItemSkillD343Desc=Time washes over you, rewinding past injuries and rejuvenating you.
+
+tagGDX3ItemSkillD344Name=Desolate Ash
+tagGDX3ItemSkillD344Desc=Cinders from the void choke the life from nearby foes.
+
+tagGDX3ItemSkillD345Name=Zakull's Anima
+tagGDX3ItemSkillD345Desc=A tendril of your life force saps a nearby foe of theirs, granting you stacks of onslaught.
+
+tagGDX3ItemSkillD346Name=Sky Shard
+tagGDX3ItemSkillD346Desc=A shard of ice descends from the sky to crush your foes.
+
+tagGDX3ItemSkillD347Name=Ice King's Command
+tagGDX3ItemSkillD347Desc=The ice king's command invigorates you and your allies and empowers your minions with the frosted breath of Asterkarn.
+
+tagGDX3ItemSkillD348Name=Tears of Asterkarn
+tagGDX3ItemSkillD348Desc=Caustic agony crashes down upon your foes.
+
+tagGDX3ItemSkillD349Name=Ice King's Strikes
+tagGDX3ItemSkillD349Desc=Invoke the might of the Ice King with every blow. ^oWhen used as your default weapon attack, Ice King's Strikes inflicts additional damage and empowers your minions.
+
+tagGDX3ItemSkillD350Name=Rime Shards
+tagGDX3ItemSkillD350Desc=Shards of chilling ice erupt from you to pierce your foes.
+
+tagGDX3ItemSkillD351Name=Death's Wail
+tagGDX3ItemSkillD351Desc=Tormented spirits escape the blade.
+
+tagGDX3ItemSkillD352Name=Purge
+tagGDX3ItemSkillD352Desc=Cleansing energies erupt around you, cleansing you and your allies of harmful effects and purging beneficial effects from nearby enemies.
+
+tagGDX3ItemSkillD354Name=Scorv's Guile
+tagGDX3ItemSkillD354Desc=A very clever disguise for every occasion. ^oThis is a melee dual-wielding and ranged dual-wielding passive that enables the ability to dual wield weapons.
+
+tagGDX3ItemSkillD355Name=Fang of Fenris
+tagGDX3ItemSkillD355Desc=Lash out at your foes with ferocity of the great white wolf.
+
+tagGDX3ItemSkillD356Name=Bloodlust
+tagGDX3ItemSkillD356Desc=A surge of bloodlust swells within you, giving you a burst of adrenaline.
+
+tagGDX3ItemSkillD357Name=Sky Remnant
+tagGDX3ItemSkillD357Desc=A fragment of a celestial object drops upon your enemies.
+
+tagGDX3ItemSkillD358Name=Conjure Living Blossom
+tagGDX3ItemSkillD358Desc=A blossoming vine erupts from the earth to bombard your enemies with its toxins. ^oLiving Blossoms scale with player damage bonuses.
+
+tagGDX3ItemSkillD359Name=Conjure Living Bloom
+tagGDX3ItemSkillD359Desc=A vibrant bud erupts from the earth to secrete vile toxins into the surrounding air. ^oLiving Blooms scale with player damage bonuses.
+
+tagGDX3ItemSkillD360Name=Dream Eater
+tagGDX3ItemSkillD360Desc=Devour the dreams of your enemies, absorbing their essence and converting it into vitality.
+
+tagGDX3ItemSkillD361Name=Heathen's Assault
+tagGDX3ItemSkillD361Desc=Your weapons become an extension of your blasphemy, spreading your heretical powers with every blow. ^oWhen used as your default weapon attack, Heathen's Assault inflicts additional damage.
+
+tagGDX3ItemSkillD362Name=Blood Spill
+tagGDX3ItemSkillD362Desc=Your enemy's blood spills around them.
+
+tagGDX3ItemSkillD363Name=Bonk
+tagGDX3ItemSkillD363Desc=You land a big bonk with your huge wood. ^oThis is a two-handed melee combat technique that activates off of default weapon attacks.
+
+tagGDX3ItemSkillD364Name=Veilripper
+tagGDX3ItemSkillD364Desc=Shred the veil between realms with a series of savage strikes. ^oThis is a melee combat technique that activates off of default weapon attacks.
+
+tagGDX3ItemSkillD365Name=Repetition
+tagGDX3ItemSkillD365Desc=A maddening spell that replicates endlessly among your foes, distorting their reality.
+
+tagGDX3ItemSkillD366Name=Dark Ravine
+tagGDX3ItemSkillD366Desc=The depths rumble with Cairn's agony, before erupting all around you in a cascade of shadow.
+
+tagGDX3ItemSkillD367Name=Mark of the Moon
+tagGDX3ItemSkillD367Desc=The chilling light of the moon marks your target.
+
+tagGDX3ItemSkillD368Name=Summon Great White Wolf
+tagGDX3ItemSkillD368Desc=Call forth an avatar of the beast god, Mogdrogen. ^oOnly one Wolf can be summoned at any one time. The wolf scales with Pet Bonuses.
+tagGDX3ItemSkillD368_Pet01=Mogdrogen's Presence
+tagGDX3ItemSkillD368_Pet01Desc=The Great White Wolf's presence shreds the defenses of nearby foes.
+
+tagGDX3ItemSkillD369Name=Slightly Reduced
+tagGDX3ItemSkillD369Desc=This build clearly needed a nerf.
+
+tagGDX3ItemSkillD370=Poison Globules
+tagGDX3ItemSkillD370Desc=Vile toxic globules erupt from you and contaminate nearby foes.
+
+tagGDX3ItemSkillD371=Obsidian Fault
+tagGDX3ItemSkillD371Desc=A fault line erupts with obsidian spines to impale your foes.
+
+tagGDX3ItemSkillD372=Replicating Missile
+tagGDX3ItemSkillD372Desc=An imitation of Panetti's namesake spell launches towards your foe.
+
+tagGDX3ItemSkillD373=Zolhan's Command
+tagGDX3ItemSkillD373Desc=Zolhan's mastery of the battlefield fills you and nearby allies with renewed strength and endurance.
+
+#Relic Skills
+tagGDX3RelicSkillC301Name=Ice Burst
+tagGDX3RelicSkillC301Desc=Spikes of ice erupt around you in a chilling ring.
+
+tagGDX3RelicSkillD301Name=Consumption
+tagGDX3RelicSkillD301Desc=A debilitating disease infects your foes, inducing intense bleeding and sapping them of their strength.
+
+tagGDX3RelicSkillD302Name=Asterkarn's Chill
+tagGDX3RelicSkillD302Desc=The chill of Asterkarn's relentless winds eats away at the flesh of nearby foes.
+
+tagGDX3RelicSkillD303Name=Aspect of Beronath
+tagGDX3RelicSkillD303Desc=You attack with the fury of the cleansed great beast Beronath, creating an eruption of celestial energies.
+
+tagGDX3RelicSkillD304Name=Aurora Occidentalis
+tagGDX3RelicSkillD304Desc=Upon suffering harm, an aurora of energy wards you from further injury.
+
+tagGDX3RelicSkillD305Name=Amatok's Grasp
+tagGDX3RelicSkillD305Desc=The spirit of Amatok fills you with a blood curdling chill that somehow feels comforting.
+
+tagGDX3RelicSkillD306Name=Manifest Perfection
+tagGDX3RelicSkillD306Desc=Assume the perfect form.
+tagGDX3RelicSkillD306Skill01Name=Jab
+tagGDX3RelicSkillD306Skill01Desc=Stab aggressively with your divine implement.
+tagGDX3RelicSkillD306Skill02Name=Screech
+tagGDX3RelicSkillD306Skill02Desc=Cry to the heavens to beseech your god's blessing.
+
+#ConsumableSkills
+tagGDX3_SummonMiniBeaverName=Summon Kastorran Pup
+tagGDX3_SummonMiniBeaverDesc=Attract the attention of a small Kastorran that has not yet learned to fear humans. ^oOnly one Kastorran Pup can be summoned at any one time. Kastorran Pups are strictly non-violent.
+
+tagGDX3_SummonMiniRocName=Summon Roc Chick
+tagGDX3_SummonMiniRocDesc=Call a loyal Roc to fly besides you. ^oOnly one Roc Chick can be summoned at any one time. Roc Chicks are strictly non-violent.
+
+tagGDX3_SummonMiniYeti=Summon Dire Runt
+tagGDX3_SummonMiniYetiDesc=Befriend a Diremane that was rejected by its pack. ^oOnly one Dire Runt can be summoned at any one time. Dire Runts are strictly non-violent.
+
+
+#SkillsQuest
+tagGDX3QuestSkillA01=Abyssal Flame
+tagGDX3QuestSkillA01_Desc=You are bathed in abyssal flames and radiate with intense heat.
+
+
+#FactionSkills
+tagGDX3FactionSkillA01=Blessing of Amatok
+tagGDX3FactionSkillA01_Desc=A nearby Kurn Druid wards you against the elements.
+
+
+#SkillModifier
+tagPermanentDuration=Permanent Duration
+
+
+#EnemySkills
+
+tagGDX3EnemySkillA01=Kurn Aura
+tagGDX3EnemySkillA01_Desc=The presence of a nearby Kurn Druid wards you, granting additional Resists and Defensive Ability.
+
+tagGDX3EnemySkillA02=Blizzard
+tagGDX3EnemySkillA02_Desc=A chilling storm obscures vision and freezes you cold.
+
+tagGDX3EnemySkillA03=Bramble Trap
+tagGDX3EnemySkillA03_Desc=You are ensnared by stepping in brambles.
+
+tagGDX3EnemySkillA04=Dark Omen
+tagGDX3EnemySkillA04_Desc=You begin to suffocate as despair weighs down upon you, reducing all resistances.
+
+tagGDX3EnemySkillA05=Nauseating Void
+tagGDX3EnemySkillA05_Desc=Nausea overwhelms you, wracking your body with painful chills and exposing you to attacks.
+
+tagGDX3EnemySkillA06=Giant's Stench
+tagGDX3EnemySkillA06_Desc=A nearby giant's presence is poisoning the very air, slowing your attacks.
+
+tagGDX3EnemySkillA07=Blinding Darkness
+tagGDX3EnemySkillA07_Desc=The hypporaven's presence empowers the shadows, reducing your accuracy.
+
+tagGDX3EnemySkillA08=Deafening Screech
+tagGDX3EnemySkillA08_Desc=A hypporaven's screech overwhelmed your senses, reducing your ability to focus.
+
+tagGDX3EnemySkillA09=Windchill Presence
+tagGDX3EnemySkillA09_Desc=A frost roc's presence chills the air, slowing your senses.
+
+tagGDX3EnemySkillA10=Death's Caress
+tagGDX3EnemySkillA10_Desc=A wight's touch has put you on death's edge, crippling your mortal thread.
+
+tagGDX3EnemySkillA11=Dire Howl
+tagGDX3EnemySkillA11_Desc=A dire yeti's howl has left you chilled to the bone, slowing your actions.
+
+tagGDX3EnemySkillA12=Frenzy
+tagGDX3EnemySkillA12_Desc=Attacks and movement increased from frenzied rage.
+
+tagGDX3EnemySkillA13=Rallying Cry
+tagGDX3EnemySkillA13_Desc=Invigorated and attacks faster.
+
+tagGDX3EnemySkillA14=Frost Aura
+tagGDX3EnemySkillA14_Desc=Increased damage by cold attacks.
+
+tagGDX3EnemySkillA15=Reaping Aura
+tagGDX3EnemySkillA15_Desc=An aura of life-leeching energy surrounds the creature.
+
+tagGDX3EnemySkillD01=WORDS
+tagGDX3EnemySkillD01_Desc=WORDS
+
+tagGDX3EnemySkillD02=Ice Floe
+tagGDX3EnemySkillD02_Desc=You are standing within an ice patch, chilling you to the bone.
+
+tagGDX3EnemySkillD03=Lightning Spirit
+tagGDX3EnemySkillD03_Desc=The tortured soul of the Wight is charged with electricity and reacts violently to ranged attackers, emitting sparks of lightning.
+
+tagGDX3EnemySkillD04=Bonechill
+tagGDX3EnemySkillD04_Desc=Yurra's horrendous roar leaves you demoralized and broken.
+
+tagGDX3EnemySkillD05=Storm Skin
+tagGDX3EnemySkillD05_Desc=The Giant's skin is sparking with the power of a storm.
+
+tagGDX3EnemySkillD06=Molten Lava
+tagGDX3EnemySkillD06_Desc=You are standing within molten lava, searing your flesh.
+
+tagGDX3EnemySkillD07=Mark of Evernight
+tagGDX3EnemySkillD07_Desc=Eternal night looms over you, leaving behind pools of shadow with every step that chill your bones and diminish your vision.
+
+tagGDX3EnemySkillD08=Cry of the Bloodbound
+tagGDX3EnemySkillD08_Desc=Guldir's battle cry disrupts your concentration and slows your movement.
+
+tagGDX3EnemySkillD09=Shadow Devil
+tagGDX3EnemySkillD09_Desc=The presence of a nearby turbulent shadow fumbles your aim.
+
+tagGDX3EnemySkillD10=Toxic Fumes
+tagGDX3EnemySkillD10_Desc=The Underking's poisonous presence chokes the air from your lungs, reducing the speed of your attacks and spells.
+
+tagGDX3EnemySkillD11=Mark of Doom
+tagGDX3EnemySkillD11_Desc=You have become marked by Nyarlathon. Dark ichor erupts around you with your every step. Standing within it rapidly saps all living beings of vitality and strength.
+
+tagGDX3EnemySkillD12=Eldritch Amplification
+tagGDX3EnemySkillD12_Desc=The eldritch phantom's mere presence empowers its nearby allies.
+
+tagGDX3EnemySkillD13=Hellfire
+tagGDX3EnemySkillD13_Desc=The intense flames left behind by Curate Ignus melt through your gear, lowering your armor and defensive ability.
+
+tagGDX3EnemySkillD14=Chilling Presence
+tagGDX3EnemySkillD14_Desc=Shriek's presence freezes the very air around you, reducing your movement and accuracy.
+
+tagGDX3EnemySkillD15=Abyssal Ichor
+tagGDX3EnemySkillD15_Desc=The Dread's ichor unravels your existence and saps your vitality, crippling your ability to recover.
+
+tagGDX3EnemySkillD16=Dread Presence
+tagGDX3EnemySkillD16_Desc=The presence of the Dread saps all hope from the area, reducing your visibility and reactions.
+
+tagGDX3EnemySkillD17=Rot Aura
+tagGDX3EnemySkillD17_Desc=The reaper drinks deep of your vitality, sapping your defensive ability and your ability to regenerate.
+
+tagGDX3EnemySkillD18=Aether Amplification
+tagGDX3EnemySkillD18_Desc=The aether shard teems with raw power, greatly accelerating nearby allies and searing your flesh.
+
+tagGDX3EnemySkillD19=Weight of Guilt
+tagGDX3EnemySkillD19_Desc=You feel the weight of the world pressing down upon you.
+
+tagGDX3EnemySkillD20=Unraveling
+tagGDX3EnemySkillD20_Desc=You feel yourself unraveling the longer you stay near the mad reality of the Black Lodge.
+
+tagGDX3EnemySkillD21=Charged Plating
+tagGDX3EnemySkillD21_Desc=Hrohn's armor discharges electricity with every strike.
+
+tagGDX3EnemySkillD22=Bonechilling Cry
+tagGDX3EnemySkillD22_Desc=A werewolf's bloodcurdling roar that shatters your defenses and leaves you demoralized, reducing your damage and defensive ability.
+
+tagGDX3EnemySkillD23=Mark of Torment
+tagGDX3EnemySkillD23_Desc=Blackheart's mark of torment transfers any agony inflicted upon him back onto you until the link is broken.
+
+tagGDX3EnemySkillD24=Aetherfire Skin
+tagGDX3EnemySkillD24_Desc=The Giant's skin is giving off an unearthly heat.
+
+tagGDX3EnemySkillD25=Death's Presence
+tagGDX3EnemySkillD25_Desc=A wraith's chilling presence dulls your reactions.
+
+tagGDX3EnemySkillD26=Excrement
+tagGDX3EnemySkillD26_Desc=You are surrounded by slippery elusive filth.
+
+tagGDX3EnemySkillD27=Nerfed
+tagGDX3EnemySkillD27_Desc=Suffering from severe nerfs.

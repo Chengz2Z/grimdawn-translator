@@ -1,0 +1,9 @@
+# Local cache / OS
+.cache/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Optional local overrides (keep config.json tracked)
+# config.local.json

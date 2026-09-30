@@ -1,0 +1,195 @@
+# Achievement Groups
+
+achGDX3Group1=阿斯特堪之牙
+
+# Achievements
+
+achGDX301Title=旧日之敌
+achGDX301Desc=遇见阿斯特堪的库恩人。
+
+achGDX302Title=众山皆小
+achGDX302Desc=抵达世界之巅。
+
+achGDX303Title=冰山融化
+achGDX303Desc=融化一堵阿斯特堪冰墙。
+
+achGDX304Title=末代长老
+achGDX304Desc=遇见赫拉纳克族长老。
+
+achGDX305Title=鲜血试炼
+achGDX305Desc=修复库恩人与阿斯特堪战骨兽人的关系。
+
+achGDX306Title=战争遗产
+achGDX306Desc=帮助库恩人夺回血羁要塞。
+
+achGDX307Title=入土为安
+achGDX307Desc=超度陨落的库恩英雄。
+
+achGDX308Title=野兽形态
+achGDX308Desc=使用狂战士化身野兽形态。
+
+achGDX309Title=旧相识
+achGDX309Desc=解决斯科夫酋长。
+
+achGDX310Title=永夜长眠
+achGDX310Desc=击杀为祸一方的鸦兽"永夜鸦"。
+
+achGDX311Title=永夜不再
+achGDX311Desc=在终极难度下击杀为祸一方的鸦兽"永夜鸦"。
+
+achGDX312Title=巨人杀手
+achGDX312Desc=击杀阿斯特堪的巨人乌尔德索姆·暴风降生与伊格隆·破世者。
+
+achGDX313Title=巨人陨落
+achGDX313Desc=在终极难度下，击杀阿斯特堪的巨人乌尔德索姆·暴风降生与伊格隆·破世者。
+
+achGDX314Title=巨狼
+achGDX314Desc=击杀霜幕高地的冰嚎希夫。
+
+achGDX315Title=深渊狼嚎
+achGDX315Desc=在终极难度下，击杀霜幕高地的冰嚎希夫。
+
+achGDX316Title=湮灭者的败北
+achGDX316Desc=放逐湮灭使者 ~ 奈亚拉松。
+
+achGDX317Title=湮灭者的湮灭
+achGDX317Desc=在终极难度下放逐湮灭使者 ~ 奈亚拉松。
+
+achGDX318Title=受命者之血
+achGDX318Desc=击杀位于虚空之心的"受命者"纳多。
+
+achGDX319Title=歧途信仰
+achGDX319Desc=击杀位于虚空之心的"受命者"纳多。
+
+achGDX320Title=推迟必然
+achGDX320Desc=击杀位于极光群峰的终焉使者 ~ 普罗德姆斯。
+
+achGDX321Title=末日暂缓
+achGDX321Desc=在终极难度下，击杀位于极光群峰的终焉使者 ~ 普罗德姆斯。
+
+achGDX322Title=传奇巨兽
+achGDX322Desc=净化位于世界之巅的阿斯特堪腐化者 ~ 贝若纳斯。
+
+achGDX323Title=救赎巨兽
+achGDX323Desc=在终极难度下，净化位于世界之巅的阿斯特堪腐化者 ~ 贝若纳斯。
+
+achGDX324Title=传奇巨兽（飞升）
+achGDX324Desc=在飞升模式中，净化位于世界之巅的阿斯特堪腐化者 ~ 贝若纳斯。
+
+achGDX325Title=究极恐怖
+achGDX325Desc=从恐魔手中生还。
+
+achGDX326Title=库恩之友
+achGDX326Desc=库恩声望达到崇敬。
+
+achGDX327Title=上古学者
+achGDX327Desc=赫拉纳克声望达到崇敬。
+
+achGDX328Title=阿斯特堪卫士
+achGDX328Desc=通关《阿斯特堪之牙》。
+
+achGDX329Title=阿斯特堪冠军
+achGDX329Desc=以精英难度通关《阿斯特堪之牙》。
+
+achGDX330Title=阿斯特堪救世主
+achGDX330Desc=以终极难度通关《阿斯特堪之牙》。
+
+achGDX331Title=阿斯特堪救世主（不朽）
+achGDX331Desc=在硬核模式中，以终极难度通关《阿斯特堪之牙》。
+
+achGDX332Title=阿斯特堪虔诚
+achGDX332Desc=修复 65 座虔诚神龛。
+
+achGDX333Title=阿斯特堪探险家
+achGDX333Desc=开启 40 个一次性宝箱。
+
+achGDX334Title=阿斯特堪杂学家
+achGDX334Desc=收集 100 张知识笔记。
+
+achGDX335Title=飞升启程
+achGDX335Desc=激活飞升祭坛。
+
+achGDX336Title=飞升之力
+achGDX336Desc=在投入所有材料的情况下激活飞升祭坛。
+
+achGDX337Title=飞升考验
+achGDX337Desc=在飞升模式中击杀一个首领。
+
+achGDX338Title=飞升试炼
+achGDX338Desc=在飞升模式中击杀十个首领。
+
+achGDX339Title=不留后患
+achGDX339Desc=在飞升模式中，击杀位于隐秘实验室的典狱长克里格。
+
+achGDX340Title=救世主（飞升）
+achGDX340Desc=在飞升模式中，击杀位于疯狂之缘的冥神代言人 ~ 罗格霍瑞恩。
+
+achGDX341Title=为马尔茅斯复仇（飞升）
+achGDX341Desc=在飞升模式中，击杀位于血肉密室的血肉领主 ~ 西奥丁·马塞尔。
+
+achGDX342Title=弑神者（飞升）
+achGDX342Desc=在飞升模式中，击杀位于三巫神王座的邪术之阳 ~ 寇瓦克。
+
+achGDX343Title=苦痛终结（飞升）
+achGDX343Desc=在飞升模式中，击杀位于苦痛阶梯的行刑者领主 ~ 阿卡莫斯。
+
+achGDX344Title=征服要塞（飞升）
+achGDX344Desc=在飞升模式中，击杀位于混沌要塞的混乱先驱 ~ 沙祖尔。
+
+achGDX345Title=为瓦伯利港复仇（飞升）
+achGDX345Desc=在飞升模式中，击杀位于瓦伯利港的领主范·奥德里奇。
+
+achGDX346Title=野性驯化（飞升）
+achGDX346Desc=在飞升模式中，击杀位于远古树林的野性之心 ~ 加尔加伯。
+
+achGDX347Title=暗夜烛光（飞升）
+achGDX347Desc=在飞升模式中，击杀位于异端之墓的大法师摩根尼斯。
+
+achGDX348Title=灯下黑
+achGDX348Desc=发现一个藏匿在凯恩各地的隐藏宝箱。
+
+achGDX349Title=深藏不露
+achGDX349Desc=发现十个藏匿在凯恩各地的隐藏宝箱。
+
+achGDX350Title=杀戮深坑
+achGDX350Desc=从战岗堡垒的屠戮坑中生还。
+
+achGDX351Title=血祭冥神
+achGDX351Desc=击杀位于战岗堡垒的"劫掠者"科乔克。
+
+achGDX352Title=灭世者
+achGDX352Desc=在终极难度下，击杀位于战岗堡垒的"劫掠者"科乔克。
+
+achGDX353Title=灭世者（飞升）
+achGDX353Desc=在飞升模式中，击杀位于战岗堡垒的"劫掠者"科乔克。
+
+achGDX354Title=灭世者（不朽）
+achGDX354Desc=在硬核模式中，击杀位于战岗堡垒的"劫掠者"科乔克。
+
+achGDX355Title=烈焰试炼
+achGDX355Desc=从灼烧深渊的烈焰试炼中生还。
+
+achGDX356Title=凯恩余烬
+achGDX356Desc=于灼烧深渊中击杀   。
+
+achGDX357Title=凯恩怒焰
+achGDX357Desc=在终极难度下，于灼烧深渊中击杀   。
+
+achGDX358Title=凯恩怒焰
+achGDX358Desc=在飞升模式中，于灼烧深渊中击杀   。
+
+achGDX359Title=凯恩怒焰（不朽）
+achGDX359Desc=在硬核难度下，于灼烧深渊中击杀   。
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,908 @@
+#Region Names
+tagGDX3MapFrozenWastes=Frostveil Highlands
+tagGDX3MapVerdantValley=Freyoll Valley
+tagGDX3MapKurnhold=Kurnhold
+tagGDX3MapRiver=Voldur River
+tagGDX3MapPrison=Guardian's Sorrow
+tagGDX3MapHotSprings=Ulo's Springs
+tagGDX3MapRuinedVillage=Ruins of Utak Kunar
+tagGDX3MapDreadWastes=Dread Wastes
+tagGDX3MapMountainside=Glacier's Edge
+tagGDX3MapMountainBase=Pilgrim's Rest
+tagGDX3MapMountainPass=Bitter Wind Pass
+tagGDX3MapAuroraPeaks=Aurora Peaks
+tagGDX3MapAuroraPinnacle=Aurora Pinnacle
+tagGDX3MapAuroraPeaksRuins01=Yulgir's Overlook 
+tagGDX3MapRoofOfTheWorld=Roof of the World
+
+tagGDX3MapChthonicStronghold=Bloodbound Bastion
+tagGDX3MapChthonicStronghold02=Tamarog, the Black Citadel
+
+tagGDX3MapDranghoul=Kruu'Sul Crags
+tagGDX3MapDranghoulTrial=Circle of Blood
+tagGDX3MapChthonicDranghoul=Ch'thuul Rise
+tagGDX3MapVolcano01=Cairn's Anguish
+tagGDX3MapBurialGrounds01=Scarfell
+tagGDX3MapBurialGrounds02=Scarstone
+
+tagGDX3MapRavagerCamp=Ravager's Redoubt
+tagGDX3MapKurnLodge=Vale Spring Lodge
+tagGDX3MapUloRemorse=Ulo's Remorse
+
+#Riftgate Names
+tagGDX3RiftHunterCamp=Kurn Bonfire Rift
+tagGDX3RiftFrozenWastes=Frostveil Highlands Rift
+tagGDX3RiftIcetunnel=Icebound Passage Rift
+tagGDX3RiftVerdantValley=Freyoll Valley Rift
+tagGDX3RiftKurnhold=Kurnhold Rift
+tagGDX3RiftVerdantValley02=Voldur River Rift
+tagGDX3RiftGuardian=Guardian's Sorrow Rift
+tagGDX3RiftHotSprings=Ulo's Springs Rift
+tagGDX3RiftRuinedVillage=Utak Kunar Rift
+tagGDX3RiftDreadWastes=Dread Wastes Rift
+tagGDX3RiftBlackCitadel=Black Citadel Rift
+tagGDX3RiftGlacialGrotto=Glacial Grotto Rift
+tagGDX3RiftGlacierEdge=Glacier's Edge Rift
+tagGDX3RiftPilgrimRest=Pilgrim's Rest Rift
+tagGDX3RiftMountainBase=Aurora Peaks Rift 
+tagGDX3RiftBitterWindPeak=Bitter Wind Rift
+tagGDX3RiftAuroraPeaks=Aurora Pinnacle Rift
+tagGDX3RiftRoofOfTheWorld=Roof of the World Rift
+
+tagGDX3RiftDranghoulLowlands=Kruu'Sul Crags Rift
+tagGDX3RiftDranghoulFortress=Drang'Gal Fortress Rift
+
+
+#World Map Labels
+tagGDX3WorldMapFrozenWastes=Frostveil{^n}Highlands
+tagGDX3WorldMapAsterkarnMountains=Asterkarn{^n}Mountains
+tagGDX3WorldMapVerdantValley=Freyoll{^n}Valley
+tagGDX3WorldMapKurnhold=Kurnhold
+tagGDX3WorldMapRiver=Voldur{^n}River
+tagGDX3WorldMapPrison=Guardian's{^n}Sorrow
+tagGDX3WorldMapAvianElder=Elderveil
+tagGDX3WorldMapHotSprings=Ulo's{^n}Springs
+tagGDX3WorldMapRuinedVillage=Ruins Of{^n}Utak Kunar
+tagGDX3WorldMapChthonicStronghold=Bloodbound{^n}Bastion
+tagGDX3WorldMapBurialGrounds01=Scarfell
+tagGDX3WorldMapDreadWastes=Dread{^n}Wastes
+tagGDX3WorldMapChthonicStronghold02=Black{^n}Citadel
+tagGDX3WorldMapRoguelike02=Burning{^n}Depths
+tagGDX3WorldMapGlacier=Glacier's{^n}Edge
+tagGDX3WorldMapPilgrimRest=Pilgrim's{^n}Rest
+tagGDX3WorldMapMountainPass=Bitter Wind{^n}Pass
+tagGDX3WorldMapBurialGrounds02=Scarstone
+tagGDX3WorldMapAuroraPeaks=Aurora{^n}Peaks
+tagGDX3WorldMapRoofOfTheWorld=Roof Of{^n}The World
+tagGDX3WorldMapDranghoul=Kruu'Sul{^n}Crags
+tagGDX3WorldMapChthonicDranghoul=Ch'thuul{^n}Rise
+tagGDX3WorldMapRoguelike=Drang'Gal{^n}Fortress
+
+#Underground Names
+tagGDX3IcePassage01=Icebound Passage
+tagGDX3MountainPassage01=Glacial Grotto
+tagGDX3MountainPassage02=Kamur's Ridge
+
+tagGDX3IceCave01=Icehowl Cavern
+tagGDX3IceCave02=Rimespire Cavern
+tagGDX3IceCave03=Glacierbound Cave
+tagGDX3IceCave04=Windwalker's Den
+
+tagGDX3Den01=Frostsnarl's Den
+
+tagGDX3AvianCave01=Elderveil
+
+tagGDX3BurialCave01=Scarfell Depths
+tagGDX3BurialCave02=Scarstone Depths
+
+tagGDX3MammothBurial01=Mammoth Burial Grounds
+
+tagGDX3Fort02=Blackheart's Hideout
+tagGDX3FortressCave=Ironeye's Hideout
+
+tagGDX3Void01=Obsidian Wound
+tagGDX3Void02=Crimson Expanse
+tagGDX3Void03=Ulo's Remorse
+
+tagGDX3VoidTear01=The World Tear
+tagGDX3VoidTear02=Heart of the Void
+
+tagGDX3Valley01=Evernight Valley
+
+tagGDX3MeadCave01=Fekk's Burrow
+tagGDX3BlackLodge01=Black Lodge
+tagGDX3KurnCellar01=Kurn Cellar
+tagGDX3SpringsCave01=Lost Cairn Grotto
+tagGDX3BlackLodgeSR01=Black Realm
+
+tagGDX3Temple01=The Threshold Between
+tagGDX3Temple01A=Cross the Threshold
+tagGDX3Temple01B=Escape the Threshold?
+tagGDX3Temple02=Endless River
+tagGDX3Temple03=Beaver's Crossing
+tagGDX3Temple03A=Descend
+tagGDX3Temple03B=Cross the Waters
+tagGDX3Temple04=The Dumps
+tagGDX3Temple05=Temple of N'erf
+tagGDX3TempleLoot=N'erfed Loot
+
+
+tagGDX3Roguelike01=Ch'thuul Encampment
+tagGDX3Roguelike01A=Drang'Gal Staging Grounds
+tagGDX3Roguelike01B=Slaughter Pit
+tagGDX3Roguelike01C=Drang'Gal Fortress
+tagGDX3Roguelike01D=Kruul's Stone
+
+tagGDX3Roguelike02=Burning Depths
+tagGDX3Roguelike02A=Scorched Grotto
+tagGDX3Roguelike02B=Gauntlet of Flame
+tagGDX3Roguelike02C=Blistering Fields
+tagGDX3Roguelike02D=Heart of the Inferno
+
+tagUGSlithLab01A=Hargate's Other Isle
+
+
+
+#Notifications
+tagNotification_InvisibleChest=Your keen eye spots something...unusual...
+tagNotification_InvisibleChest02=The area reacts to your keen eye.
+tagNotification_InvisibleChest03=There is magic in the area, but it makes you feel...unprepared.
+tagNotification_InvisibleChest03B=There is magic in the area, but you lack the sense to divulge its secrets.
+tagNotification_InvisibleChest04=Your keen eye has seen much, revealed much...
+
+tagNotification_Beaver01=The cliffside before you shifts...
+tagNotification_Beaver02=A nearby gate creaks open...
+tagNotification_Beaver03=Step through the waters, chosen of N'erf!
+tagNotification_Beaver04=Something nearby smells very wrong...
+tagNotification_Beaver05=A tool worthy of a throne...
+
+tagNotification_VoidmarkedChest_Opened=The treasure attracts the attention of void's terrors!
+
+tagNotification_AreaH_WorldTearProgress=Somewhere nearby, the air itself boils with unholy energies.
+tagNotification_AreaH_WorldTearOpen=A hungering tear in reality opens nearby!
+
+tagNotification_AreaH_DreadWastesRiftgateEvent=Fiends of the void spill out of the riftgate!
+tagNotification_AreaH_RuinedVillageRiftgateEvent=The fallen of Utak Kunar arise upon sensing the living!
+tagNotification_AreaH_PilgrimRestRiftgateEvent=Fiends of the void bar your way!
+
+tagNotification_AreaH_EnteredAsterkarn=The frigid wind of the north chills your bones.
+tagNotification_AreaH_MissingTroopsFound=A rampaging beast can be heard up ahead.
+
+tagNotification_AreaH_IceboundPassageOpen=A passage opens in the cliff nearby.
+tagNotification_AreaH_IceboundPassageExit=You emerge from the passage into the valley below.
+
+tagNotification_AreaH_BeronathPrisonFound=A sense of sickly dread fills you as you get closer to the sacred site.
+
+tagNotification_AreaH_EvernightHint01=The cry of a hypporaven and the distinct purple plumage on the ground draw your attention.
+tagNotification_AreaH_EvernightHint02=Distinct purple plumage stand out amongst the hot springs.
+tagNotification_AreaH_EvernightHint03=Purple feathers litter the ground here and lead deeper into the valley ahead.
+tagNotification_AreaH_EvernightNearby=The screech of a hypporaven draws your attention to the sky overhead. Your prey is near.
+
+tagNotification_AreaH_BlackheartNearby=The stench of blood and carnage assaults your senses.
+tagNotification_AreaH_DrangSul_Lowlands=The chill air of the crags smells of fire and roasting meat.
+
+tagNotification_AreaH_ChillingEnd_HeirloomOffered=You feel a sense of calm wash over you. The necklace is where it belongs.
+tagNotification_AreaH_ChillingEnd_HeirloomKept=Your actions have conjured the presence of a vengeful spirit!
+
+tagNotification_AreaH_BlackLodge_WrongAnswer=Belladonna frowns and shakes her head at your answer.
+tagNotification_AreaH_BlackLodge_CorrectAnswer=Belladonna smiles at your answer as a door opens nearby.
+
+tagNotification_AreaH_DranghoulTrialOfBlood=You have survived the trial of blood!
+
+tagNotification_AreaH_Bloodbound_Bastion=The fortress is sealed by the Bloodbound. It would take an army to penetrate its defenses.
+
+tagNotification_AreaH_Bloodbound_Glacier=Dark ritual sustained by the void bars the way...
+
+
+tagNotification_WarningDranghoulRoguelikeGates=The way to the Drang'Gal Fortress has been opened. Make haste, as it will not remain open for long...
+tagNotification_WarningDranghoulRoguelikeGatesLocked=Drang'Gal Fortress is sealed and will not reopen again in this session.
+tagNotification_WarningDranghoulRoguelikeChallenge=The dranghoul challengers retreat!
+
+tagNotification_WarningBurningDepthsRoguelikeGates=The Burning Depths have been unsealed. Make haste, for the way forward will not remain open for long...
+tagNotification_WarningBurningDepthsRoguelikeGatesLocked=The Burning Depths are sealed and will not be accessible again in this session.
+tagNotification_WarningBurningDepthsRoguelikeChallenge=The hellish flames subside!
+
+
+#Points of Interest
+tagGDX3POI_AREAH_GenericCabinA=Lodge Entrance
+tagGDX3POI_AREAH_GenericCabinB=Lodge Exit
+
+tagGDX3POI_AREAH_GenericCellarA=Cellar Entrance
+tagGDX3POI_AREAH_GenericCellarB=Cellar Exit
+tagGDX3POI_AREAH_GenericTearB=Reality Tear Exit
+
+tagGDX3POI_AREAH_BlackheartHideoutA=Blackheart's Hideout Entrance
+tagGDX3POI_AREAH_BlackheartHideoutB=Blackheart's Hideout Exit
+
+tagGDX3POI_AREAH_BlackLodgeA=Lodge Entrance
+tagGDX3POI_AREAH_BlackLodgeB=Black Lodge Exit
+
+tagGDX3POI_AREAH_BloodrageCabinA=Cabin Entrance
+tagGDX3POI_AREAH_BloodrageCabinB=Cabin Exit
+
+tagGDX3POI_AREAH_BloodboundBastionA=Bloodbound Bastion Entrance
+
+tagGDX3POI_AREAH_IronEyeB=Ironeye's Hideout Exit
+
+tagGDX3POI_AREAH_DranghoulGlacier=Passage to the Kruu'Sul Crags
+tagGDX3POI_AREAH_DranghoulTribe=Gurr Tribe Encampment
+tagGDX3POI_AREAH_DranghoulCircleOfBlood=Trial of Blood
+
+tagGDX3POI_AREAH_EvernightValleyA=Evernight Valley Entrance
+tagGDX3POI_AREAH_EvernightValleyB=Evernight Valley Exit
+
+tagGDX3POI_AREAH_FrostsnarlDenA=Frostsnarl's Den Entrance
+tagGDX3POI_AREAH_FrostsnarlDenB=Frostsnarl's Den Exit
+
+tagGDX3POI_AREAH_GuardianSorrow=Guardian's Sorrow
+
+tagGDX3POI_AREAH_KurnCamp=Kurn Bonfire
+tagGDX3POI_AREAH_Kurnhold=Kurnhold Gates
+
+tagGDX3POI_AREAH_AvianElderB=Elderveil Exit
+
+tagGDX3POI_AREAH_IceboundPassageA=Icebound Passage Entrance
+tagGDX3POI_AREAH_IceboundPassageB=Icebound Passage Descent
+tagGDX3POI_AREAH_IceboundPassageC=Icebound Passage Ascent
+tagGDX3POI_AREAH_IceboundPassageD=Icebound Passage Exit
+
+tagGDX3POI_AREAH_IcehowlCavernA=Icehowl Cavern Entrance
+tagGDX3POI_AREAH_IcehowlCavernB=Icehowl Cavern Exit
+
+tagGDX3POI_AREAH_GlacierboundCaveA=Glacierbound Cave Entrance
+tagGDX3POI_AREAH_GlacierboundCaveB=Glacierbound Cave Exit
+
+tagGDX3POI_AREAH_WindwalkerCaveA=Windwalker's Den Entrance
+tagGDX3POI_AREAH_WindwalkerCaveB=Windwalker's Den Exit
+
+
+tagGDX3POI_AREAH_MammothCavernA=Mammoth Burial Grounds Entrance
+tagGDX3POI_AREAH_MammothCavernB=Mammoth Burial Grounds Exit
+
+tagGDX3POI_AREAH_RimespireCavernA=Rimespire Cavern Entrance
+tagGDX3POI_AREAH_RimespireCavernB=Rimespire Cavern Exit
+
+tagGDX3POI_AREAH_MeadCaveA=Fekk's Burrow Entrance
+tagGDX3POI_AREAH_MeadCaveB=Fekk's Burrow Exit
+
+tagGDX3POI_AREAH_MissingScouts=Missing Scouts
+
+tagGDX3POI_AREAH_GlacialGrottoA=Glacial Grotto Entrance
+tagGDX3POI_AREAH_GlacialGrottoB=Glacial Grotto Exit
+
+tagGDX3POI_AREAH_AuroraPeaksA=Ascend the Mountain
+tagGDX3POI_AREAH_AuroraPeaksB=Descend the Mountain
+
+tagGDX3POI_AREAH_RoofOfTheWorldA=Ascend to the Roof of the World
+
+tagGDX3POI_AREAH_ScarfellDepthsA=Scarfell Depths Entrance
+tagGDX3POI_AREAH_ScarfellDepthsB=Scarfell Depths Exit
+
+tagGDX3POI_AREAH_ScarstoneDepthsA=Scarstone Depths Entrance
+tagGDX3POI_AREAH_ScarstoneDepthsB=Scarstone Depths Exit
+
+tagGDX3POI_AREAH_UloGrottoA=Lost Cairn Grotto Entrance
+tagGDX3POI_AREAH_UloGrottoB=Lost Cairn Grotto Exit
+
+tagGDX3POI_AREAH_VoidCrimsonExpanseA=Tear to the Crimson Expanse
+
+tagGDX3POI_AREAH_VoidHeartOfVoidA=Descend into the Heart of the Void
+tagGDX3POI_AREAH_VoidHeartOfVoidB=Escape the Heart of the Void
+
+tagGDX3POI_AREAH_VoidObsidianWoundA=Tear to the Obsidian Wound
+
+tagGDX3POI_AREAH_VoidUloSorrowA=Tear to Ulo's Remorse
+
+tagGDX3POI_AREAH_VoidWorldTearA=The World Tear
+tagGDX3POI_AREAH_VoidWorldTearB=Escape the Void
+tagGDX3POI_AREAH_VoidWorldTearC=Instability Descent
+tagGDX3POI_AREAH_VoidWorldTearD=Instability Ascent
+
+tagGDX3POI_AREAH_Roguelike_Dranghoul01A=Ch'thuul Encampment Entrance
+tagGDX3POI_AREAH_Roguelike_Dranghoul01B=Ch'thuul Encampment Exit
+tagGDX3POI_AREAH_Roguelike_Dranghoul02A=Drang'Gal Staging Grounds Entrance
+tagGDX3POI_AREAH_Roguelike_Dranghoul02B=Drang'Gal Staging Grounds Exit
+tagGDX3POI_AREAH_Roguelike_Dranghoul03A=Drang'Gal Fortress Entrance
+tagGDX3POI_AREAH_Roguelike_Dranghoul03B=Drang'Gal Fortress Exit
+tagGDX3POI_AREAH_Roguelike_Dranghoul04A=Kruul's Stone Entrance
+tagGDX3POI_AREAH_Roguelike_Dranghoul04B=Kruul's Stone Exit
+
+tagGDX3POI_AREAH_Roguelike_BurningDepths01A=Burning Depths Entrance
+tagGDX3POI_AREAH_Roguelike_BurningDepths01B=Burning Depths Exit
+tagGDX3POI_AREAH_Roguelike_BurningDepths02A=Scorched Grotto Entrance
+tagGDX3POI_AREAH_Roguelike_BurningDepths02B=Scorched Grotto Exit
+tagGDX3POI_AREAH_Roguelike_BurningDepths03A=Blistering Fields Entrance
+tagGDX3POI_AREAH_Roguelike_BurningDepths03B=Blistering Fields Exit
+tagGDX3POI_AREAH_Roguelike_BurningDepths04A=Heart of the Inferno Entrance
+tagGDX3POI_AREAH_Roguelike_BurningDepths04B=Heart of the Inferno Exit
+
+
+
+
+#NPC Names
+tagGDX3NPC_AREAH_01=Yigra, High Chieftain of the Kurn
+tagGDX3NPC_AREAH_02=Scout Avins
+tagGDX3NPC_AREAH_03=Thane Sulf Hinterland
+tagGDX3NPC_AREAH_04=Ulfgarn, Son of Garn
+tagGDX3NPC_AREAH_05=Skald Magwyn
+tagGDX3NPC_AREAH_06=Grisha
+tagGDX3NPC_AREAH_07=Veilwalker Utaro
+tagGDX3NPC_AREAH_08=Horth of the Bloodragers
+tagGDX3NPC_AREAH_09=Thane Vilgar
+tagGDX3NPC_AREAH_10=Herb-Tender Nadala
+tagGDX3NPC_AREAH_11=Runekeeper Jornn
+tagGDX3NPC_AREAH_12=Chieftain Scorv
+tagGDX3NPC_AREAH_13=Erfunn the Mystic
+tagGDX3NPC_AREAH_14=Koryn Earthurn
+tagGDX3NPC_AREAH_15=Talgir the Druid
+tagGDX3NPC_AREAH_16=Witra of the Storm Spears
+tagGDX3NPC_AREAH_17=Mogdrogen the Wolf
+tagGDX3NPC_AREAH_18=Elder Noktukari
+tagGDX3NPC_AREAH_19=Rangerel
+tagGDX3NPC_AREAH_20=Luklin
+tagGDX3NPC_AREAH_21=Elder Torbjorn
+tagGDX3NPC_AREAH_22=Leiff Darktooth
+tagGDX3NPC_AREAH_23=Greta of the Bloodragers
+tagGDX3NPC_AREAH_24=Bloodbound Altar
+tagGDX3NPC_AREAH_25=Chief Snarltooth
+tagGDX3NPC_AREAH_26=Yurgryn
+tagGDX3NPC_AREAH_27=Valyren
+tagGDX3NPC_AREAH_28=Mykola Skoven
+tagGDX3NPC_AREAH_29=Great White Wolf
+tagGDX3NPC_AREAH_30=Lenoryth
+tagGDX3NPC_AREAH_31=Maldurf
+tagGDX3NPC_AREAH_32=Belladonna
+tagGDX3NPC_AREAH_33=Aelin
+tagGDX3NPC_AREAH_34=Wayfinder Huldir
+tagGDX3NPC_AREAH_35=Vessera Gulder
+tagGDX3NPC_AREAH_36=Kryn
+tagGDX3NPC_AREAH_37=Brewer Akathon
+tagGDX3NPC_AREAH_38=Joonast
+tagGDX3NPC_AREAH_39=Valyria
+tagGDX3NPC_AREAH_40=Kovcha
+tagGDX3NPC_AREAH_41=Dagmar
+tagGDX3NPC_AREAH_42=Mikkon
+tagGDX3NPC_AREAH_43=Tarja
+tagGDX3NPC_AREAH_44=Thane Olgurr
+tagGDX3NPC_AREAH_45=Rik'Rik
+tagGDX3NPC_AREAH_46=Muk'Muk
+
+#Flavor NPC Names
+tagGDX3NPC_Flavor_AREAH_01=Warder Kagnar
+tagGDX3NPC_Flavor_AREAH_02=Warder Geriel
+tagGDX3NPC_Flavor_AREAH_03=Tamerlan Kurgen
+tagGDX3NPC_Flavor_AREAH_04=Nara Serewind ~ Tailor
+tagGDX3NPC_Flavor_AREAH_05=Scout Barrowman
+tagGDX3NPC_Flavor_AREAH_06=Scout Farro
+tagGDX3NPC_Flavor_AREAH_07=Wayfinder Nokken
+tagGDX3NPC_Flavor_AREAH_08=Arvin
+tagGDX3NPC_Flavor_AREAH_09=Leos
+tagGDX3NPC_Flavor_AREAH_10=Thane Medea Fleecestealer
+tagGDX3NPC_Flavor_AREAH_11=Finree
+tagGDX3NPC_Flavor_AREAH_12=Drach the Indomitable
+tagGDX3NPC_Flavor_AREAH_13=Pyre Keeper Mogguz
+tagGDX3NPC_Flavor_AREAH_14=Jurr
+tagGDX3NPC_Flavor_AREAH_15=Scout Earthshade
+tagGDX3NPC_Flavor_AREAH_16=Battok
+tagGDX3NPC_Flavor_AREAH_17=Khorra
+tagGDX3NPC_Flavor_AREAH_18=Wayfinder Hrodgar
+tagGDX3NPC_Flavor_AREAH_19=Wayfinder Sygrid
+tagGDX3NPC_Flavor_AREAH_20=Terron
+tagGDX3NPC_Flavor_AREAH_21=Nine Fingers
+tagGDX3NPC_Flavor_AREAH_22=Uffrith
+tagGDX3NPC_Flavor_AREAH_23=Kurn Boar
+tagGDX3NPC_Flavor_AREAH_24=Revolnir
+tagGDX3NPC_Flavor_AREAH_25=Lerren
+tagGDX3NPC_Flavor_AREAH_26=Beorl
+tagGDX3NPC_Flavor_AREAH_27=Saski
+tagGDX3NPC_Flavor_AREAH_28=Vargrin
+tagGDX3NPC_Flavor_AREAH_29=Igarra
+tagGDX3NPC_Flavor_AREAH_30=Dessmir
+tagGDX3NPC_Flavor_AREAH_31=Ryddur
+tagGDX3NPC_Flavor_AREAH_32=Hastrin
+tagGDX3NPC_Flavor_AREAH_33=Reyna
+tagGDX3NPC_Flavor_AREAH_34=Mara
+tagGDX3NPC_Flavor_AREAH_35=Vorl
+tagGDX3NPC_Flavor_AREAH_36=Adonir
+tagGDX3NPC_Flavor_AREAH_37=Rukar
+tagGDX3NPC_Flavor_AREAH_38=Mehra
+tagGDX3NPC_Flavor_AREAH_39=Kylsa
+tagGDX3NPC_Flavor_AREAH_40=Wayfinder Anatka
+tagGDX3NPC_Flavor_AREAH_41=Olgird
+tagGDX3NPC_Flavor_AREAH_42=Worell
+tagGDX3NPC_Flavor_AREAH_43=Taleryn
+tagGDX3NPC_Flavor_AREAH_44=Kirgrid
+tagGDX3NPC_Flavor_AREAH_45=Rogven
+tagGDX3NPC_Flavor_AREAH_46=Satrid
+tagGDX3NPC_Flavor_AREAH_47=Wayfinder Morjen
+tagGDX3NPC_Flavor_AREAH_48=Garea
+tagGDX3NPC_Flavor_AREAH_49=Mahut
+tagGDX3NPC_Flavor_AREAH_50=Skald Eisprinzessin
+
+tagGDX3NPC_Flavor_AREAH_51=John Bour'Bour
+tagGDX3NPC_Flavor_AREAH_52=Barkabus
+tagGDX3NPC_Flavor_AREAH_53=Kaspenov
+tagGDX3NPC_Flavor_AREAH_54=Hangman Jarvarru
+tagGDX3NPC_Flavor_AREAH_55=Har'Har
+tagGDX3NPC_Flavor_AREAH_56=Kreek
+tagGDX3NPC_Flavor_AREAH_57=Root
+tagGDX3NPC_Flavor_AREAH_58=Dir'Dur
+tagGDX3NPC_Flavor_AREAH_59=Elmin
+tagGDX3NPC_Flavor_AREAH_60=Carlilac
+tagGDX3NPC_Flavor_AREAH_61=Con'Con
+tagGDX3NPC_Flavor_AREAH_62=Lex'Lex
+tagGDX3NPC_Flavor_AREAH_63=Juniper
+tagGDX3NPC_Flavor_AREAH_64=Sappina
+
+
+#Quest Entities
+tagGDX3Quest_AREAH_01=Kurn Shrine
+tagGDX3Quest_AREAH_02=Heart of the Void
+tagGDX3Quest_AREAH_03=Blood Splattered Stone
+tagGDX3Quest_AREAH_04=Brazier of the First Flame
+tagGDX3Quest_AREAH_05=Purifying Altar
+tagGDX3Quest_AREAH_06=Midwinter Shrine
+tagGDX3Quest_AREAH_07=Hearth
+tagGDX3Quest_AREAH_08=Dire Hemlock
+tagGDX3Quest_AREAH_09=Fulminated Tree
+tagGDX3Quest_AREAH_10=Blood Basin
+tagGDX3Quest_AREAH_11=Horn of Igvar
+tagGDX3Quest_AREAH_12=Bal-Eigan Monolith
+tagGDX3Quest_AREAH_13=N'erf Effigy
+
+
+#Rift Names
+tagGDX3_ShortcutVoidExit=Escape the Void
+tagGDX3_ShortcutLegacyOfWarBossExit=Rift Outside
+tagGDX3_ShortcutBossExit=Rift to Kurnhold
+
+#Quest Items
+tagGDX3QuestItemKurnSigil=Mark of Passage
+tagGDX3QuestItemKurnSigil_Desc="A stone rune marking the bearer as a friend to the Kurn, granting passage to Freyoll Valley."
+
+tagGDX3QuestItemChoiceMeat=Choice Flank
+tagGDX3QuestItemChoiceMeat_Desc="A cut of meat from the elder bristlehorn Ruugru. Plenty to feed several hungry mouths by the warmth of a bonfire."
+
+tagGDX3QuestItemUgdenbogEssence=Essence of Ugdenbog
+tagGDX3QuestItemUgdenbogEssence_Desc="Aspect of earth, infused by the wild magics teeming within Ugdenbog."
+
+tagGDX3QuestItemUgdenbogGreaterEssence=Essence of Bargoll
+tagGDX3QuestItemUgdenbogGreaterEssence_Desc="Core of the ancient swamp golem, Bargoll, the embodiment of Ugdenbog."
+
+tagGDX3QuestItemFirstFlame=Embers of the First Flame
+tagGDX3QuestItemFirstFlame_Desc="The primordial flame of Cairn, granted to humanity by the grace of a forgotten god."
+
+tagGDX3QuestItemVoidHeart=Ashen Heart of the Void
+tagGDX3QuestItemVoidHeart_Desc="The shriveled ashen heart of a long-dead chthonic horror still beats a steady rhythm, as if it is awaiting something."
+
+tagGDX3QuestItemBlackheart=Blackheart's Heart
+tagGDX3QuestItemBlackheart_Desc="Proof of death of the infamous Drudd Blackheart."
+
+tagGDX3QuestItemTaintedMeat=Tainted Meat
+tagGDX3QuestItemTaintedMeat_Desc="Meat from wildlife tainted by the Dread Wastes. Nevertheless, it could feed someone desperate enough."
+
+tagGDX3QuestItemEchoScorv=Echo of Ravager
+tagGDX3QuestItemEchoScorv_Desc="An echo of the harbinger of hunger made manifest within its most devoted servant. It is as ancient as it is eternal."
+
+tagGDX3QuestItemHypporavenBait=Hypporaven Bait
+tagGDX3QuestItemHypporavenBait_Desc="Bait provided by Grisha to attract the menacing hypporaven Evernight. Smells horrid."
+
+tagGDX3QuestItemAncestralSword=Ancestral Sword
+tagGDX3QuestItemAncestralSword_Desc="An ancient blade of Kurn origins. It is otherwise unassuming, except for some markings on the hilt that might have indicated its original owner."
+
+tagGDX3QuestItemRocFeather=Molted Roc Feather
+tagGDX3QuestItemRocFeather_Desc="The molted feather still glistens with a hint of its true power."
+
+tagGDX3QuestItemHeirloomNecklace=Midwinter Necklace
+tagGDX3QuestItemHeirloomNecklace_Desc="A simple carved necklace marked with the Midwinter family crest."
+
+tagGDX3QuestItemFulminatedWood=Fulminated Wood
+tagGDX3QuestItemFulminatedWood_Desc="Kindling from a tree shattered by a demigod's lightning."
+
+tagGDX3QuestItemHemlockBerries=Hemlock Berries
+tagGDX3QuestItemHemlockBerries_Desc="A handful of berries from a Dire Hemlock plant. Dangerous if ingested."
+
+tagGDX3QuestItemSylvarriaResin=Sylvarrian Resin
+tagGDX3QuestItemSylvarriaResin_Desc="A sticky drop of resin from the plant monstrosity Sylvarria."
+
+tagGDX3QuestItemMeadCask=Cask of Needle Tree Mead
+tagGDX3QuestItemMeadCask_Desc="Liquid gold sloshes around inside a rounded keg with the words 'Skoven Meadery' branded on the side."
+
+tagGDX3QuestItemFamilyShield=Gulder Family Shield
+tagGDX3QuestItemFamilyShield_Desc="A simple metal shield with no discernible markings, yet it appears to carry significant sentimental value."
+
+tagGDX3QuestItemWeaponsCrate=Weapons Crate
+tagGDX3QuestItemWeaponsCrate_Desc="A crate of weapons and shields intended for Kurnhold."
+
+tagGDX3QuestItemNightraven_Stanza_01=Dirge of the Night
+tagGDX3QuestItemNightraven_Stanza_01_Desc=I am the night.{^n}{^n}I bore witness to the birth of stars and the passage of the moon. My heart swelled when eyes first gazed upward and drank deep of my splendor, and I wept silver tears when those same eyes closed for the final time. But I do not mourn.{^n}{^n}Sleep drowns thoughts with dreams of eternity. In a blink, a heavenly beacon fades, only blackness in the wake of its memories. But I do not mourn.{^n}{^n}As the sky turns crimson between twigs of twisted spruce, I close my eyes and lay my head upon the dying earth. Mother Cairn grows silent in my ear. I hear only the whispers of agony that remain.{^n}{^n}I am the night.
+
+tagGDX3QuestItemNightraven_Stanza_02=Ruination of Night
+tagGDX3QuestItemNightraven_Stanza_02_Desc=I am the night.{^n}{^n}With every faded light, hands stung by bitter breath gather closer around dying embers, reaching desperately for the warmth denied them with the passing of the ages. One by one, their frozen grasps let go of the last spark of hope, and oblivion claims them. A waning crescent forms upon my lips.{^n}{^n}In the undreaming beneath, a primordial king bears the fruit of annihilation. In his hands is cupped a hollow promise of deepest crimson, but even he shall be made to bow before the eternal dark. A waning crescent forms upon my lips.{^n}{^n}I shed my celestial drape and let its silken threads be consumed in the blaze of the setting sun's desire. The ashes of my past spill over the glacial memories of a land frozen in time. Only the stygian ichor of the unmaker grants shade to my countenance.{^n}{^n}I am the night.
+
+tagGDX3QuestItemNightraven_Stanza_03=End of Night
+tagGDX3QuestItemNightraven_Stanza_03_Desc=I am the night.{^n}{^n}An insatiable hunger wrings out what remains of a rational mind. Reality unravels before the final witness, all thoughts circling the unasked question preceding the impartial judgment beyond. Yet my arms are open.{^n}{^n}Mortal eyes gaze upon the iris of oblivion, incapable of turning back. Where once was, there now is not. Yet my arms are open.{^n}{^n}My life has been sung away upon a tune not of my making. I discard all that I am upon the peak of creation. My breath is stolen, the stars fade above. I remain, until I am nothing.{^n}{^n}I was the night.
+
+tagGDX3QuestItemSmugglerLedger=Unusual Ledger
+tagGDX3QuestItemSmugglerLedger_Desc="A ledger of weapons and other metal implements, indicating that they were originally bound for Kurnhold. Definitely not something that would typically be found among Groble belongings."
+
+tagGDX3QuestItemKurnScoutReport01=Wayfinder Report
+tagGDX3QuestItemKurnScoutReport01_Desc="Report from Wayfinder Agakai{^n}{^n}South of the main route into the Dread Wastes is large force of Bloodbound. It looks like some kind of ritual taking place there.{^n}{^n}Returning to camp now."
+
+tagGDX3QuestItemKurnScoutReport02=Wayfinder Report
+tagGDX3QuestItemKurnScoutReport02_Desc="Report from Wayfinder Purska{^n}{^n}Large bloodbound presence in the northeast of the wastes. Will try to get closer for observation."
+
+tagGDX3QuestItemKurnScoutReport03=Wayfinder Report
+tagGDX3QuestItemKurnScoutReport03_Desc="Report from Wayfinder Ulfear{^n}{^n}The old fortress of Tamarog is no longer abandoned and now serves as a Bloodbound staging ground. Witnessed them taking children inside.{^n}{^n}Will scout for potential points of ingress."
+
+tagGDX3QuestItemKurnRemnant01=Memory of Chieftain Arukai
+tagGDX3QuestItemKurnRemnant01_Desc="The worn out shield of Chieftain Arukai, who pushed deep into Arkovian lands in the name of the Kurn."
+
+tagGDX3QuestItemKurnRemnant02=Memory of Wulfrin Bloodbeard
+tagGDX3QuestItemKurnRemnant02_Desc="The broken axe of the legendary berserker Wulfrin Bloodbeard, who was said to bear the strength of three Kurn, or five Erulians as the stories go."
+
+tagGDX3QuestItemKurnRemnant03=Memory of Grylla the Frostfire
+tagGDX3QuestItemKurnRemnant03_Desc="Tattered robes of Grylla the Frostfire, who wove flame and ice together into devastating displays of spellcraft."
+
+tagGDX3QuestItemKurnRemnant04=Memory of Elder Tomakar
+tagGDX3QuestItemKurnRemnant04_Desc="The broken staff of Elder Tomakar, its faint glow a reminder of long-faded power. Tomakar's sage strategic advice led to the Kurn penetrating the Erulan iron wall and delving deep into the empire's lands."
+
+tagGDX3QuestItemPatchedNotes=Patched Notes
+tagGDX3QuestItemPatchedNotes_Desc="This parchment seems to be made of patches of leather scraps sewn together. Circling a depiction of a blade drowned in shadow piercing a wooden carving, it says N'erf ten times like a madman's scribbling."
+
+
+
+#Journals
+
+#Erulan
+tagGDX3LoreObj_AREAH_ErulanNoteA01Name=Scholar Rainart's Notes - Entry 1
+tagGDX3LoreObj_AREAH_ErulanNoteA01codexTitle=Rainart's Notes Entry 1
+tagGDX3LoreObj_AREAH_ErulanNoteA01Text=*The parchment is quite old and faded by time*{^n}{^n}With any luck, this will be the first of many entries as I make use of these pages to pontificate upon my work here. May it serve the empire well.{^n}{^n}My mission in this miserable, cold land is to survey its people. To observe and learn with the singular goal of discovering weakness so that we might exploit that weakness if circumstances arise that require such crude manipulations.{^n}{^n}We are unwelcome strangers here; as such, I have employed a local sellsword whose task it will be to provide security and guide us about, disguised as travelers on pilgrimage. My attendants and I have shed our imperial regalia, weapons, and equipment. Replacing them with the crudely fashioned furs and odd animal leathers worn by locals. It is a filthy manner of dress made worse by the particular furs our guide has equipped us with. They are heavy and thick with oil that fills the nose with the repugnant odor of whatever horrible creature was born wearing them. Some sort of large beaver, if my guess is right.{^n}{^n}Thus far, I have observed that the people here are strong-willed and able-bodied, if a bit dim. They appear to follow a set of simple yet barbaric customs, which I have witnessed many times in my few short days here.{^n}{^n}On the first morning of the expedition, our guide, a hard-faced native named Bjorr whose gnarled skin belies his true age, refused to leave camp until he had consulted the entrails of a freshly slain crow. Not to eat, not to brew some foul concoction, but to plan our conveyance around the finer details of a bird's innards. His nocturnal behaviors are no less strange. In the early hours of our third morning, whilst relieving myself in a nearby bush, I caught a glimpse of him returning to camp covered in all manner of gruesome fluids. His face smeared with blood as if he had bathed in it. The evidence of another barbaric ritual, I assume.{^n}{^n}In any case. I digress. Though I find them quite odd and more than a little primitive, it is these very customs that I have come to study.{^n}{^n}Though it is a bit outside my current task, it bears recording here. Our guide has mentioned, quite regularly in fact, that other intelligent peoples dwell in these lands. Or perhaps people is a bit generous. By his colorful descriptions, I surmise that they are more beast than person. Yet he claims they hold complex customs, follow a rigid social structure and will tax travelers careless enough to pass into lands they occupy. He seems to admire them for some reason.{^n}{^n}Mysterious indeed. I should very much like to observe these natives.
+
+tagGDX3LoreObj_AREAH_ErulanNoteA02Name=Scholar Rainart's Notes - Entry 2
+tagGDX3LoreObj_AREAH_ErulanNoteA02codexTitle=Rainart's Notes Entry 2
+tagGDX3LoreObj_AREAH_ErulanNoteA02Text=*The parchment is quite old and faded by time*{^n}{^n}Our progress continues at a frustratingly slow pace. Each morning, we wait as our guide consults his gods on our best path forward. I am no closer to achieving my goal than when I left friendly lands weeks ago.{^n}{^n}Even with my untrained eye, I have spotted numerous signs of civilization. Path markings, small sites of worship where offerings are made to unknown gods, remnants of temporary camps. Yet Bjorr continually steers us away from the beaten path. He forces us to hike along the banks of rivers or pick our way through flooded bogs. All while claiming the hewn paths, which are obviously made for human conveyance, are too dangerous to travel.{^n}{^n}Two nights prior Bjorr berated and threatened my assistant Buxley for attempting to fell a small tree to use for firewood. When I questioned him about it, he would give me no reason, saying only that we must not cut any of the trees along the river's edge.{^n}{^n}As soon as we reach civilization, I plan to hire a new guide and leave before Bjorr can follow. 
+
+tagGDX3LoreObj_AREAH_ErulanNoteA03Name=Scholar Rainart's Notes - Entry 3
+tagGDX3LoreObj_AREAH_ErulanNoteA03codexTitle=Rainart's Notes Entry 3
+tagGDX3LoreObj_AREAH_ErulanNoteA03Text=*The parchment is quite old and faded by time*{^n}{^n}I grow more suspicious of our guide as the days pass. Though I am unfamiliar with the lay of the land, I am quite positive our intended destination, a citadel called Kurnhold, was north-west of Fort Ikon, yet by my calculations, we continue to travel due north along the river's edge. When I confronted Bjorr about our route, he refused to address my concerns and was quick to point out that I have very little experience in the wilds, a fact I cannot refute.{^n}{^n}Worse yet my assistant Buxley wandered off in the early hours of the morning. I suspect he intended to bathe himself in a nearby stream as he left his furs in a heap near his bedroll. I certainly can't blame him. It has been several days since I have bathed, and I fear the scent of these putrid furs may never wash off. Unfortunately, it seems he has gone and gotten himself lost. I fear for the boy as his nature is softer even than my own.{^n}{^n}Ever so helpful, our guide Bjorr refuses to search for Buxley. Claiming the gods forbade us to leave our path, or some such foolishness. Even now, as I have ordered us to hold in camp until Buxley's return, Bjorr grumbles and curses, cutting me down with his eyes as he sharpens his weapon. His weapon, which I had not noticed before, is nothing more than a humble stick. A stick which he insists on sharpening daily. I once observed him using his teeth to peel pieces from it. until he caught me watching and resumed the task with a jagged rock. These are strange folk indeed.{^n}{^n}Though I hope not to leave Buxley behind, we will soon continue our journey. I must reach Kurnhold so that I can complete my task here and return to the comfort and safety of the empire. 
+
+tagGDX3LoreObj_AREAH_ErulanNoteA04Name=Scholar Rainart's Notes - Entry 4
+tagGDX3LoreObj_AREAH_ErulanNoteA04codexTitle=Rainart's Notes Entry 4
+tagGDX3LoreObj_AREAH_ErulanNoteA04Text=*The parchment is quite old and faded by time*{^n}{^n}The unimaginable has happened. Less than an hour's walk from our camp, we found what was left of him. Buxley's body lay face down on the bank of the river. At first, he appeared like a small bear or some similarly sized creature, but as we drew closer, I knew for sure it was him. I could see his bright blond hair curling out from beneath the dark brown furs. Furs, which I was quite positive he had left in camp earlier that morning.{^n}{^n}As I drew closer and turned over his body, I was assaulted by a vision that will stain my mind's eye for the remainder of my days. He was posed on all fours like an animal, his arms and legs chewed off at the joints. His front teeth torn from his mouth, a look of mortal terror fixed to his face by the permanence of death. Around his body, along the bank of the river, countless trees had been felled. Their stumps left oddly pointed like rows of defensive spikes.{^n}{^n}I fear this is some sort of message, though decoding its purpose is beyond me.{^n}{^n}Bjorr refuses to let us tend to the body. He just stands there at the edge of the clearing, staring blankly up the river. I can hear him even now muttering to himself in some language I do not know.{^n}{^n}There are three of us now, with the passing of Buxley. Despite what has happened, we must gather ourselves, we must continue our mission. It is my charge to gather and deliver this intelligence to the empire, and I will not fail.
+
+tagGDX3LoreObj_AREAH_ErulanNoteA05Name=Notebook of Imperial Scholar Rainart - Entry 5
+tagGDX3LoreObj_AREAH_ErulanNoteA05codexTitle=Rainart's Notes Entry 5
+tagGDX3LoreObj_AREAH_ErulanNoteA05Text=*The parchment is quite old and faded by time*{^n}{^n}I know they are coming. I hear their gnashing teeth and the groaning crash of falling trees. They follow, no matter how far I run. My feet bleed, my heart pounds, my end is near. All I have left is this god-forsaken journal. Damn the empire, and damn my thirst for knowledge.{^n}{^n}They surrounded our meager camp at nightfall, horrible stinking things with eyes as black as ink and teeth like shining spades. Our guide Bjorr greeted them as friends. Chittering and moaning in their own language before turning on us. I narrowly escaped into the darkness as they fell upon the other members of my retinue.{^n}{^n}I should have run then and never turned back. But I could not leave my attendants to their fate so easily. So I hid there in the bushes as those filthy things set upon them with practiced precision. Binding them like slaughtered pigs before impaling them on long, sharp poles. Their screams cut through the darkness as they were hoisted high above. Then the creatures began chanting and pounding their wide tails against the ground. The din rose to an earth-shaking rhythm before stopping sharply as a massive figure emerged from the forest. A hulking version of these smaller creatures, wielding a huge, sharpened stick that could pass for a tree's trunk. It pounded its massive spiked tail and pointed directly at my hiding place. Terror overtook any hope of saving my friends, and I ran, and ran until my feet would carry me no more.{^n}{^n}Now this muddy hole at the river's edge will be my final resting place.{^n}{^n}They are coming, I can hear them.
+
+tagGDX3LoreObj_AREAH_ErulanNoteA06Name=A Kurn Opportunity - Part 1
+tagGDX3LoreObj_AREAH_ErulanNoteA06codexTitle=Opportunity Part 1
+tagGDX3LoreObj_AREAH_ErulanNoteA06Text=*This neatly-folded note bears the crest of Fort Ikon in its top left corner*{^n}{^n}Brek, the boys stationed on the Asterkarn route tell me they've spotted somethin' mighty nice. A secluded Kurn burial ground not too far from the fort. If we hurry, we can be up there an' back befor' our shift on the wall. Those stupid savages don' bury valuables with their dead. They just leave 'em in mounds for any sucker to come an' pilfer. It will be easy.{^n}{^n}So here's the plan: before dawn, we meet at the western gates. I offered Locklan a split of the spoils if he lets us through without a peep. Then we make our way up the mountain under the cover of dark. I lead us to the site an' we grab what we can get. We get out befor' the barbarians even catch a whiff of our assholes.{^n}{^n}Just know, it's my plan. I bribed Lock. I know where the goods are. I just need ya to help carry the haul, so don't go thinkin' you're suddenly the brains of the operation and get an even cut. The split is seven of every ten for me.{^n}Caulder
+
+tagGDX3LoreObj_AREAH_ErulanNoteA07Name=A Kurn Opportunity - Part 2
+tagGDX3LoreObj_AREAH_ErulanNoteA07codexTitle=Opportunity Part 2
+tagGDX3LoreObj_AREAH_ErulanNoteA07Text=*The note is stained with bloody fingerprints*{^n}{^n}No one has ever asked, and I have never said, but now that your guts adorn the snow, I feel it only fitting you know why. I am half-Kurn, you slith-pissdrinker. Brek, son of Yulleth, who died giving me life breath. My father, Markor, was never welcome among the people of Asterkarn, and my mother's passing extinguished what little grace he had with them, so we came to live in his homeland. I never learned the ways of my mother's people, but my father always spoke of them with great reverence and respect.{^n}{^n}I have walked these hills many times, met the people of these lands. They are harsh and unforgiving, bearing grudges older than any living man, but they have come to recognize kin within me and welcomed me beside their hearths. It is my eyes, you see. They carry the sorrows of this land, in ways only a Kurn may recognize. I have traveled beyond the highlands and witnessed the beauty of the valley below. And I have seen the halls of Kurnhold and drank deep of Kurn mead. While a part of me wishes to spend a lifetime here learning their ways, I did not grow up Kurn and still feel my Erulian blood calling me home. This is not where I belong.{^n}{^n}I did learn a few things though. For one, Kurn burial rites are an important reminder of what was lost. They call them scars, because every hurt and loss brings healing, it leaves them tougher, stronger. Their belongings are left behind for worthy successors to bring newfound glory to old tools and weapons, not to be pilfered by rats.{^n}{^n}You should pray that the Kurn ways do not apply to you in their lands, left to rot in the snow as you are. Alone and forgotten. If you believe the myths, yours will be a fate worse than death.{^n}{^n}I'm not sure even you deserve such an end, but it seems fitting reward for the hate and vitriol you have shown for the people you despise, yet know nothing about.{^n}-Brek, Son of Yulleth and Markor
+
+
+#Kurn
+tagGDX3LoreObj_AREAH_KurnNoteA01Name=Blood and Ice
+tagGDX3LoreObj_AREAH_KurnNoteA01codexTitle=Blood and Ice
+tagGDX3LoreObj_AREAH_KurnNoteA01Text=In my sixteenth winter, I Takan, make my lone blood pilgrimage to Frostveil.{^n}{^n}It is only the second time I have performed the rite of blood and ice, but I am proud that Algir feels I am ready to do it alone. Proud, and heavy with burden for I feel my father's gaze upon me. It is my great honor to offer my life blood to the ritual stones. A small bit of my blood to renew the bonds of kin and to keep the way home lit for the spirits trapped beneath the ice. I do this for all our fallen, but it is my greatest honor to do this for my father, still lying beneath the snow. One day, the ice will thaw and we will perform the proper burial rites. My father will cross beyond the veil to be reunited with mother. And when at last I draw my final life breath, I will see him again. Until then, I will do my duty.
+
+tagGDX3LoreObj_AREAH_KurnNoteA02Name=Wayfinder Algir's Report
+tagGDX3LoreObj_AREAH_KurnNoteA02codexTitle=Algir's Report
+tagGDX3LoreObj_AREAH_KurnNoteA02Text=My patrol brings me deep into lands now lost. By the gods, witnessing An'Shalar up close steals the breath from your lungs like a mountain gale. However, not all that I have seen brings tears to an old warrior's eyes, it also boils rage within his heart.{^n}{^n}I have discovered that the Bloodbound have carved their way through the glacier and now infest the sacred mountain too. Their very presence is an insult. But worse yet, they and their fiendish masters have taken upon themselves to desecrate our dead. The frozen scars have been dug up and pilfered. They have broken through the ice with steel and unearthly fire. One by one, they remove the remains buried within the ice and string them up over fires to warm the flesh. The thick frozen blood sliding slowly into waiting urns makes me sick to my stomach.{^n}{^n}I have remained here for several days now, observing from a distance. A part of me hoped my absence would draw the attention of the clans. But I know they will not come. I have not been gone long enough to warrant alarm and I am too far north for our regular patrols. I had resisted every instinct to leap in to kill these men, but I am outnumbered and their fiends are many. I have tempered my rage. I know this cannot be accomplished alone. But that does not mean I leave them unhindered. It brings me great pleasure to pick off the occasional worm that strays too far from their camps.{^n}{^n}My raven familiar now bears this message. I pray to Amatok that his winds deliver it home to Kurnhold with haste and that others will come to bring a stop to this desecration should I fail.{^n}-Wayfinder Algir
+
+tagGDX3LoreObj_AREAH_KurnNoteA03Name=Goodbye and a Promise
+tagGDX3LoreObj_AREAH_KurnNoteA03codexTitle=Goodbye and Promise
+tagGDX3LoreObj_AREAH_KurnNoteA03Text=*The parchment is stained with what were likely tears*{^n}{^n}Urdok. I remember the day we first met. I remember the day you bested me in the sparring circles, then offered me your hand so that I could rise from the dirt. I remember the way we laughed, our spirits high on mead. I remember the day we slew the white bristlehorn, our axes dripping with blood.{^n}{^n}Those are the memories I choose to remember you by, Urdok. Not the twisted smile that greeted me from atop the ridge, leading a band of Bloodbound. Not the gleeful laugh as you scalped that poor woman and ripped her child in twain over a blood basin. I thought my eyes bewitched, but my heart knew the truth.{^n}{^n}My friend is dead, and a fiend has taken his body. It is the only version of this tale I can stomach, for any other would leave me broken and unable to see this through. I write these words as a farewell to the man I loved as a brother.{^n}{^n}Urdok. This is my goodbye, and a promise that I will not let your good memory be tainted by the evil that wears your skin. I still have the axe you gifted me all those years ago. When I return it to you, it will be piercing your vile heart.{^n}-Sorvald Stormbreaker
+
+tagGDX3LoreObj_AREAH_KurnNoteA04Name=The Day Utak Kunar Burned
+tagGDX3LoreObj_AREAH_KurnNoteA04codexTitle=Utak Kunar Burns
+tagGDX3LoreObj_AREAH_KurnNoteA04Text=*The parchment is badly scorched*{^n}{^n}...memories...Skald Senja{^n}{^n}These...recollect the last days of Utak Kunar.{^n}{^n}They came in the night, bearing weapons coated in burning pitch. I awoke to the sounds of screaming outside. Volgar and all others...bear arms took to the defense while I helped the elders and children flee.{^n}{^n}When the last of the children was accounted for, I returned to the village. The sounds of battle were drowned out by the heart-wrenching cacophony of blazes devouring in moments that took generations to build. I waited for any sign of Volgar, but exhaustion...have taken its toll, cause I...in the morning. Very little remai...home. I walked the streets, now coated in a thick layer of ash, with caution, expecting Bloodbound to emerge from around every fallen column and stone foundation. I choked on the smoke and gagged on the stink of burnt meat as I searched through what was left.{^n}{^n}There were...everywhere, not fallen where they had died as I was expecting, but strung up, hanging from...The bodies were mutilated, bled dry. Some were hung upside down by their legs, throats slit.{^n}{^n}I eventually found Volgar, strung up, pale and bloodless. His dozen wounds told me everythi... he died. I know in my heart he fought to the end and was long dead...ey hung him up here. Volgar was among countless... Men and women, it did not seem to matter. They were all bled dry.{^n}{^n}I was alone among the countless dead and I knew my time was short. I cut down Volgar, he felt so light with his body devoid of life, and buried him... river where he often sparred. It wrenches my heart to leave... fate worse than death, but the bloody banners now hanging over Korba's Stand made it clear that the enemy has not gone far. I will lead the survivors to Kurnhold and pray to Mogdrogen that he guides us through the wilderness.
+
+tagGDX3LoreObj_AREAH_KurnNoteA05Name=Solla's Prayer
+tagGDX3LoreObj_AREAH_KurnNoteA05codexTitle=Solla's Prayer
+tagGDX3LoreObj_AREAH_KurnNoteA05Text=Lo, there do I see her.{^n}She looks down upon me.{^n}She drives the fear from my heart.{^n}She melts the frost from my Blade.{^n}She sees my deeds,{^n}and I will please her.{^n}She knows my fate,{^n}and I will meet her.{^n}She bade me cleanse her lands,{^n}and I will heed her.{^n}She lights my path,{^n}and I will follow.
+
+tagGDX3LoreObj_AREAH_KurnNoteA06Name=Sorkar Saga - Part 1
+tagGDX3LoreObj_AREAH_KurnNoteA06codexTitle=The Epic of Sorkar
+tagGDX3LoreObj_AREAH_KurnNoteA06Text=The First Saga{^n}{^n}Behold the saga of Bal-Eigan, whose name was once Sorkar, and whose strength was known before he knew his own shadow.{^n}{^n}In his infancy, the omens gathered thick about him. As a babe, he gripped with such force that wood split and stone groaned beneath his grasp. The elders whispered that no cradle could contain him.{^n}{^n}When first he found his feet and strode unsteadily into the world, fate tested him. He fell into the village well, vanishing down its black throat. From that darkness rose the shrieks of monstrous rats, ancient things that had gnawed the roots of the earth itself. The villagers heard the splashing, the snarling and then silence.{^n}{^n}And then the child returned.{^n}{^n}He climbed from the well slick with blood not his own, bearing the carcasses of the beasts across his small shoulders. The stones of the well were scored where his fingers had found purchase. From that day forth, none spoke of him as merely a boy.{^n}{^n}Years passed, and Sorkar grew as storm clouds grew, heavy with promise and violence. No contest stood long before him; no beast that prowled the hills returned unbroken. Yet his greatest trial came when the sky itself turned hostile.{^n}{^n}From the horizon swarmed ravens the size of warhorses, their beaks and claws thrashing in the darkness. Panic seized the village, but Sorkar did not flee.{^n}{^n}He strode into the storm of wings. He seized the beasts from the air, shattered their beaks in his grasp, and dashed their bodies upon the rocks. The river frothed red where he cast them, and the rapids carried their ruin far downriver. When at last the sky cleared, it was Sorkar alone who stood beneath it.{^n}{^n}The elders bowed their heads, and their daughters, fairest of the hearth-fires, looked upon him not as one man, but as a force of nature given flesh. And so he was granted both their hands in marriage, for it was said no single life could contain him, and no single bond could match the magnitude of his being.{^n}{^n}He Who Climbed from the Dark Bearing Death.{^n}{^n}Scourge of the Swarm.{^n}{^n}This was but the beginning of his legend.
+
+tagGDX3LoreObj_AREAH_KurnNoteA07Name=Sorkar Saga - Part 2
+tagGDX3LoreObj_AREAH_KurnNoteA07codexTitle=Ascension of Bal-Eigan
+tagGDX3LoreObj_AREAH_KurnNoteA07Text=The Second Saga{^n}Word of Sorkar's deeds rose from the hearths to the high halls of the gods, and their pride soured. His strength rivaled their own and jealousy, that ancient ember, found breath among them.{^n}{^n}Unable to break him, they chose to bind him. They offered him Alma, daughter of Ulo, Keeper of the Waters, and summoned him to their lodge beyond where the sacred waters gather to form the Voldur River. There they tested him with frost, flame, and ancient riddles. He did not bow.{^n}{^n}"If we cannot unmake you," they decreed, "we shall name you." And beneath the circling stars, Sorkar was given a new name: Bal-Eigan.{^n}{^n}Not merely man. Not yet god. Something forged between.{^n}{^n}But Bal-Eigan did not linger long in the halls of cloud and storm. For below, the world groaned and from the spilled blood of the Great Annihilator rose fiends without number, and Bal-Eigan descended to hunt them.{^n}{^n}In the planes he faced Orgok'Sul, the colossal hound born of the Dying God's severed hand. For three days they battled beneath the breath of the gods, rending the forest and mountains to their foundations.{^n}{^n}Thus began his war against the void spawn, a war that would test whether the gods had raised a champion or unleashed something greater.
+
+tagGDX3LoreObj_AREAH_KurnNoteA08Name=Sorkar Saga - Part 3
+tagGDX3LoreObj_AREAH_KurnNoteA08codexTitle=Vor'Suthul
+tagGDX3LoreObj_AREAH_KurnNoteA08Text=The Third Saga{^n}From the spine of Great Annihilator arose Vor'Suthul, the Sun Eater, whose birth beyond the veil ushered in an eclipse. On the sixth morning of his rising, he leapt the mountains and fastened his jaws upon the sun. Day faltered. Frost crept across fields at noon. Even the gods felt their radiance dim.{^n}{^n}Bal-Eigan did not wait to be summoned.{^n}{^n}He climbed An'Shalar and beheld Vor'Suthul coiled about the darkening sun. With a roar that split the clouds, he hurled himself skyward and seized the beast by its umbral horns, wrenching it free from its tyranny over the sun. They fell down to earth together, trading blows as thunder shattered the heavens.{^n}{^n}Bal-Eigan tore one horn from the beast's head and thrust it through its single large malignant eye. Blinded and raging, Vor'Suthul clamped his jaws upon Bal-Eigan's shoulder but from the wound poured searing radiance.{^n}{^n}Bal-Eigan answered with his mighty axe like falling stars, driving blows into the beast's body over and over. Sparks rained down upon the earth, the seas boiling where their fragments landed.{^n}{^n}He thrust his arm into the beast's chest, seizing its cold black heart, and crushed it in his grasp. Light burst outward in a great wave, and Vor'Suthul unraveled into ash and evaporating darkness.{^n}{^n}The sun was free once more.
+
+tagGDX3LoreObj_AREAH_KurnNoteA09Name=Sorkar Saga - Part 4
+tagGDX3LoreObj_AREAH_KurnNoteA09codexTitle=Banishment of Bal-Eigan
+tagGDX3LoreObj_AREAH_KurnNoteA09Text=The Fourth Saga{^n}Fear took root in the hearts of the gods.{^n}{^n}They had raised Bal-Eigan, yet he did not kneel. He had slaughtered monstrous creatures of a dying god and freed the sun itself. And so they chose decree over battle. They stripped the light from his form and cast him from the heavens. Bal-Eigan fell like a dying star.{^n}{^n}He struck the earth and the mountains trembled.{^n}{^n}Once more, he was Sorkar, diminished, but unbroken.{^n}{^n}Of all his divine gifts, only one remained: a shard of Vor'Suthul's horn, still blazing with captured sun-fire. Carrying it north into the high mountain peaks, he walked among the vast bones of fallen mammoths, their tusks the only remains of their mighty journey. There he buried the shard beneath a great skull, sealing it with stone and ivory.{^n}{^n}Snow covered his labor and the wind howled through hollow ribs. Although the gods spoke his name no more, something still lies beneath the mammoth bones, waiting.
+
+tagGDX3LoreObj_AREAH_KurnNoteA10Name=A Mutual Exchange
+tagGDX3LoreObj_AREAH_KurnNoteA10codexTitle=A Mutual Exchange
+tagGDX3LoreObj_AREAH_KurnNoteA10Text=If there is one thing I can be sure of, it's when the winds are turning. Kurnhold's walls will crumble and its people will be sent to the blood fields when the Bloodbound arrive in force. I plan to be very far away when that happens.{^n}{^n}I trust you will find this delivery as all the proof of my commitment you need. Kurnhold is denied its arms, and you become stronger. And I am left out of it.{^n}{^n}A pleasure doing business.
+
+tagGDX3LoreObj_AREAH_KurnNoteA11Name=Ulo the Keeper of the Brews
+tagGDX3LoreObj_AREAH_KurnNoteA11codexTitle=Ulo the Keeper of the Brews
+tagGDX3LoreObj_AREAH_KurnNoteA11Text=When the name of Ulo is spoken beneath the sky of storm and stars, we speak with reverence. Ulo, Keeper of the Waters, whose hand guides the rivers from the high bones of the world, those jagged peaks from which blows the breath of the gods, is the one who sends the melt and the surge. The rivers, the lakes and the endless sea - all flow from her will. They feed the herds, they cleanse the wounds, they quench the warriors. With her, the land sings. Without her, it withers and dies.{^n}{^n}But Ulo was not only a spirit of flow and frost, she was a brewer too. A wild hearted mistress of the ferment. It is said she drank deep from her horn, again and again: one, two, three times and more. With laughter on her lips, she brewed beer not from grain, but from pure river essence. She poured it freely, for chieftains and scouts, for hearth keepers and wanderers. One keg of Ulo's golden draught could rouse a warband in foreign wilds and still leave enough for those who guarded the river crossings at home.{^n}{^n}Now, when the snow blankets the plains and the sky hangs heavy with cold, the Kurn gather near the hearth fires. They drink of Ulo's gift to drive out the bite of winter and laugh like thunder into the long night.
+
+tagGDX3LoreObj_AREAH_KurnNoteA12Name=Dagmar's Last Words
+tagGDX3LoreObj_AREAH_KurnNoteA12codexTitle=Dagmar's Last Words
+tagGDX3LoreObj_AREAH_KurnNoteA12Text=If you are reading this, know that these are the final words of Dagmar. My hand trembles as I put quill to parchment, but as what remains of my mind leeches off into the bitter air, so I will drown my sorrows in ink.{^n}{^n}The skalds call it Martok's Kiss, a curse coursing through my blood since the ancient war. All efforts to divine a cure have failed me. The fits of madness seem to be more frequent and I find myself waking in places unfamiliar, surrounded by butchery I know is of my making. I fear it is only a matter of time before I bring harm to those dear to me.{^n}{^n}If you discover me with bloodlust in my eyes, do not hesitate to deliver the killing stroke. Spill my bowels as I have spilled the blood of innocents. But I beg of you: do not enter the cellar. My lasting shame need not see the light of day.{^n}{^n}Gods forgive me. I am sorry I lack the strength to do what is necessary. I pray you will find it for me.
+
+tagGDX3LoreObj_AREAH_KurnNoteA13Name=Dreams of Ruin
+tagGDX3LoreObj_AREAH_KurnNoteA13codexTitle=Dreams of Ruin
+tagGDX3LoreObj_AREAH_KurnNoteA13Text=Moonsong, Day 19{^n}Thrice, the same dream has haunted my sleep. The black-eyed raven weeping tears of blood screeches me awake in cold sweat. The spirits are ailing. The land itself weeps through boils of corruption. This we have seen first hand. But I know not what to do. What the spirits require of me?{^n}{^n}Moonsong, Day 23{^n}I have spoken with the Skald Magwyn. Her gentle wisdom has guided me before, though I do not deny her cryptic answers have sometimes left me more frustrated than I was to begin with! I suspect it is her way of nudging me forward, to find my own path. None can deny that her years are numbered and we may soon be left with a terrible emptiness at the hearth. I must do all that I can so that her knowledge lives on for all tribes.{^n}{^n}Moonsong, Day 25{^n}My dreams have become fervent. I know now where I must go...{^n}{^n}Moonsong, Day 28{^n}By Mogdrogen! It is worse than I feared! The land does not merely fester as the Bloodbound's domain spreads. It renders itself apart in screaming tears. I now know why the spirits cry for aid. Horrors from a place that should not be pour forth into Asterkarn, sapping her of her beauty and leaving naught but desolation. If the land is to heal, then the rift must be sealed.{^n}{^n}Moonsong, Day 33{^n}I made the preparations as the elder skald had guided me countless times. I've never dealt with corruption so vile or potent, but the rituals will hold. They must. Hopefully I have not made a grave mistake.
+
+tagGDX3LoreObj_AREAH_KurnNoteA14Name=Belladonna's Scribblings - Page 1
+tagGDX3LoreObj_AREAH_KurnNoteA14codexTitle=Black Lodge Page 1
+tagGDX3LoreObj_AREAH_KurnNoteA14Text=*The text is old, very old, but you can make out some of it*{^n}Leos and I went on an adventure today! We went out in the woods Father told us to stay out of. Leos told me about an abandoned lodge filled with lots of creepy old stuff and I wanted to see!{^n}{^n}Most of it was boring, just clothes and pots and rotten food. But then I tripped over a book, like the ones Father said the skalds keep in Kurnhold. Its title was strange, "The Threshold", and it was filled with big words and strange pictures.{^n}{^n}Leos said we should leave it, but this was a treasure! I brought it home and put it under my bed.{^n}{^n}*Another entry begins*{^n}I had a bad dream last night. Father said everything is alright, bad dreams happen and they aren't real. But Dolly was in this one, and she was talking. She said there is something I must do, but I'm going to need the book. I will look at it again tonight. It did have some really neat drawings...
+
+tagGDX3LoreObj_AREAH_KurnNoteA15Name=Belladonna's Scribblings - Page 2
+tagGDX3LoreObj_AREAH_KurnNoteA15codexTitle=Black Lodge Page 2
+tagGDX3LoreObj_AREAH_KurnNoteA15Text=*It is difficult to read most of the text, but some of it stands out *{^n}I showed Leos the drawings in the book. He really liked them and said he recognized the shapes. I don't know what he means. They just look like squiggles around a funny-shaped star. When he touched one though, his eyes turned white and his voice became low and sad. He said we are going to need a knife from the hearth or he won't be able to cast the spell.{^n}{^n}Liar! He always makes up stuff to try and scare me.{^n}{^n}*There is a gap in the scribblings where ink was spilled*{^n}{^n}Dolly spoke to me again in my dream. She tells me Leos is going to need me soon to do something very hard, but we will be safe. We will always be safe...with her.
+
+tagGDX3LoreObj_AREAH_KurnNoteA16Name=Belladonna's Scribblings - Page 3
+tagGDX3LoreObj_AREAH_KurnNoteA16codexTitle=Black Lodge Page 3
+tagGDX3LoreObj_AREAH_KurnNoteA16Text=*Much of the text is faded and unreadable*{^n}Me and Leos snuck into our parents' room as they slept. Leos said it had to be that way if the spell was going to work. I put Dolly on the bed to watch, like she asked. Leos swiped the knife across his wrist and let blood gush out. He turned to me expectantly. I admit, I was very scared, but one look into Dolly's eyes reassured me that everything was going to be alright.{^n}{^n}I let him cut me. It did not hurt like I thought it would. Our blood flowed together and the room got very cold. I could see Mother exhale frosty air. She must have been very tired to not wake.{^n}{^n}We went back to bed. I am hopeful that Dolly will visit me once more in my dreams, where she can talk.{^n}{^n}Dolly told me to read the book again. She said that I am now like Leos and the pictures will make sense to me. She said that the next part is very important, and it is up to me if we are to meet at the Threshold.{^n}{^n}Dolly was right! The pictures do look like something now! And they move!
+
+tagGDX3LoreObj_AREAH_KurnNoteA17Name=Belladonna's Scribblings - Page 4
+tagGDX3LoreObj_AREAH_KurnNoteA17codexTitle=Black Lodge Page 4
+tagGDX3LoreObj_AREAH_KurnNoteA17Text=*The blank parchment forms letters which fold into words before your eyes*{^n}We are the seeker and the dream. In the wake of our sleeping, stars were born and will dim again. You bear witness to the many that are, were and shall forever be. Only in the weave of the beholder does existence collapse upon the now.{^n}{^n}In the great tapestry, the black crown shall find its king, and all shall be unmade in His image. We are here to witness. We are here to play. Again and again and again and again and again and again and again and again and...
+
+tagGDX3LoreObj_AREAH_KurnNoteA18Name=The Wind-Walker
+tagGDX3LoreObj_AREAH_KurnNoteA18codexTitle=The Wind-Walker
+tagGDX3LoreObj_AREAH_KurnNoteA18Text=Pilgrims to An'Shalar have always had to contend with the harsh weather, treacherous terrain and the myriad beasts that dwell upon the foothills of the Aurora Peaks. It is not unusual for common beasts to become entangled in folklore and legends, with each retelling greatly exaggerating both the dangers and the stature of attacks. But there is one tale that has remained eerily consistent among travelers.{^n}{^n}We tell our children of Agven, the brazen warrior who scorned the gods in victory, and spat upon their names in defeat. For his hubris, he was struck down and made to resemble the wicked creature he embodied. Then, as a warning to future Kurn, he was unleashed upon the peaks, made to walk the winds so that he could prey upon those that did not honor the ancestors or left pitiful offerings at the peak.{^n}{^n}The very sight of Agven the Wind-Walker meant a freezing and inescapable death to the unfortunate observer, but all would take solace in the knowledge that he would only show his twisted and deformed face to those that were deserving of the gods' ire. That is, until the recent spike in attacks.{^n}{^n}By the command of my Chieftain, I and my brothers will explore the pinnacle and investigate whether there is truth to the legends. Whether it is man or beast, we will not allow our people to be hunted down like hapless deer.{^n}{^n}Thane Sulgir of the Storm Spears
+
+tagGDX3LoreObj_AREAH_KurnNoteA19Name=Apothecary's Journal
+tagGDX3LoreObj_AREAH_KurnNoteA19codexTitle=Apothecary's Journal
+tagGDX3LoreObj_AREAH_KurnNoteA19Text=On the subject of frozen aster, these daisy-like flowers have yellow centers that may become reddish with age. Surrounded by many blue or violet florets, they have flowering stems that have leaves like needles which tend to be horizontal in nature.{^n}{^n}While clearly a hardy plant, as frozen aster is able to survive and thrive in the highest snowy reaches of Asterkarn mountains, successfully harvesting an aster requires a delicate and skilled hand that has shunned the weight and brutality of a berserker's axe.{^n}{^n}Only a trained herbalist armed with the finest sharpened scythes forged by an artisan's will can hope to harvest this delicate plant with reliable success. Any measure of excess force will be met with a crumbled specimen bereft of its extraordinary properties.
+
+tagGDX3LoreObj_AREAH_KurnNoteA20Name=Empty Halls
+tagGDX3LoreObj_AREAH_KurnNoteA20codexTitle=Empty Halls
+tagGDX3LoreObj_AREAH_KurnNoteA20Text=I weep for days that may never return. I wander our once pristine lands and everywhere I look I see fear, emptiness and despair. What kind of future awaits us in a world where the spark of battle has left my people's eyes? Where our roads are not patrolled and our hunting grounds are overrun with vermin grobles? Abandoned homes and cold hearths are all that remain of our settlements.{^n}{^n}Can the Kurn reclaim their lost spirit of battle? Or are we doomed to squander our final days cooped up in the once proud Kurnhold, a crumbling reminder of our glory? As our shield arms wither away and the battle breath is stolen from our lungs, I find myself haunted by dreams of blood. Visions of death and gore. It is a future that I see. But who's blood will be spilled?{^n}{^n}My clan can no longer abide the atrophy of inaction. We will march upon the Dread Wastes and either reclaim our lands, or our blood will nourish the soil.{^n}{^n}Thane Urteg
+
+tagGDX3LoreObj_AREAH_KurnNoteA21Name=Memory of Tullek
+tagGDX3LoreObj_AREAH_KurnNoteA21codexTitle=Memory of Tullek
+tagGDX3LoreObj_AREAH_KurnNoteA21Text=I, Skald Ogudai, commit the final words of Tullek of the Bloodragers to memory. Tullek whose flesh was disfigured by Erulian blades and whose life blood was spilled in the defense of Asterkarn. May the stones carved in his memory serve as a reminder of the mountain of lowlander corpses upon which the life breath at last forsook him.{^n}{^n}When I am dead, lay me in a mound{^n}Raise stones carved to my memory{^n}One boulder for every battle, one stone for every Erulian who begged for mercy and was granted none{^n}{^n}When I am dead, lay me in a mound{^n}Lay my weapons bare where worthy hands can grasp them{^n}May my axes drink deep of foe blood beneath a new moon{^n}{^n}When I am dead, lay me in a mound{^n}Raise your drinking horns up to Solla's grace and roar Tullek's name{^n}Let the halls quake with your lust for battle{^n}{^n}When I am dead, lay me in a mound{^n}Raise stones carved to my memory
+
+tagGDX3LoreObj_AREAH_KurnNoteA22Name=The Wanderer
+tagGDX3LoreObj_AREAH_KurnNoteA22codexTitle=The Wanderer
+tagGDX3LoreObj_AREAH_KurnNoteA22Text=I journeyed through the frozen wastes, devoid of home and hearth. My people gone, my duty buried beneath the ashes of war. There was no shelter along my path, only the blinding white of untainted snow. Cruel gods denied me a battle death alongside my kin. I walked alone, a warrior without purpose. If blades would not separate my head from my shoulders, then I would let the snow claim me along with my shame.{^n}{^n}When a blizzard struck with blinding force, its icy winds cutting through flesh and bone like a banshee's cry, I thought my death denied had at last come. As the bitter cold dragged me down amid the swirling snow, I laid myself to rest upon the frozen ground. Snow would be my mound, the stars my final witness.{^n}{^n}Then a figure appeared through the flurry. Slung across his shoulders was the steaming carcass of a deer he had only moments before brought down. Dropping the beast beside me, he drew his knife and split open its belly. Without hesitation, he tore away a piece of the still warm flesh and offered it to me.{^n}{^n}"Eat and be strong," he said. "The cold cannot pierce a body filled with warmth and blood."{^n}{^n}I admit, I hesitated and did not reach for the offering at first. But as I laid there in the snow, I finally saw the wanderer clearly. His features were cold and angular, his incisors unnaturally sharp, and his eyes gleamed a piercing yellow through the storm.{^n}{^n}"This beast's life breath was given willingly that yours might continue, Wojuk, warrior without a tribe," the wanderer spoke once more. "Will you squander this gift or will you allow its strength to join with yours?"{^n}{^n}I grasped the meat and ate it raw. I felt the blood pour through my teeth and stain my beard as warmth poured back into my limbs and my heart beat with renewed purpose. For a moment, neither of us spoke.{^n}{^n}Then the wanderer turned and walked away without a word, disappearing into the heart of the blizzard. I watched him leave until his silhouette became one with the cascading snow.{^n}{^n}I never saw the wanderer again, but I will never forget his mercy so long as life breath still draws into my lungs. The stag's horns will adorn my helm until I, at long last, meet my destined death.
+
+tagGDX3LoreObj_AREAH_KurnNoteA23Name=Spring of Shadow
+tagGDX3LoreObj_AREAH_KurnNoteA23codexTitle=Spring of Shadow
+tagGDX3LoreObj_AREAH_KurnNoteA23Text=As I bathed in the sacred waters of Ulo, I discovered the body of a young deer. It rested at the edge of the pool, not a mark anywhere on its body, its tongue barely an inch from the water. As if it had just dropped dead as it came to drink. I performed the rites of cleansing and tracked the fawn's path to see if I could find what killed her.{^n}{^n}I am finding more small dead animals near Ulo's sacred waters. Birds and mice, lizards and insects. All small creatures, dead without cause. I removed their bodies from the water's edge before rot could contaminate them and performed the rites of cleansing, but something fouled the air. I cannot pinpoint the cause. Like a corpse trapped beneath a fallen tree, the stink is all around, but no sign of the source. I catch scent of it on the breeze, follow the wind, and then lose it.{^n}{^n}It has been a week and I believe I found the fawn's mother. The dead deer rested in a nearby clearing, again, no marks to indicate what killed her. The grass around the body appears to be dying, even though we are in the season of bloom. Twelve winters tending to Ulo's sacred waters, and never have I seen so much death and decay befouling this pristine place. The water is not poisoned, I have drunk from it and bathed within its cleansing pools many times. And yet, nearby trees wither and blacken. I fear some great evil corrupts the land, like a shadow that sweeps across the land, darkening all that it touches, but it keeps its presence well hidden. No matter how many days I search, I cannot find the source. I should warn the chieftain, but I cannot come to her empty-handed.{^n}{^n}I will perform the prayers to Ulo, and then continue my search.{^n}Ralgar the Mystic, Tender of the Waters
+
+tagGDX3LoreObj_AREAH_KurnNoteA24Name=Skirig's Warning
+tagGDX3LoreObj_AREAH_KurnNoteA24codexTitle=Skirig's Warning
+tagGDX3LoreObj_AREAH_KurnNoteA24Text=I know many things.{^n}{^n}I have seen a soul in darkness, possessed and sent to hang.{^n}Saved by pity, risen again, doomed to fight until the end.{^n}Who at the edge of madness goes to silence the voice of dying gods.{^n}{^n}I know many things.{^n}{^n}I have seen the burning city, the bodies twisted, mother and child used as weapons of war.{^n}Terrors reaping, godlings weeping, witches playing eternal games.{^n}{^n}I know many things.{^n}{^n}I have seen the rivers dry, temples crumble, and burning skies.{^n}{^n}I have seen with my own eyes. The once forgotten, doomed to rise.{^n}{^n}I know many things.{^n}{^n}I have seen the heart removed, bound in chains, and wrongly used.{^n}{^n}But in the darkness, I cannot see.{^n}{^n}I know not what will come to be.{^n}{^n}In the darkness, there it waits, for man to falter, to claim his fate.
+
+
+#Kurnhold
+tagGDX3LoreObj_AREAH_KurnholdNoteA01Name=Heidar's Sober Warning
+tagGDX3LoreObj_AREAH_KurnholdNoteA01codexTitle=Heidar's Warning
+tagGDX3LoreObj_AREAH_KurnholdNoteA01Text=I don't know who this drunken fool thinks he is. Rambling on about kings and gods. Filling the ears of the willing with his filth and lies. He appeared not more than a week ago. Stumbling in from the forest, reeking of cheap mead and urine. He lay there at the gate for 3 days, pissing himself and yelling at worms until, one cold night, some fool took pity on him and let him in.{^n}{^n}Damn Amatok.{^n}{^n}Now he graces this court like a foul infection. Spewing his wine-soaked tales. He claims to have the mead of poets and so holds court with a chieftain?{^n}{^n}What madness has overtaken this place?{^n}{^n}I will not stand for this. Einar must be removed. If they will not see reason, I will hire a mercenary to capture him and drag him back to the wilds where he belongs.{^n}-Heidar, Hand of Thane Vilgar
+
+tagGDX3LoreObj_AREAH_KurnholdNoteA02Name=The War of The Meads
+tagGDX3LoreObj_AREAH_KurnholdNoteA02codexTitle=War of the Meads
+tagGDX3LoreObj_AREAH_KurnholdNoteA02Text=*From the Ruminations of Einar the Drunken Skald*{^n}{^n}From deepest bottle poured my foes,{^n}their blood from cup and tankard flows.{^n}{^n}I plot my battle plans at first,{^n}no spear or shield, I wield my thirst.{^n}{^n}Great heroes brace and stand their ground,{^n}but one by one, I drink them down.{^n}{^n}I find myself at battle's end,{^n}lying on the ground again.
+
+tagGDX3LoreObj_AREAH_KurnholdNoteA03Name=Horse's Shit
+tagGDX3LoreObj_AREAH_KurnholdNoteA03codexTitle=Horse's Shit
+tagGDX3LoreObj_AREAH_KurnholdNoteA03Text=*From the Ruminations of Einar the Drunken Skald*{^n}{^n}Dark road strode I boldly,{^n}boot-shod, brisk and steady.{^n}{^n}Stallions leavings lay in waiting,{^n}soft and foul, days fermenting.{^n}{^n}Heel sank deep in horse's apples,{^n}forest green with dark brown dapples.{^n}{^n}Curses split the evening air,{^n}a fool I am now, standing here.
+
+tagGDX3LoreObj_AREAH_KurnholdNoteA04Name=The Drunkard's Hearth
+tagGDX3LoreObj_AREAH_KurnholdNoteA04codexTitle=Drunkard's Hearth
+tagGDX3LoreObj_AREAH_KurnholdNoteA04Text=*From the Ruminations of Einar the Drunken Skald*{^n}{^n}The frigid god demands it,{^n}from icy throne commands it.{^n}{^n}An open hearth, he proclaims,{^n}with mead and soups and leaping flames.{^n}{^n}On coldest nights when drunkards roam,{^n}he demands an open home.{^n}{^n}And so I search for place to rest,{^n}of drunken fools, I am the best.
+
+tagGDX3LoreObj_AREAH_KurnholdNoteA05Name=Damn The Sun
+tagGDX3LoreObj_AREAH_KurnholdNoteA05codexTitle=Damn The Sun
+tagGDX3LoreObj_AREAH_KurnholdNoteA05Text=*From the Ruminations of Einar the Drunken Skald*{^n}{^n}After many battles won,{^n}with mead and wench and nighttime fun{^n}{^n}I lie beneath the spinning sky{^n}Feeling like I'll maybe die{^n}{^n}Release of sleep my only hope,{^n}I close my eyes and try to cope.{^n}{^n}When over mountain creeps her gaze,{^n}burning bright her ceaseless blaze.{^n}{^n}She beckons all who sleep to wake,{^n}to take up arms, for war to make.{^n}{^n}They rise again and to her pray,{^n}thankful for another day.{^n}{^n}A cheerful verse I will not sing{^n}My drunken eyes her daylight stings.{^n}{^n}I'll craft a rhyme finely spun,{^n}to simply say damn the sun.
+
+tagGDX3LoreObj_AREAH_KurnholdNoteA06Name=Fairest Maiden
+tagGDX3LoreObj_AREAH_KurnholdNoteA06codexTitle=Fairest Maiden
+tagGDX3LoreObj_AREAH_KurnholdNoteA06Text=*From the Ruminations of Einar the Drunken Skald*{^n}{^n}My swimming eyes spied fairest maid,{^n}from finest things, her form was made.{^n}{^n}Her face a place for man to rest,{^n}her bosom stands among the best.{^n}{^n}I make my way across the room,{^n}when stopped me short a godly boom,{^n}{^n}Before me stood the lord of beasts,{^n}a wolf, a man, a god at least.{^n}{^n}He thinks to claim my fairest prize,{^n}to charm her with his godly lies.{^n}{^n}Sword and shield I'd bring to bear,{^n}to fell the god just standing there.{^n}{^n}He raised his hand to strike me down,{^n}when on his face there grew a frown.{^n}{^n}Pity he bestowed on me,{^n}like itching dog spares biting flea.{^n}{^n}A spell he cast to clear my mind,{^n}of ale and mead and finest wine.{^n}{^n}With sober sight my eyes grew big,{^n}this fairest maid, she was a pig.
+
+
+#Ravager
+tagGDX3LoreObj_AREAH_RavagerNoteA01Name=Halfor's Journal - Page 1
+tagGDX3LoreObj_AREAH_RavagerNoteA01codexTitle=Halfor's Journal Page 1
+tagGDX3LoreObj_AREAH_RavagerNoteA01Text=I don't know how much more of this I can take, seeing them waste away like this. It rips at my heart. I'm desperate. Desperate for a way out, some way to end it. I know they expect me to fix this, but I cannot, not this time.{^n}{^n}4 days ago, Signe and Sorek ate the last of the food. What little we had was rotten and fetid. I don't even recall what manner of creature it came from, and rot had disfigured it so that I have no idea what part it had been. I had to hide and pick the maggots out of it before they saw.{^n}{^n}They both cried and refused to eat it. Finree held them in her arms and sang to them while she forced them to swallow it, whatever it was, a rat perhaps, the heart of a pig... it matters not. They gagged and cried out, and it was more than I could take to watch it.{^n}{^n}So I left. Stumbling with grief into the dark abyss of the forest. There I fell to my knees and prayed... I begged the darkness to end this. To take me as payment to end their suffering, to take us all in our sleep. Anything, anything to end this.{^n}{^n}No man is meant to watch his babies suffer. Not like this, not ever.
+
+tagGDX3LoreObj_AREAH_RavagerNoteA02Name=Halfor's Journal - Page 2
+tagGDX3LoreObj_AREAH_RavagerNoteA02codexTitle=Halfor's Journal Page 2
+tagGDX3LoreObj_AREAH_RavagerNoteA02Text=Last night, Signe cried herself to sleep, the pain of hunger rotting in her stomach. Sorek did not cry, but the look of pain played across his face. I could feel Finree shaking and heaving as she cried silently next to me. I just lay there, paralyzed with grief, praying once again for the darkness to take us.{^n}{^n}It did not.{^n}{^n}This morning, I felt as though I had lost myself. As if I looked down upon us from afar. The grief and pain of hunger seemed so far away from there. Even the cold of a winter morning could not touch me. But the feeling lasted only until the pain of my empty stomach regained its grasp on me.{^n}{^n}I cut my hand while stringing my bow and stared as the thin crimson ribbons streamed down my arm. How could they seem so alive when I am so close to death? They ran and ran toward my elbow like the rivers of the valley running from the mountains. There was life there in the river, and so I drank, and I drank, and it wasn't until Finree screamed that I awoke from my stupor to find that I was trying to force Signe to drink as well.{^n}{^n}What has become of me?
+
+tagGDX3LoreObj_AREAH_RavagerNoteA03Name=Finree's Journal - Page 1
+tagGDX3LoreObj_AREAH_RavagerNoteA03codexTitle=Finree's Journal Page 1
+tagGDX3LoreObj_AREAH_RavagerNoteA03Text=While I was searching for berries today, a strange man appeared along the forest trail. I was startled at first, but quickly came to my senses. I thought for sure he must have food for us. He must have something we could eat. I don't know what came over me but I fell to my knees on the ground before him and began to beg. I begged and pleaded for anything he could give us. Anything to save my children.{^n}{^n}"I have no food" he said, and he lifted me from the ground. I began to sob uncontrollably. The hunger in my belly, in my children's bellies taking hold of me. He lifted my head and I looked into his eyes and warm smile and told him I would do anything to save them.{^n}{^n}"You will" he said "you will save them". And he took my hand in his and told me what I needed to do.{^n}{^n}I don't know if I can do it, what the man told me to do, but I just can't take another night of listening to my babies cry themselves to sleep.
+
+tagGDX3LoreObj_AREAH_RavagerNoteA04Name=Halfor's Journal - Page 3
+tagGDX3LoreObj_AREAH_RavagerNoteA04codexTitle=Halfor's Journal Page 3
+tagGDX3LoreObj_AREAH_RavagerNoteA04Text=I saw it again last night. Out there, just beyond the tree line. It was there in the shadows, I'm sure of it. I could feel it. Those eyes... I can feel those eyes peering into me from the darkness.{^n}{^n}That thing, whatever it is, it's always watching... why is it watching? What does it want? What more do we have to give? If it's going to kill us or eat us, then why doesn't it just get it over with?{^n}{^n}I haven't had a successful hunt in longer than I can remember. Has it been days... weeks? It's all because of that damn thing. They sense it too, the deer, and the rabbits, and the hogs... the beasts. They know it's there. It's always there, always watching, watching, watching.{^n}{^n}Those eyes, watching, always watching. What does it want... 
+
+tagGDX3LoreObj_AREAH_RavagerNoteA05Name=Finree's Journal - Page 2
+tagGDX3LoreObj_AREAH_RavagerNoteA05codexTitle=Finree's Journal Page 2
+tagGDX3LoreObj_AREAH_RavagerNoteA05Text=I took his hunting knife from his pack, just like the man told me to do. While he slept, I pressed it against his throat with all my strength. It held at first, and he tried to scream, but as his body jerked awake, I felt the pop of the knife as it slid into his throat. The rushing blood choking his plea. His hot life flowed onto the mattress around me, and I felt sweet release.{^n}{^n}We will be hungry no longer.
+
+tagGDX3LoreObj_AREAH_RavagerNoteA06Name=Finree's Journal - Page 3
+tagGDX3LoreObj_AREAH_RavagerNoteA06codexTitle=Finree's Journal Page 3
+tagGDX3LoreObj_AREAH_RavagerNoteA06Text=Today for the first time in as long as I can remember, I sat and watched Signe and Sorek play. They tumbled in the grass, made necklaces of flowers, and swam in the stream. There is so much life in them now. I do hope our new friend returns so he can see what he has given us.
+
+
+#Chthonic Kurn
+tagGDX3LoreObj_AREAH_ChthonicKurnNoteA01Name=Bound in Blood
+tagGDX3LoreObj_AREAH_ChthonicKurnNoteA01codexTitle=Bound in Blood
+tagGDX3LoreObj_AREAH_ChthonicKurnNoteA01Text=A whisper within the veil of slumber tore me from my dreaming void. It spoke, not with voice, but with command: "Come now. Follow. The hour of knowing is upon you."{^n}{^n}I obeyed and the path opened before me. Twisted roots and bloodied stone led unto the shrine where the faithful writhed in devotion, bent in sacred creed. When I entered, they did not kneel but rushed as one to meet me, for they already knew me as a sister.{^n}{^n}The blackened chamber flickered with candle flame and smoke. Hollow sockets of skulls leered from the dark. The altar awaited, hunger etched in every rune carved deep by centuries of want. The faithful shrieked and murmured as the Crimson Chieftain ascended, a dagger dripping with the echoes of death.{^n}{^n}Six were chosen. Six were emptied. Their blood anointed the goblet, mingled with the ichor of the Great Annihilator. He stirred it upon his tongue, the old words burning the air, and seized me by the hair. He spat it into my mouth and breathed: "You are now Bloodbound."{^n}{^n}In his final breath, he turned his eyes to mine and proclaimed: "Yours is the Land, the Flesh, and the Pain. Cast off your shroud, gather the blood, and bring glory to Ch'thon!"
+
+
+#Dranghoul
+tagGDX3LoreObj_AREAH_DranghoulNoteA01Name=The Rebirth of Chieftain Kruul - Part 1
+tagGDX3LoreObj_AREAH_DranghoulNoteA01codexTitle=Rebirth of Kruul Part 1
+tagGDX3LoreObj_AREAH_DranghoulNoteA01Text=These are the words of Skald Malataska, who was flayed alive for her discovery. Let this be a record of her heresy.{^n}{^n}In the unwritten days known only to skalds, when the Kurn tribes were young and the wise Hranaak still shared our hearths, there lived a dranghoul among the tribes who came to be called Kruul. It was he who first stood upon the mother peak and bellowed across the crags so that all dranghouls might hear his challenge. He who shattered the back of a mammoth bull with a single blow, the first and greatest among the dranghoul chiefs. This is not to be a tale of his triumphs, but of his downfall, and rebirth.{^n}{^n}While on a hunt, the dranghoul chief disturbed a tomb that had never received the blessings of the spirits and was left unwarded by the veilwalkers. From that place he carried away a rotting curse, and his flesh withered as though winter had settled within his bones.{^n}{^n}His might broken by an unseeable foe, Kruul traveled to the camp of the elusive shaman Bonewhisper, whose tent stood beneath the shadow of An'Shalar, the sacred mountain. There what remained of the once mighty king's strength left him and he collapsed to his knees. He begged not for healing, but for rebirth itself, to once again be young and virile, filled with the strength to crush stones with his fists.{^n}{^n}The great shaman listened in silence. In exchange for this miracle, Kruul promised access to rivers and the best hunting grounds to the shaman's people, but Bonewhisper refused these boons. Instead, he requested a single lock of Kruul's hair, wrapped around his fang. Desperate for an escape from his agonizing living death, Kruul agreed to the unusual bargain. Upon an unbroken stone, beneath the gaze of An'Shalar, they cut their palms and mingled their blood. Each spat blood upon the other's hand, and the oath was sealed.
+
+tagGDX3LoreObj_AREAH_DranghoulNoteA02Name=The Rebirth of Chieftain Kruul - Part 2
+tagGDX3LoreObj_AREAH_DranghoulNoteA02codexTitle=Rebirth of Kruul Part 2
+tagGDX3LoreObj_AREAH_DranghoulNoteA02Text=These are the words of Skald Malataska, who was flayed alive for her discovery. Let this be a record of her heresy.{^n}{^n}For three days Kruul's rotting sores were washed with oil pressed from snow birch bark. His cracking skin was covered with the fat of a wild boar, and he swallowed a thousand black flies so that the spirits of decay would gather within him. Then a chamber was dug beneath the roots of an ancient larch whose crown touched the sky. Into this dark womb Kruul was placed wrapped in linens drenched with mammoth blood.{^n}{^n}As the sun set red upon the grasslands, I witnessed a great white wolf brought forth. Its coat shone like fresh snow beneath the moon, and wisdom burned in its eyes, for the shaman had joined his thoughts to its spirit.{^n}{^n}The wolf descended into the chamber.{^n}{^n}Then came terrible cries from beneath the earth. Kruul shouted that he had been betrayed. He called upon his ancestors and cursed the shaman. Yet the cries soon ceased, and only silence remained beneath the roots.{^n}{^n}When dawn spread gold across the crags, the white wolf emerged. Its muzzle was stained red, and its belly hung heavy. It lay beside the fire without a sound, its slow breathing the only reminder that it yet lived. Bonewhisper entered the chamber and returned carrying the bones of Kruul. The wolf had left no flesh upon them. From among them, the shaman plucked a single fang, as was promised.{^n}{^n}The wolf was laid upon a wooden bier. The shaman poured water from a sacred spring into its mouth and spoke secret words known only to him, in a whisper that only the spirits might hear.{^n}{^n}For three days the beast changed. Its fur fell away in great clumps. Horrid sounds came from within its body, like branches twisting beneath winter ice. The most horrifying noises came from its bones, which I could observe moving beneath its skin like slugs. The wolf's face changed, becoming that of a young dranghoul.{^n}{^n}On the third day, the wolf sat up and inspected its body with visible delight. It looked upon its new hands and smooth skin with wonder and joy. Then it spoke.{^n}{^n}"I am Kruul," it said. "But my memory is noise like hornets stirred into frenzy. What came of me beneath the roots?"{^n}{^n}The shaman gazed into the fire and gave no answer. "The spirits granted what you sought," he said at last. "Ask no more."{^n}{^n}To this day, the old skalds say that no man truly knows whether Kruul was reborn by the will of An'Shalar, or whether the white wolf merely learned to wear his shape.
+
+
+#Lothulak
+tagGDX3LoreObj_AREAH_LothulakNoteA01Name=The Kastorran Flood
+tagGDX3LoreObj_AREAH_LothulakNoteA01codexTitle=Kastorran Flood
+tagGDX3LoreObj_AREAH_LothulakNoteA01Text=Remembered in the tales of the eldest ancestors, Lothulak the Hunter was born among a tribe now forgotten, who dwelt upon the banks of the Voldur River. One spring, when the river should have run fierce and full, its waters dwindled day by day until only trickle remained.{^n}{^n}Troubled by this omen, the tribe sent a band of hunters to seek the river's source and learn what had become of its waters. Among them traveled the young Lothulak, already renowned for his skill with the bow. After a day's journey they beheld a mighty barrier of timber unlike anything the Kurn had ever seen. Upon it sat many Kastorrans, watching as though they had awaited the hunters' coming.{^n}{^n}As the hunters drew near, the Kastorrans scurried to either side and, working together, drew huge logs, acting as pins, from the heart of the structure. At once the dam burst open, unleashing a roaring wall of water and loose timber. The hunters fled, but none could outrun the flood. Only Lothulak survived, having scaled the tallest tree he could find.{^n}{^n}Though the torrent tore the tree from the earth, it endured long enough to bear him downstream until the waters calmed. At last, Lothulak reached dry land and made his way home. Yet where his village had stood, nothing remained but mud. No hall, no hearth, nor any trace of his people could be found. The flood had claimed them all.{^n}{^n}There, amid the ruin of his tribe, Lothulak swore a mighty oath: he would become the greatest hunter the Kurn had ever known, and for every soul lost to the cursed Kastorrans, a hundred of their kind would fall by his hand.
+
+tagGDX3LoreObj_AREAH_LothulakNoteA02Name=The God Beneath the Ice
+tagGDX3LoreObj_AREAH_LothulakNoteA02codexTitle=God Beneath Ice
+tagGDX3LoreObj_AREAH_LothulakNoteA02Text=Near the dawn of days, after the first fire was stolen from the Long Dark, there lived Lothulak the Hunter. In those ages the earth trembled often, and at times the quakes were so great that the halls of the Kurn were cast down.{^n}{^n}One autumn evening, Lothulak returned from a long hunt and settled to enjoy a flagon of the finest summer mead. Yet before he could drink, a sudden tremor struck and spilled it upon the floor. Taking this as a grave insult, Lothulak swore to discover the source of the quakes.{^n}{^n}He journeyed north, crossing the Roof of the World and venturing beyond lands any Kurn had ever seen. He passed even beyond the shimmering aurora into a realm of endless night. There he found a vast glacier from which the tremors seemed to rise. The beasts of that desolate land shunned it, birds that crossed above it fell dead from the sky, and even the starlight seemed dimmed above it.{^n}{^n}Undaunted, Lothulak climbed the glacier and discovered a great fissure descending into the ice. As he prepared to enter, Amatok appeared before him and bade him turn back.{^n}{^n}The god spoke of a being so ancient; it was already old when the gods were young. It was discovered sleeping within a deep mountain vale and the gods, fearing its power, cast down the mountains upon it and bound it beneath the eternal ice of the glacier. Here it remained, sealed away through the ages. The tremors that plagued the world were but the shifting of this forgotten god in its sleep, while its dreams seeped upward to poison sky above.{^n}{^n}"Go no further," bode Amatok, "for below there is naught but madness and death."{^n}{^n}Lothulak heeded the warning, trekked back from farthest north and paid for another mead.
+
+tagGDX3LoreObj_AREAH_LothulakNoteA03Name=The Wolves that Ate the Sky
+tagGDX3LoreObj_AREAH_LothulakNoteA03codexTitle=Wolves that Ate the Sky
+tagGDX3LoreObj_AREAH_LothulakNoteA03Text=In the time of Lothulak, elders among the Kurn began to remark that with each passing season, the stars in the night sky grew fewer. Soon the stars could not be relied upon for navigation and the Kurn were fearful that in time, darkness would claim the heavens.{^n}{^n}Seeking the cause, Lothulak journeyed to the highest peak at the Roof of the World, climbing until the air grew so thin, he could barely breathe. There he beheld a terrible sight, great wolves of living shadow prowled among the stars, leaping from light to light, devouring them.{^n}{^n}Lothulak gave chase across the vault of heaven and for seven nights, slew many of the shadow wolves with his bow. As they dropped, their bodies burned away and their dark hearts burst into light, forming new stars.{^n}{^n}However, the greatest wolf escaped and fled across the sky. Though Lothulak pursued it to the very edge of reality, the beast vanished into the dark void beyond the sight of the world.{^n}{^n}The elders say that wolf still steals forth from the darkness of the void, from time to time and swallows a star. This is why the heavens change subtly from age to age. Some say that when the last star is devoured, The Long Dark, from the days before the First Fire will return; the seas shall grow still, the rivers will cease to flow, the land will grow cold and all things shall pass into eternal darkness.
+
+tagGDX3LoreObj_AREAH_LothulakNoteA04Name=The Chasm of Voices
+tagGDX3LoreObj_AREAH_LothulakNoteA04codexTitle=Chasm of Voices
+tagGDX3LoreObj_AREAH_LothulakNoteA04Text=In the days when the Kurn still held the lower valleys, a great earthquake split the ground near a Kurn village and left a chasm so deep that no stone thrown within ever struck bottom. From its depths came voices at night - calling the names of the dead, clear as if spoken beside the ear. Many who heard them went mad; others descended into the darkness and were never seen again.{^n}{^n}Lothulak came to the place and listened at the edge of the fissure. Among the voices he heard his father and mother, who had drowned in the Kastorran Flood, calling his name. For a moment he hesitated, then bound himself with mammoth-hide ropes and descended into the black.{^n}{^n}Far below, Lothulak saw the cavern widened into a vastness of hollow passages, the slick floors littered with bones. There he found vile, pale creatures moving through the darkness, speaking not with their own voices, but with those they had taken from the dead. They called to him with every voice he had ever known, twisting them into a net of memory and grief. In their center stood a greater thing, swollen with stolen speech, offering him the voices of his lost kin if he would cease his hunt.{^n}{^n}Lothulak answered with his spear.{^n}{^n}He fought through the dark until the cavern fell silent. Then he set fire to the grotesque remains. The oily blaze burned for three days, sending foul smoke up through the cracks in the earth. When he finally climbed out, the entrance collapsed behind him.{^n}{^n}The Kurn sealed the place thereafter, but it is said that on quiet nights, if one listens near the old scar in the land, faint voices can still be heard calling from below.
+
+
+#Kastorran
+tagGDX3LoreObj_AREAH_KastorranNoteA01Name=Alymira's Envy - Part 1
+tagGDX3LoreObj_AREAH_KastorranNoteA01codexTitle=Alymira's Envy Part 1
+tagGDX3LoreObj_AREAH_KastorranNoteA01Text=Hearken and attend the tale of Alymira's Sin, for it is the story of our end. Let it be a lesson written in blood and sorrow, a warning against the poison of envy and the folly of bargaining with shadows. For I, Halvor, last Skald of the Avingar Kurn, commit this cursed tale as the final record of our tribe...{^n}{^n}All Kurn know well the great wealth of the Avingar; wrought from the pelts of lowly Kastorrans. Our great hall gilded with Arkovian gold, was a marvel of the Kurn; our cook pots always full, our herd-stock plentiful and our weapons keen for the hunt.{^n}{^n}Chieftain Vorlag was a man of strength, his two daughters his pride. Lyra, the younger one, as beautiful and lithe as a mountain flower, was bound to Dyfid, the handsome son of a Kastorran pelt trader, whose wealth flowed like the northern rivers. But Alymira, the older sister, felt she should have married first and watched them with eyes green as a serpent's, her heart a nest of vipers.{^n}{^n}On a moonless night, Alymira crept not to her bed, but to a forest clearing where the cursed Standing Stones of the Forgotten Ones still stood, dark memorial to time beyond record. There, she whispered her desire to the darkness, and the darkness answered. A shadow with crimson embers for eyes coiled around her soul, promising Dyfid's embrace in exchange for her first-born child. The fool, blinded by her love sickness and envy, agreed.{^n}{^n}What came to her in the ruins wore Dyfid's face, but it was not him. It was a vessel of rot, a hollow thing that left a seed of damnation in her womb.
+
+tagGDX3LoreObj_AREAH_KastorranNoteA02Name=Alymira's Envy - Part 2
+tagGDX3LoreObj_AREAH_KastorranNoteA02codexTitle=Alymira's Envy Part 2
+tagGDX3LoreObj_AREAH_KastorranNoteA02Text=Alymira woke alone in that cursed circle, her back upon a cold stone slab in its center. She hurriedly returned to the village and slipped into her bed just as the first light of morning shone from behind the dark, imposing mountains.{^n}{^n}In the days that followed, Alymira found excuses to be in Dyfid's presence but he paid her no more attention than before; never giving her even the slightest loving glance, making no acknowledgement of what she believed they had shared. Alymira finally confronted him when he was alone but Dyfid called her mad, denying he had ever met her at the stones and hurried off.{^n}{^n}Alymira started to wonder if it were all perhaps some mad dream but soon her belly began to grow at an alarming speed. After a short time, she was unable to hide the physical manifestation of her misdeed and was brought before her furious father. Frightened and desperate, she accused the innocent Dyfid of forcing himself upon her.{^n}{^n}Dyfid was dragged before Vorlag; his betrothed, Lyra weeping and broken, stood behind her father. "You lie!" he roared, pointing furiously at Alymira, his voice cracking with betrayal. "May whatever unnatural thing grows inside you be your undoing!" Mad with grief and rage, he fled into the wilds, never to be seen again, his spirit broken by the weight of her falsehood.{^n}{^n}Alymira's pregnancy continued to progress at a pace that was not natural and the end of the moon cycle, her belly was so distended she could not walk and lay groaning in pain. Strange impressions could be seen pressing and scraping against her stomach from within their prison of flesh. The midwives attending her were unnerved and reported different bizarre claims, saying they heard strange sounds from within Alymira or saw the impression of hooves or claws pressing out from her womb.{^n}{^n}Chieftain Vorlag, his face a mask of grief and shame, was forced to make a terrible choice. Some called for the girl to be burned alive before the evil inside her could be birthed but Vorlag would not commit his own daughter to such a horrific end. Instead he had Alymira walled alive in a storage hut, her screams a lament for our entire tribe. For three nights, we listened to her torment, each cry a twist of the knife in our collective hearts.{^n}{^n}Then, silence.
+
+tagGDX3LoreObj_AREAH_KastorranNoteA03Name=Alymira's Envy - Part 3
+tagGDX3LoreObj_AREAH_KastorranNoteA03codexTitle=Alymira's Envy Part 3
+tagGDX3LoreObj_AREAH_KastorranNoteA03Text=When all thought the horror over, they broke through the wall to see what had become of Alymira. The scene was a canvas from the hells. Alymira's body was torn asunder, and crouching over her remains was a spawn of corruption - a small chimera with a mass of half-formed heads, bear, mountain goat, and others, eyes glowing with malevolent intelligence as a tail of twin, venomous snakes writhed behind it.{^n}{^n}The abomination had been nourishing itself upon its mother's flesh, blood still fresh upon its maws. The onlookers were so deeply disturbed by what they saw, each stood paralyzed with horror as the lithe creature scuttled between their legs with blurring speed and vanished into the dark cover of the forest before any could react.{^n}{^n}Vorlag, hearing the horrific tale was utterly broken. He called his warriors before him and roared, his voice raw with grief, "That thing is my shame! It is the end of my line and the stain upon our honor! I charge you, my hunters, my brothers - find it! Slay it! Cleanse our world of its taint!"{^n}{^n}He then drew his dagger and uttered his final words; "You must promise to fulfill this final, sacred duty, for I cannot live to see it through!" and with that, he plunged the knife into his heart and crumpled to the ground.
+
+tagGDX3LoreObj_AREAH_KastorranNoteA04Name=Alymira's Envy - Part 4
+tagGDX3LoreObj_AREAH_KastorranNoteA04codexTitle=Alymira's Envy Part 4
+tagGDX3LoreObj_AREAH_KastorranNoteA04Text=The hunt began. Our bravest warriors, led by Vorlag's brother Hakon, pursued the creature into the depths of the forest. They found evidence of its passing, digested leavings filled with devoured animals, starting with small game and quickly growing over weeks into deer and bears. But the beast was cunning. It led them into bogs and ravines, separating them one by one. Thereafter, the fewmets of the beast contained human remains.{^n}{^n}Within a season, half our warriors were dead or lost to the forest's depths. The remaining Avingar Kurn were a ghost people, our numbers dwindling, our spirit crushed; some driven to the brink of madness. Our great hall lies empty and dark as each day, more chose to flee the village and leave this horror behind. Now none are left; the Avingar Kurn scattered like leaves in the wind.{^n}{^n}I am the last, the Skald Halvor, keeper of memories that now bring only pain and revulsion. I write this as a final account of our doom and a warning to any who would think to make bargains with the shadows. The beast was never slain. It still haunts these woods, they say, grown fat on its feasting, its chittering cry a herald of doom for any who stray too far from the fire.{^n}{^n}So heed this tale, and let it be carved into your memory. Let Alymira's envy be your caution, and her doom your warning. I would that you remember our people, the Avingar Kurn but perhaps it is better we are forgotten to time...
+
+
+#Avian
+tagGDX3LoreObj_AREAH_AvianNoteA01Name=The First Rune
+tagGDX3LoreObj_AREAH_AvianNoteA01codexTitle=The First Rune
+tagGDX3LoreObj_AREAH_AvianNoteA01Text=I, Skald Maltak, commit these words to memory, that future Kurn may know of their wisdom.{^n}{^n}When the valleys and rivers were already old, and the first Kurn came to eat and drink of their bounty, Asterkarn was home to the wise Hranaak. These masters of the old ways were the caretakers of this verdant land, and we were but children, our minds empty and hungry to become knowing.{^n}{^n}Graciously, the Hranaak imparted upon us many things. We learned how to track and follow the herds with the shifting seasons. We learned that for the forest to grow for the next generations, we must leave every fourth tree. We learned to turn wood and stone into shelters that can withstand the cruel winters. And we learned of the ancient runes that our skalds and mystics even now weave into their magics.{^n}{^n}The Hranaak taught us many of the signs, but the first was the most humbling, and perhaps the most damning, for while Kurn learned to tame the wilderness, we are not bereft of that fundamental truth of man: the greed which swells within each of our spirits. The temptation to take and amass when one's survival is already assured, even if it comes at the suffering of another.{^n}{^n}It was the Hranaakian master Akutorri who wove the first rune into the air before the Kurn, its blaze burning bright and singing the faces of all that beheld it. The first Kurn asked, "Master, we already know how to make fire. Why teach us this rune first?" To which the wizened bird replied: "Fire is the warmth and the life from which all things grow. And it is also the destroyer by which life may be taken. In the light of a thousand thousand stars, we thrive here upon this gift from the gods. But have no illusion: that same fire may bring annihilation. If you leave here having learned nothing else, leave knowing this."
+
+tagGDX3LoreObj_AREAH_AvianNoteA02Name=Dirge to the Makers
+tagGDX3LoreObj_AREAH_AvianNoteA02codexTitle=Dirge to the Makers
+tagGDX3LoreObj_AREAH_AvianNoteA02Text=*The text is written in crude scribbles that resemble human writing. It is quite old.*{^n}{^n}For eons, we toiled away tending to a garden from which we gather the harvest. We grew old and our feathers thin. Our flesh ravaged by disease and time.{^n}{^n}For eons, we paid the price for another's hubris. We were the caretakers of the land, gifted with runesong and life beyond ages. But with each passing century, we are fewer in number, while the furless beasts spread like cancer and wage their empty wars.{^n}{^n}By whose will and right are we to fade away while man thrives in his greed and desecration?{^n}{^n}We see now that we have been discarded in the weave. The great tapestry is broken, so it falls to us to unravel it. Our path is clear as the rays of dawn. For Hranaak to have a future, we must look to amend the first sin.{^n}{^n}The gods, unworthy spawn, have imprisoned the Elder One within the realm of shadow and agony. For creation to be set back upon the true path, its true creator must be restored to his celestial throne. We will no longer tend to this garden of weeds. We Hranaak that still remain will usher back he who dwells below creation!{ ^n}{^n}Cursed be the gods, and cursed be Echtalavox, who forsook us!
+
+tagGDX3LoreObj_AREAH_AvianNoteA03Name=Runesong
+tagGDX3LoreObj_AREAH_AvianNoteA03codexTitle=Runesong
+tagGDX3LoreObj_AREAH_AvianNoteA03Text=*The text is written in crude scribbles that resemble human writing. It is quite old.*{^n}{^n}With our blades raised, the stones sing their creation song. With our voices low, the song seeps into the soil. The land welcomes our runesong, for it knows us, and responds in kind.{^n}{^n}Its voice is in the blooms of the gentle aster shifting in the wind. It is in the cry of the wolf, calling its pack in the night. It is in the rushing rivers, delivering Asterkarn's life blood to soil beyond sight.{^n}{^n}We shut our eyes so that we may better hear this melody. In it, we hear the land flourish, and we hear its pleas. Where darkness festers, where rot and decay have taken hold, there we must bring scythe to the weeds. That the land may heal, that our duty be complete.
+
+
+
+#Merchants and Other Services
+tagGDX3NPC_MerchantA01=Halthin
+tagGDX3StoreTitle_MerchantA01=Asterkarn Trader
+
+tagGDX3NPC_MerchantA02=Dulgirr
+tagGDX3StoreTitle_MerchantA02=Treacherous Dealer
+
+tagGDX3NPC_MerchantC01=Wurt
+tagGDX3StoreTitle_MerchantC01=Frozen Soul
+
+tagNPC_MerchantC03A=Agarrrrad
+tagNPC_MerchantC03B=Agarrad's Intern
+tagStoreTitle_MerchantC03A=Mispelled Soul
+tagStoreTitle_MerchantC03B=Intern Soul
+
+tagGDX3NPC_InventorA01=Yurgryn
+tagGDX3StoreTitle_InventorA01=Inventor
+
+tagGDX3NPC_CauldronA01=Alchemy Cauldron
+tagGDX3StoreTitle_CauldronA01=Potion Customization
+
+tagGDX3NPC_SmugglerA01=Thogrin
+tagGDX3StoreTitle_SmugglerA01=Smuggler
+
+tagGDX3NPC_IllusionistA01=Nara Serewind
+tagGDX3StoreTitle_IllusionistA01=Illusionist
+
+tagGDX3NPC_ReallocatorA01=Agasa
+tagGDX3StoreTitle_ReallocatorA01=Spirit Guide
+
+tagGDX3NPC_AscensionA01=Jornn
+tagGDX3StoreTitle_AscensionA01=Runekeeper
+
+tagGDX3NPC_ExchangeA01=Fudra ~ Keeper of Iron
+
+tagGDX1StoreDesc_SmithA03_2=Bella Fald's hammer is said to have been forged from the stars themselves, capable of creating Legendary items up to level 94, not including objects forged by the Forgotten Gods or those infused by Beronath's Aspect.
+tagGDX2StoreDesc_SmithA02_2=Algosia Fald's hammer is said to have been forged from the stars themselves, capable of creating Legendary items up to level 94, even including objects forged by the Forgotten Gods themselves, but not those infused by Beronath's Aspect.
+
+tagGDX3NPC_SmithA01=Galla
+tagGDX3NPC_SmithA01B=Golldrin
+tagGDX3StoreTitle_SmithA01=Asterkarn Smith
+tagGDX3StoreDesc_SmithA01_1={}Asterkarn Master
+tagGDX3StoreDesc_SmithA01_2=The twins Galla and Golldrin descend from generations of master blacksmiths. These refined techniques live on in their work.
+tagGDX3StoreDesc_SmithA01_3= 
+tagGDX3StoreDesc_SmithA01_4=Crafted Weapons, Armor and Accessories are imbued with one of the following properties:
+
+tagGDX3NPC_SmithA02=Rullia Fald
+tagGDX3StoreTitle_SmithA02=Celestial Smith
+tagGDX3StoreDesc_SmithA02_1={}Celestial Forge
+tagGDX3StoreDesc_SmithA02_2=Rullia Fald's hammer is said to have been forged from the stars themselves, capable of creating Legendary items up to level 94, even including objects infused with Beronath's Aspect.
+tagGDX3StoreDesc_SmithA02_3= 
+tagGDX3StoreDesc_SmithA02_4=Crafted Weapons, Armor and Accessories are imbued with one of the following properties:
+
+tagGDX3NPC_SmithA03=Runed Orb
+tagGDX3StoreTitle_SmithA03=Hranaakian Relics
+tagGDX3StoreDesc_SmithA03_1={}Hranaak Forging
+tagGDX3StoreDesc_SmithA03_2=The elder Hranaak were masters of now lost techniques. This runed orb is invaluable for awakening the true potential of equipment.
+tagGDX3StoreDesc_SmithA03_3= 
+tagGDX3StoreDesc_SmithA03_4=Crafted Weapons, Armor and Accessories are imbued with one of the following properties:
+
+tagGDX3NPC_SmithA04=Outhouse
+tagGDX3StoreTitle_SmithA04=Portable Throne
+tagGDX3StoreDesc_SmithA04_1={}Portable Throne
+tagGDX3StoreDesc_SmithA04_2=A novel "forging" technique. The results smell for themselves.
+tagGDX3StoreDesc_SmithA04_3= 
+tagGDX3StoreDesc_SmithA04_4=Crafted Weapons, Armor and Accessories are imbued with one of the following properties:
+
+#Faction Quartermasters
+tagGDX3NPC_FactionQuartermaster_01=Atka of the Iron Clan
+tagGDX3StoreTitle_FactionQuartermaster_01=Kurn Wares
+
+tagGDX3NPC_FactionQuartermaster_02=Noktukari's Things
+tagGDX3StoreTitle_FactionQuartermaster_02=Hranaakian Antiquities
+
+tagGDX3NPC_FactionQuartermaster_03=Lydia
+tagGDX3NPC_FactionQuartermaster_04=Jagarra
+tagGDX3NPC_FactionQuartermaster_05=Lunasta
+tagGDX3NPC_FactionQuartermaster_06=Grom
+tagGDX3NPC_FactionQuartermaster_07=Vashalla
+tagGDX3NPC_FactionQuartermaster_08=Outcast's Puppet
+tagGDX3NPC_FactionQuartermaster_09=Neevan
+tagGDX3NPC_FactionQuartermaster_10=Miller
+tagGDX3NPC_FactionQuartermaster_11=Brother Igor
+tagGDX3NPC_FactionQuartermaster_12=Keeper Edovar
+tagGDX3NPC_FactionQuartermaster_13=Keeper Arallo
+tagGDX3NPC_FactionQuartermaster_14=Sivall
+tagGDX3NPC_FactionQuartermaster_15=Haggar Marrows
+
+#Faction Bounty Tables
+tagGDX3NPC_FactionTable_01=Kurn Bounty Table
+
+
+#Devotion Shrines
+tagGDX3DevotionShrineH01=Frostveil Highlands
+tagGDX3DevotionShrineH02=Voldur River
+tagGDX3DevotionShrineH03=Ruins of Utak Kunar
+tagGDX3DevotionShrineH04=Dread Wastes
+tagGDX3DevotionShrineH05=Scarstone
+tagGDX3DevotionShrineH06=Aurora Peaks
+tagGDX3DevotionShrineH07=Drang'Gal Fortress
+tagGDX3DevotionShrineS05=Temple of N'erf
+
+
+#Monster Totems
+tagGDX3MonsterTotemA07=Tempest Totem

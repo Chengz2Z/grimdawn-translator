@@ -1,0 +1,39 @@
+#Loading Tips
+
+
+#Tutorial Pages
+
+
+#Tutorials
+tagTutorialTip73Title=Ascension
+tagTutorialTip73TextA=The Ascension Altar enables you to cater the game to your playstyle by offering crafting materials from across the world of Cairn. Each additional material grants you bonuses, but also empowers your enemies.
+tagTutorialTip73SubtitleA=The Inner Circle
+tagTutorialTip73TextB=Within the inner portion of the altar, you can insert materials to alter loot to more often drop with bonuses that favor your desired damage type.
+tagTutorialTip73SubtitleB=The Outer Circle
+tagTutorialTip73TextC=Within the outer circles, sacrificed materials enable and enhance various game mechanics, making them more frequent and rewarding.
+tagTutorialTip73SubtitleC=Ascending Items
+tagTutorialTip73TextD=By working with a Runekeeper, you can offer potent materials gathered from foes infused with the powers of the altar to unleash the true potential of your equipment. Note that common items, being fundamentally mundane, will generate more powerful Ascendant bonuses.
+
+
+tagTutorialTip74Title=Item Alteration
+tagTutorialTip74TextA=Visit the Inventor to alter the properties of your items, rerolling affixes and attribute seeds. Ashes of Awakening, acquired primarily in Ascendant Mode and through the Ascension Altar, are required for this arcane process.
+tagTutorialTip74SubtitleA=Affix Rerolling
+tagTutorialTip74TextB=Magic and rare quality items can have their prefix and suffix rerolled independently of each other, generating a new different affix. If an affix is rare, it will be replaced by another rare affix. Magic affixes have a chance to upgrade to a rare affix instead.
+tagTutorialTip74SubtitleB=Seed Rerolling
+tagTutorialTip74TextC=All items can have their fundamental seed rerolled, causing all of their attributes to roll new values within their min-max range. The new seed can result in some attributes rolling higher, and some lower, than before.
+tagTutorialTip74SubtitleC=Ascended Rerolling
+tagTutorialTip74TextD=An item that has been Ascended at the Ascension Altar can have its bonus rerolled, just like the prefix and suffix on a magic item. The new Ascended bonus will always be different from the one the item had previously.
+
+
+tagTutorialTip75Title=Alchemy
+tagTutorialTip75TextA=Visit a Cauldron to empower your basic healing and energy potions with powerful unique effects. More options can be discovered out in the world and as reward for befriending factions.
+tagTutorialTip75SubtitleA=Potion Containers
+tagTutorialTip75TextB=Potions can be stored in one of three containers, with different properties that impact how often you can use them and even how effective they are. The containers can be upgraded by discovering new formulas.
+tagTutorialTip75SubtitleB=Potion Modifiers
+tagTutorialTip75TextC=Potions can be altered with unique modifiers that can be mixed and matched as you please. These modifiers cannot be stacked. Each potion can handle up to 2 unique modifiers. New modifiers can be unlocked by discovering their formulas.
+
+
+#Quick Tips
+tagQuickTip73=The Ascension Altar{^-}{^n}{^n}With the Ascension Altar, you can customize the challenges, and rewards, within the world of Cairn.
+tagQuickTip74=Item Alteration{^-}{^n}{^n}The Alteration Window allows you to reroll the affixes and seed on your magical items.
+tagQuickTip75=Alchemy{^-}{^n}{^n}Brew concoctions within the cauldron to empower your Elixir of Spirit and Tonic of Mending with unique effects.

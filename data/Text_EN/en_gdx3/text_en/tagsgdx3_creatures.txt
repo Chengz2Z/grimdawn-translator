@@ -1,0 +1,503 @@
+#CreatureFriendly
+
+tagGDX3FriendlyKurn_Guard01=Kurn ~ Warder
+tagGDX3FriendlyKurn_Guard01F=Kurn ~ Warder
+tagGDX3FriendlyKurn_Guard02=Kurn ~ Hunter
+tagGDX3FriendlyKurn_Guard02F=Kurn ~ Huntress
+
+tagGDX3FriendlyKurn_MeleeA01=Kurn ~ Hunter
+tagGDX3FriendlyKurn_MeleeA01F=Kurn ~ Huntress
+tagGDX3FriendlyKurn_MeleeB01=Kurn ~ Berserker
+tagGDX3FriendlyKurn_MeleeB01F=Kurn ~ Berserker
+tagGDX3FriendlyKurn_RangeA01=Kurn ~ Hunter
+tagGDX3FriendlyKurn_RangeA01F=Kurn ~ Huntress
+tagGDX3FriendlyKurn_CasterB01=Kurn ~ Shaman
+tagGDX3FriendlyKurn_CasterB01F=Kurn ~ Shaman
+tagGDX3FriendlyKurn_ChampionC01=Kurn ~ Druid
+tagGDX3FriendlyKurn_ChampionC01F=Kurn ~ Druid
+
+tagGDX3Friendly_Elk01=Elk
+tagGDX3Friendly_Elk02=Manged Elk
+tagGDX3Friendly_Fox01=Fox
+tagGDX3Friendly_Fox02=Manged Fox
+tagGDX3Friendly_Rabbit01=Rabbit
+tagGDX3Friendly_Rabbit02=Manged Rabbit
+tagGDX3Friendly_Mammoth01=Kurn Mammoth
+
+
+#CreatureAvian
+tagGDX3EnemyAvian_A01=Kaw'Hranaak Ruiner
+tagGDX3EnemyAvian_B01=Kaw'Hranaak Iconoclast
+tagGDX3EnemyAvian_C01=Kaw'Hranaak Despoiler
+
+tagGDX3EnemyAvian_H01=Karkala ~ Arctic
+tagGDX3EnemyAvian_H02=Kulkutkaw ~ Thundering
+tagGDX3EnemyAvian_H03=Karikaw ~ Infernal
+tagGDX3EnemyAvian_H04=Noctukaw ~ Celestial
+
+
+#CreatureBeaver
+tagGDX3EnemyBeaverMound_A01=Kastorran Lodge
+
+tagGDX3EnemyBeaverRiver_A01=Kastorran
+tagGDX3EnemyBeaverRiver_B01=Kastorran Rager
+
+tagGDX3EnemyBeaverTundra_A01=Kastorran
+tagGDX3EnemyBeaverTundra_B01=Kastorran Rager
+
+tagGDX3EnemyBeaver_H01=Kirrkri ~ Vampiric
+tagGDX3EnemyBeaver_H02=Chucharru ~ Arctic
+tagGDX3EnemyBeaver_H03=Jibirri ~ Swift
+tagGDX3EnemyBeaver_H04=Nihiki ~ Unstoppable
+
+
+#CreatureChthonian
+tagGDX3EnemyChthonianHerald_A01=Chthonian Herald
+tagGDX3EnemyChthonianHerald_B01=Chthonian Portent
+tagGDX3EnemyChthonianHerald_C01=Chthonian Omen
+
+tagGDX3HeroChthonianHerald_H01=Wen'Zoth ~ Reflective
+tagGDX3HeroChthonianHerald_H02=Zalyth'Zoth ~ Burning
+tagGDX3HeroChthonianHerald_H03=Goroth'Zoth ~ Shielded
+tagGDX3HeroChthonianHerald_H04=Bane'Zoth ~ Thundering
+
+
+#CreatureCrab
+tagGDX3EnemyCrab_A00Summon=Calcified Crabling
+tagGDX3EnemyCrab_A01=Calcified Crab
+tagGDX3EnemyCrab_B01=Calcified Spikeshell
+tagGDX3EnemyCrab_C01=Calcified Stoneshell
+
+tagGDX3HeroCrab_H01=Sparkmucker ~ Thundering
+tagGDX3HeroCrab_H02=Magecruncher ~ Arcane
+tagGDX3HeroCrab_H03=Frostfroth ~ Arctic
+tagGDX3HeroCrab_H04=Muckclaw ~ Unstoppable
+
+
+#CreatureDranghoul
+tagGDX3EnemyDranghoul_A01=Dranghoul
+tagGDX3EnemyDranghoul_B01=Dranghoul Blade Fist
+tagGDX3EnemyDranghoul_B02=Dranghoul Pyromancer
+tagGDX3EnemyDranghoul_C01=Dranghoul Butcher
+tagGDX3EnemyDranghoul_C02=Dranghoul Oracle
+
+tagGDX3EnemyDranghoulVoid_A01=Bloodbound Dranghoul 
+tagGDX3EnemyDranghoulVoid_B01=Bloodbound Dranghoul Brute
+tagGDX3EnemyDranghoulVoid_B02=Bloodbound Dranghoul Void-Drinker
+tagGDX3EnemyDranghoulVoid_C01=Bloodbound Dranghoul Slaughterer
+tagGDX3EnemyDranghoulVoid_C02=Bloodbound Dranghoul Flamepriest
+
+tagGDX3HeroDranghoul_H01=Lurg ~ Swift
+tagGDX3HeroDranghoul_H02=Jaduum ~ Bramble
+tagGDX3HeroDranghoul_H03=Strum ~ Electrified
+tagGDX3HeroDranghoul_H04=Chrog ~ Timewarped
+
+
+#CreatureGiant
+tagGDX3EnemyGiant_A01=Asterkarn Giant
+tagGDX3EnemyGiant_B01=Asterkarn Behemoth
+tagGDX3EnemyGiant_C01=Asterkarn Titan
+
+tagGDX3HeroGiant_H01=Codrommius ~ Voidtouched
+tagGDX3HeroGiant_H02=Edullus ~ Corrupted
+tagGDX3HeroGiant_H03=Hoduur ~ Arctic
+tagGDX3HeroGiant_H04=Dracuum ~ Vampiric
+
+
+#CreatureGroble
+tagGDX3EnemyGroble_A01=Groble ~ Frost Clan Scavenger
+tagGDX3EnemyGroble_A02=Groble ~ Frost Clan Tracker
+tagGDX3EnemyGroble_B01=Groble ~ Frost Clan Warrior
+tagGDX3EnemyGroble_B02=Groble ~ Frost Clan Shaman
+tagGDX3EnemyGroble_C01=Groble ~ Frost Clan Champion
+tagGDX3EnemyGroble_C02=Groble ~ Frost Clan Elder
+
+tagGDX3EnemyGrobleVoid_A01=Groble ~ Void Clan Scavenger
+tagGDX3EnemyGrobleVoid_A02=Groble ~ Void Clan Tracker
+tagGDX3EnemyGrobleVoid_B01=Groble ~ Void Clan Warrior
+tagGDX3EnemyGrobleVoid_B02=Groble ~ Void Clan Shaman
+tagGDX3EnemyGrobleVoid_C01=Groble ~ Void Clan Champion
+tagGDX3EnemyGrobleVoid_C02=Groble ~ Void Clan Elder
+
+tagGDX3HeroGroble_H01=Dordug ~ Frozen
+tagGDX3HeroGroble_H02=Akambu ~ Unstoppable
+tagGDX3HeroGroble_H03=Utadatu ~ Timewarped
+tagGDX3HeroGroble_H04=Ragasa ~ Bramble
+
+
+#CreatureHuman
+tagGDX3EnemyHumanKurnVoid_A01=Kurn Bloodbound ~ Heretic
+tagGDX3EnemyHumanKurnVoid_B01=Kurn Bloodbound ~ Berserker
+tagGDX3EnemyHumanKurnVoid_C01=Kurn Bloodbound ~ Doomsayer
+
+tagGDX3HeroHumanKurnVoid_H01=Roth the Untouchable ~ Unstoppable
+tagGDX3HeroHumanKurnVoid_H02=Kuld Scarmender ~ Supporter
+tagGDX3HeroHumanKurnVoid_H03=Murra Rimebreaker ~ Frozen
+tagGDX3HeroHumanKurnVoid_H04=Ioda Stormbearer ~ Thundering
+
+tagGDX3EnemyHumanKurnVoid_Channeler_A01=Bloodbound Ritualist
+
+#CreatureHypporaven
+tagGDX3EnemyHypporaven_A01=Hypporaven
+tagGDX3EnemyHypporaven_B01=Hypporaven ~ Bloodtalon
+tagGDX3EnemyHypporaven_C01=Hypporaven ~ Matriarch
+
+tagGDX3Hypporaven_H01=Covull ~ Swift
+tagGDX3Hypporaven_H02=Corrot ~ Diseased
+tagGDX3Hypporaven_H03=Corvunox ~ Vampiric
+tagGDX3Hypporaven_H04=Corvulux ~ Supporter
+
+
+#CreatureRhino
+tagGDX3EnemyRhino_A01=Woolly Bristlehorn
+tagGDX3EnemyRhino_B01=Woolly Bristlehorn ~ Icebreaker
+tagGDX3EnemyRhino_C01=Woolly Bristlehorn ~ Matriarch
+
+tagGDX3EnemyRhinoVoid_A01=Voidhorn Bristlehorn
+tagGDX3EnemyRhinoVoid_B01=Voidhorn Bristlehorn ~ Cursespreader
+tagGDX3EnemyRhinoVoid_C01=Voidhorn Bristlehorn ~ Matriach
+
+tagGDX3EnemyRhinoQuest_B01=Manged Bristlehorn
+
+tagGDX3HeroRhino_H01=Brimhorn ~ Bramble
+tagGDX3HeroRhino_H02=Shadowhorn ~ Celestial
+tagGDX3HeroRhino_H03=Blazehorn ~ Infernal
+tagGDX3HeroRhino_H04=Chillhorn ~ Arctic
+
+
+#CreatureRoc
+tagGDX3EnemyRokFrost_A01=Frost Roc
+tagGDX3EnemyRokFrost_B01=Frost Roc ~ Icetalon
+tagGDX3EnemyRokFrost_C01=Frost Roc ~ Matriarch
+
+tagGDX3EnemyRokStorm_A01=Storm Roc
+tagGDX3EnemyRokStorm_B01=Storm Roc ~ Stormtalon
+tagGDX3EnemyRokStorm_C01=Storm Roc ~ Matriarch
+
+tagGDX3EnemyRokVoid_A01=Voidtorn Roc
+tagGDX3EnemyRokVoid_B01=Voidtorn Roc ~ Rifttalon
+tagGDX3EnemyRokVoid_C01=Voidtorn Roc ~ Matriarch
+
+tagGDX3HeroRok_H01=Anarroc ~ Shielded
+tagGDX3HeroRok_H02=Codorroc ~ Corrupted
+tagGDX3HeroRok_H03=Sigirroc ~ Arcane
+tagGDX3HeroRok_H04=Navurroc ~ Celestial
+tagGDX3HeroRok_H05=Bagorroc ~ Diseased
+tagGDX3HeroRok_H06=Phorroc ~ Infernal
+
+
+#CreatureSkeleton
+tagGDX3EnemySkeletonA01=Fallen Warrior
+tagGDX3EnemySkeletonA02=Fallen Archer
+tagGDX3EnemySkeletonB01=Fallen Frostbolt Archer
+tagGDX3EnemySkeletonB02=Fallen Warder
+tagGDX3EnemySkeletonB03=Fallen Mystic
+tagGDX3EnemySkeletonB04=Fallen Evoker
+tagGDX3EnemySkeletonC01=Infernal Revenant
+tagGDX3EnemySkeletonC02=Rime Revenant
+tagGDX3EnemySkeletonC03=Tempest Revenant
+
+tagGDX3SkeletonHeroH01=Aneera the Verdant ~ Regenerator
+tagGDX3SkeletonHeroH02=Mithra ~ Arcane
+tagGDX3SkeletonHeroH03=Bjallor the Red ~ Vampiric
+tagGDX3SkeletonHeroH04=Chrodos the Timeless ~ Timewarped
+
+
+#CreatureThornedHorrorFrost
+tagGDX3EnemyThornedHorrorFrost_A01=Rimethorn Horror
+tagGDX3EnemyThornedHorrorFrost_B01=Rimethorn Terror
+tagGDX3EnemyThornedHorrorFrost_C01=Rimethorn Monstrosity
+
+tagGDX3HeroThornedHorrorFrost_H01=Spellthorn ~ Arcane
+tagGDX3HeroThornedHorrorFrost_H02=Stormbark ~ Thundering
+tagGDX3HeroThornedHorrorFrost_H03=Everbarb ~ Reflective
+tagGDX3HeroThornedHorrorFrost_H04=Ivar the Evergrowth ~ Bramble
+
+#CreatureWendigo
+tagGDX3EnemyWendigo_A01=Cannibal Cultist
+
+#CreatureWight
+tagGDX3EnemyWight_A01=Wight
+tagGDX3EnemyWight_B01=Wight Frostbreaker
+tagGDX3EnemyWight_B02=Wight Death-Priest
+tagGDX3EnemyWight_C01=Wight Champion
+
+tagGDX3HeroWight_H01=Iglus Bloodmonger ~ Swift
+tagGDX3HeroWight_H02=Alluc the Thirster ~ Vampiric
+tagGDX3HeroWight_H03=Jirro Stormcharger ~ Electrified
+tagGDX3HeroWight_H04=Orbon the Martyr ~ Supporter
+
+
+#CreatureDireYeti
+tagGDX3EnemyDireYeti_A01=Diremane Brute
+tagGDX3EnemyDireYeti_B01=Diremane Rager
+tagGDX3EnemyDireYeti_B02=Diremane Icebreaker
+tagGDX3EnemyDireYeti_C01=Diremane Alpha
+
+tagGDX3HeroDireYeti_H01=Ashmane ~ Burning
+tagGDX3HeroDireYeti_H02=Spellmane ~ Arcane
+tagGDX3HeroDireYeti_H03=Rotspew ~ Diseased
+tagGDX3HeroDireYeti_H04=Deathspew ~ Voidtouched
+
+
+#CreatureHeroes
+tagGDX3HeroBoar_H01=Thundersnout ~ Thundering
+tagGDX3HeroBoneRat_H01=Thornclaw ~ Bramble
+tagGDX3HeroChthonianMinion_H01=Grun'Daroth ~ Timewarped
+tagGDX3HeroChthonianDreadguard_H01=Sutuum'Kazul ~ Thundering
+tagGDX3HeroChthonianLeech_H01=Adar'Anatu ~ Arcane
+tagGDX3HeroChthonianFiend_H01=Fal'Raz ~ Arctic
+tagGDX3HeroChthonianDevourer_H01=Surt'Garu ~ Infernal
+tagGDX3HeroFleshHulk_H01=Ashoth ~ Infernal
+tagGDX3HeroGazer_H01=Arcollix ~ Arcane
+tagGDX3HeroGhost_H01=Eddon Voros ~ Thundering
+tagGDX3HeroGhoul_H01=Idothus ~ Arctic
+tagGDX3HeroGolemRock_H01=Spellgrinder ~ Arcane
+tagGDX3HeroHarpy_H01=Vampirria ~ Vampiric
+tagGDX3HeroHumanCultist_H01=Egath Ashborn ~ Infernal
+tagGDX3HeroHumanOutlaw_H01=Dullus "Doomblade" ~ Celestial
+tagGDX3HeroHumanPossessed_H01=Redallia Stormfire ~ Thundering
+tagGDX3HeroDermapteran_H01=Fladax ~ Infernal
+tagGDX3HeroMosquito_H01=Nurlax ~ Celestial
+tagGDX3HeroWasp_H01=Arollax ~ Arctic
+tagGDX3HeroManticore_H01=Crimsara ~ Vampiric
+tagGDX3HeroObsidianDefiler_H01=Arrom'Idoth ~ Arcane
+tagGDX3HeroPrawn_H01=Amocrix ~ Arctic
+tagGDX3HeroRaptor_H01=Thadrra ~ Bramble
+tagGDX3HeroReanimator_H01=Nethereon ~ Celestial
+tagGDX3HeroRifthound_H01=Stromnar ~ Thundering
+tagGDX3HeroScavenger_H01=Blurd Bloodsniffer ~ Vampiric
+tagGDX3HeroSkeletalGolem_H01=Udumgarr ~ Infernal
+tagGDX3HeroSkeleton_H01=Chroniss ~ Timewarped
+tagGDX3HeroSlith_H01=Nagoss ~ Celestial
+tagGDX3HeroSpider_H01=Uxnia ~ Thundering
+tagGDX3HeroThornedHorror_H01=Thornmonger ~ Bramble
+tagGDX3HeroTrollHalf_H01=Wugg ~ Bramble
+tagGDX3HeroTrollHalfCorrupted_H01=Daradrak ~ Bramble
+tagGDX3HeroTrollHalfSwamp_H01=Barblokk ~ Bramble
+tagGDX3HeroTroll_H01=Thogg ~ Timewarped
+tagGDX3HeroTrollSwamp_H01=Gurg ~ Timewarped
+tagGDX3HeroTrollCave_H01=Nelgrokk ~ Celestial
+tagGDX3HeroVulture_H01=Ashtalon ~ Infernal
+tagGDX3HeroYeti_H01=Bloodhorn ~ Vampiric
+tagGDX3HeroZombieMutant_H01=Absith Frostcyst ~ Arctic
+tagGDX3HeroZombieHound_H01=Chrafang ~ Timewarped
+
+tagGDX3HeroAetherialBloater_H01=Infargol ~ Infernal
+tagGDX3HeroAetherialColossus_H01=Neverus ~ Celestial
+tagGDX3HeroAetherialCorruption_H01=Icallon ~ Arctic
+tagGDX3HeroAetherialFleshshaper_H01=Omegus ~ Celestial
+tagGDX3HeroAetherialImp_H01=Brolbos ~ Arctic
+tagGDX3HeroBasilisk_H01=Chillslither ~ Arctic
+tagGDX3HeroChthonianRylok_H01=Thanar'Aldos ~ Thundering
+tagGDX3HeroChthonianServitor_H01=Flus'Mal ~ Infernal
+tagGDX3HeroHumanAscended_H01=Numia Stormeater ~ Thundering
+tagGDX3HeroLivingPlant_H01=Netherbloom ~ Celestial
+tagGDX3HeroCrabSwamp_H01=Thornshell ~ Bramble
+tagGDX3HeroCrabGhost_H01=Emptius ~ Celestial
+tagGDX3HeroGolemSwamp_H01=Frulgar ~ Infernal
+tagGDX3HeroHumanWendigo_H01=Idia Doomsinger ~ Celestial
+tagGDX3HeroWendigoCannibal_H01=Gaddo Evergrown ~ Bramble
+tagGDX3HeroWendigo_H01=Fovarran ~ Infernal
+tagGDX3HeroWraith_H01=Tulldar Endbringer ~ Celestial
+tagGDX3HeroYetiSwamp_H01=Thornmane ~ Bramble
+tagGDX3FactionCult_Hero_H01=Jarria Shadoweaver ~ Celestial
+
+tagGDX3HeroBeetle_H01=Nerrix ~ Celestial
+tagGDX3HeroEldritchArmor_H01=Chinux ~ Arctic
+tagGDX3HeroEldritchHound_H01=Thondris ~ Bramble
+tagGDX3HeroEldritchWraith_H01=Blazzar ~ Arctic
+tagGDX3HeroGargoyle_H01=Spiron ~ Thundering
+tagGDX3HeroGryphon_H01=Inferwing ~ Infernal
+tagGDX3HeroGryphonStone_H01=Nethezor ~ Celestial
+tagGDX3HeroHumanKorvaak_H01=Allia Rimeflame ~ Arctic
+tagGDX3HeroKorvaakAscended_H01=Gadrick Thunderheart ~ Thundering
+tagGDX3HeroKorvaakServant_H01=Flarnok ~ Infernal
+tagGDX3HeroMummy_H01=Cleothar ~ Thundering
+tagGDX3HeroLizardSand_H01=Ivyfang ~ Bramble
+tagGDX3HeroLizardEldritch_H01=Blizzox ~ Arctic
+tagGDX3HeroScorpion_H01=Thorprinx ~ Bramble
+tagGDX3HeroStatue_H01=Storbleus ~ Thundering
+tagGDX3HeroViper_H01=Flassar ~ Infernal
+
+
+#Misc
+tagGDX3TargetDummy=Aggressive Training Dummy
+
+#Pets
+tagGDX3Pet_Item_MogdrogenWolf=Great White Wolf
+tagGDX3Pet_Item_MiniBeaver=Kastorran Pup
+tagGDX3Pet_Item_MiniBeaver_Skill=Chitter
+tagGDX3Pet_Item_MiniRoc=Roc Chick
+tagGDX3Pet_Item_MiniRoc_Skill=Screech
+tagGDX3Pet_Item_MiniYeti=Dire Runt
+tagGDX3Pet_Item_MiniYeti_Skill=Roar
+
+tagGDX3ItemPetAetherDevil=Veilwind
+tagGDX3ItemPetAetherDevil_Skill=Aetherfire
+
+tagGDX3PetWraith=Aeon's Wraith
+tagGDX3PetWraith_Skill=Aeon's Wraith Touch
+
+tagGDX3PetWendigo=Wendigo
+
+tagGDX3PetLivingPlantBulb=Living Blossom
+tagGDX3PetLivingPlantBloom=Living Bloom
+
+#EnemySummons
+tagGDX3EnemySummon_Blizzard=Blizzard
+tagGDX3EnemySummon_IceSpike=Ice Spike
+tagGDX3EnemySummon_LightningSpike=Storm Conduit
+tagGDX3EnemySummon_BrambleTrap=Bramble Trap
+tagGDX3EnemySummon_Avalanche=Cave-In
+tagGDX3EnemySummon_IceFloe=Ice Floe
+tagGDX3EnemySummon_LightningRune=Mark of the Storm
+tagGDX3EnemySummon_LightningSpikeBoss=Storm Bringer
+tagGDX3EnemySummon_MoltenLava=Molten Lava
+tagGDX3EnemySummon_IceSpikeBoss=Rime Spike
+tagGDX3EnemySummon_ShadowDevil=Shadow Devil
+tagGDX3EnemySummon_DreadAbyss=Abyss
+tagGDX3EnemySummon_Banner=Bloodbound Banner
+
+
+#Boss&Quest
+tagGDX3Quest_BargollRoot=Root of Bargoll
+
+tagGDX3Quest_KurnReaver=Krakune the Reaver
+tagGDX3Quest_WraithScorvSummon=Ravenous Dead
+tagGDX3Quest_MidwinterWraith=Midwinter Wraith
+tagGDX3Quest_BloodRageKurn=Dagmar the Mad
+
+tagGDX3Quest_MeadMustFlowGiant=Fekk the Krokodon
+tagGDX3Quest_MeadMustFlowGroble01=Fekk's Right Hand ~ Frozen
+tagGDX3Quest_MeadMustFlowGroble02=Fekk's Other Right Hand ~ Bramble
+tagGDX3Quest_WendigoWindWalker=Agven the Wind-Walker
+
+tagGDX3Quest_BlackLodgePoltergeist=Vengeful Poltergeist
+tagGDX3Quest_BlackLodgeWarden=Guardian of the Threshold
+tagGDX3Quest_BlackLodgeChaser=Persistence of Time
+tagGDX3Quest_BlackLodgeBones=Lethargic Bones
+tagGDX3Quest_BlackLodgeWraith=Weight of Guilt
+tagGDX3Quest_GulderFamilyBrother=Rygg Gulder
+tagGDX3Quest_GulderFamilySister=Johanna Gulder
+tagGDX3Quest_GulderFamilyFather=Fen Gulder
+tagGDX3Quest_GulderFamilyMother=Alessa Gulder
+
+tagGDX3Boss_Final01=Beronath, Corruptor of Asterkarn
+tagGDX3Boss_Final02=Beronath, Guardian of Asterkarn
+
+tagGDX3Boss_KurnOracle=Yurra Voideye
+tagGDX3Boss_KurnChieftain=Chieftain Gruldir of the Dread Wastes
+tagGDX3Boss_KurnChieftain_Wolf=Jaws of Ch'thon
+
+tagGDX3Boss_ChthonianHerald_01=Prodromus, Herald of the End Times
+
+tagGDX3Boss_Special01=N'erfatal, the Questing Beast
+tagGDX3Boss_Special01B=Nuktuk, First of the Chosen
+tagGDX3Boss_Special01C=Nuktuk, Guardian of the Way
+tagGDX3Boss_Special01D=Uber N'erfatal, the Questing Beast
+tagGDX3Boss_Special02=The Dread
+tagGDX3Boss_Special03=Excremental
+
+tagGDX3Miniboss_Hag01=Yuda Moonwhisper
+tagGDX3Miniboss_Hag02=Adra the Lasher
+tagGDX3Miniboss_Hag03=Lenna Marrowfrost
+tagGDX3Miniboss_Beast_01=Avinnia of the Western Winds
+tagGDX3Miniboss_Beast_02=Bonegrinder
+tagGDX3Miniboss_Beast_03=Ruugru, Bane of the Tundra
+tagGDX3Miniboss_Beast_04=Siff Icehowl
+tagGDX3Miniboss_Beast_05=Rimehorn
+tagGDX3Miniboss_Beast_06=Garmir the Lost
+tagGDX3Miniboss_Giant_01=Ulderthorm Tempestborn
+tagGDX3Miniboss_Giant_02=Igron Worldbreaker
+tagGDX3Miniboss_Giant_03=Tempest Spawn
+tagGDX3Miniboss_Chthonian_01=Rinn'Valgoth, the Tainted Blood
+tagGDX3Miniboss_Chthonian_02=Grul'Thunn of the Crimson Tides
+tagGDX3Miniboss_IceDefiler=Glacial Defiler
+
+tagGDX3Miniboss_AvianChthonic_01=Naddo the Anointed
+tagGDX3Miniboss_Dranghoul_01=Frostsnarl the Chosen
+tagGDX3Miniboss_Wight01=Hrohn Everkeep
+
+tagGDX3Quest_TheHuntBeast_01=Evernight
+tagGDX3Quest_BlackHeartKurn_01=Drudd Blackheart
+tagGDX3Quest_RestlessWight01=Gund Thorngut
+tagGDX3Quest_RestlessWight02=Hassia Flameblood
+tagGDX3Quest_RestlessWight03=Maruda the Forsaken
+tagGDX3Quest_WendigoChieftain=Chieftain Scorv of the Ravagers
+tagGDX3Quest_CircleOfBlood01=Corpsebreaker the Insatiable
+tagGDX3Quest_KurnStronghold_01=Vok Bloodspill
+tagGDX3Quest_KurnStronghold_02=Jaha Rhinhorn
+tagGDX3Quest_KurnStronghold_03=Warlord Gradda Ironeye
+tagGDX3Quest_Bandit_OldWounds=Jonny the Scar
+tagGDX3Quest_BanditFriend_OldWounds=Jonny's Little Friend
+tagGDX3Quest_MidwinterGhost=Enraged Ancestor
+tagGDX3Quest_RestlessWight02Normal=Tulrika Hollowblaze
+
+tagGDX3Quest_Wraith_OldWounds=Tomakar the Lost
+
+tagGDX3Boss_DranghoulRoguelike_MiniBoss_01=Grollo the World Breaker
+tagGDX3Boss_DranghoulRoguelike_Boss_01=Ranakacha, the Broken
+tagGDX3Boss_DranghoulRoguelike_Boss_02=Kollchok the Despoiler
+tagGDX3Boss_DranghoulRoguelike_Boss_03=Kruul the Insatiable
+
+tagGDX3Boss_BurningDepthsRoguelike_MiniBoss_01=WORDS
+tagGDX3Boss_BurningDepthsRoguelike_Boss_01=WORDS
+tagGDX3Boss_BurningDepthsRoguelike_Boss_02=WORDS
+
+#Nemesis
+tagGDX3Nemesis_Outlaw02=Vinn "the Giant" Ozmald
+tagGDX3Nemesis_Undead02=Raddoth, Lord Hierophant
+tagGDX3Nemesis_Zealot02=Curate Ignus
+tagGDX3Nemesis_Necro02=Shriek
+tagGDX3Nemesis_Beast02=The Underking
+tagGDX3Nemesis_Wendigo02=Reaper of Rot
+tagGDX3Nemesis_Eldritch02=Ixall, Phantom of the Korvan Wastes
+tagGDX3Nemesis_Kurn01=Nyarlathon, Herald of Annihilation
+
+tagGDX3Nemesis_OutlawCrystal=Pulsating Aether Cluster
+
+
+#Devotion
+tagGDX3Devotion_ChthonianHerald_H01=Ghol'Zoth ~ Reflective
+tagGDX3Devotion_ChthonianHerald_H02=Arum'Zoth ~ Burning
+tagGDX3Devotion_ChthonianHerald_H03=Rugoth'Zoth ~ Shielded
+tagGDX3Devotion_ChthonianHerald_H04=Barl'Zoth ~ Thundering
+
+tagGDX3Devotion_Dranghoul_H01=Urdo ~ Swift
+tagGDX3Devotion_Dranghoul_H02=Fariim ~ Bramble
+tagGDX3Devotion_Dranghoul_H03=Gruug ~ Electrified
+tagGDX3Devotion_Dranghoul_H04=Murg ~ Timewarped
+
+tagGDX3Devotion_Rhino_H01=Vinmane ~ Bramble
+tagGDX3Devotion_Rhino_H02=Starhorn ~ Celestial
+tagGDX3Devotion_Rhino_H03=Infermane ~ Infernal
+tagGDX3Devotion_Rhino_H04=Rimmane ~ Arctic
+
+tagGDX3Devotion_Rok_H01=Anorwing ~ Shielded
+tagGDX3Devotion_Rok_H02=Corrowing ~ Corrupted
+tagGDX3Devotion_Rok_H03=Runewing ~ Arcane
+tagGDX3Devotion_Rok_H04=Starwing ~ Celestial
+
+tagGDX3Devotion_Wight_H01=Ilvur Bloodrend ~ Swift
+tagGDX3Devotion_Wight_H02=Allvoc the Impaler ~ Vampiric
+tagGDX3Devotion_Wight_H03=Jov Stormsong ~ Electrified
+tagGDX3Devotion_Wight_H04=Ordig the Mender ~ Supporter
+
+tagGDX3Devotion_YetiDire_H01=Blazemaim ~ Burning
+tagGDX3Devotion_YetiDire_H02=Runemaim ~ Arcane
+tagGDX3Devotion_YetiDire_H03=Rotmaim ~ Diseased
+tagGDX3Devotion_YetiDire_H04=Deathmaim ~ Voidtouched
+
+
+#Bounties
+tagGDX3BountyKU01=Corridius
+tagGDX3BountyKU02=Holvir the Crimson Blade
+tagGDX3BountyKU03=Crogg the Maimer
+tagGDX3BountyKU04=Icethrasher
+tagGDX3BountyKU05=Thundra
+tagGDX3BountyKU06=Juknuuk Bloodfeather
+
+
+
+

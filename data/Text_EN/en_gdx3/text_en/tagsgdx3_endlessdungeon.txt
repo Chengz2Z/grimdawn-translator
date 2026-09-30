@@ -1,0 +1,11 @@
+
+
+#Shattered Bosses
+tagGDX3EndlessDungeon_Boss01=Naddius the Hungerer
+tagGDX3EndlessDungeon_Boss02=Prodromitas, Herald of the Nothing
+tagGDX3EndlessDungeon_Boss03=Sliff Voidhowl
+tagGDX3EndlessDungeon_Boss04=Hrahn Doomkeep
+
+
+
+

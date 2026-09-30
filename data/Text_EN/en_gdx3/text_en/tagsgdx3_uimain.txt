@@ -1,0 +1,5 @@
+﻿#Play Menu
+tagChallengeDifficulty03=Ascendant
+tagChallengeDifficulty03Desc=Ascendant Mode enhances Ultimate Difficulty with new mechanics/loot and an extreme challenge. Ascendant mode is available for level 100 characters and can be toggled on/off in the main menu at any time.
+tagChallengeDifficultyDesc=Veteran Mode enhances Normal Difficulty for experienced ARPG players and provides a 10% Experience Bonus.^nCan be toggled on/off in the main menu at any time.
+tagDifficultyUltimateVeteran=Ascendant Mode

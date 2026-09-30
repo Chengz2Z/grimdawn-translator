@@ -1,0 +1,39 @@
+#Loading Tips
+
+
+#Tutorial Pages
+
+
+#Tutorials
+tagTutorialTip73Title=飞升
+tagTutorialTip73TextA=通过向飞升祭坛献上遍布凯恩世界的各种材料，你将可以根据自己的游玩风格定制游戏体验。每献上一种材料都会提供新的加成，但同时也会使敌人变得更加强大。
+tagTutorialTip73SubtitleA=内环
+tagTutorialTip73TextB=向祭坛内环投入材料可以改变战利品掉落倾向，使其更频繁掉落带有所需伤害类型词条的装备。
+tagTutorialTip73SubtitleB=外环
+tagTutorialTip73TextC=向祭坛外环献祭材料可以开启各项游戏机制，后续还可以对其进行强化，从而提升触发频率与收益。
+tagTutorialTip73SubtitleC=物品飞升
+tagTutorialTip73TextD=你可以在符文师的帮助下，通过献祭从受祭坛力量加持的敌人身上获取的强力素材，解放装备的真正潜能。需要注意的是，普通品质的物品尽管本质平庸，但飞升后反而能获得更加强力的加成。
+
+
+tagTutorialTip74Title=物品改造
+tagTutorialTip74TextA=在发明家处可以对物品属性进行改造，随机重置词缀与属性种子。这一奥术过程需要消耗觉醒余烬，该材料主要通过飞升模式与飞升祭坛获得。
+tagTutorialTip74SubtitleA=词缀重置
+tagTutorialTip74TextB=魔法与稀有品质物品的前后缀都可以单独进行重置，生成一条与之前不同的新词缀。若原词缀为稀有品质，重置后将被替换为其它的稀有词缀。而魔法品质的词缀则有概率升级为稀有词缀。
+tagTutorialTip74SubtitleB=种子重置
+tagTutorialTip74TextC=所有物品的基础种子都可以进行重置，重置后物品属性将在上下限范围内随机生成新的数值。新种子生成的属性可能高于原数值，也可能反而降低。
+tagTutorialTip74SubtitleC=飞升加成重置
+tagTutorialTip74TextD=在飞升祭坛上完成物品飞升后，还可以对其飞升加成进行重置，具体机制与魔法物品重置前后缀一致。重置后的飞升加成必定有别于该物品原先的加成。
+
+
+tagTutorialTip75Title=炼金
+tagTutorialTip75TextA=在坩埚处可以对基础生命药水与能量药水进行强化，为其附加强力的独特效果。药水强化配方可通过探索大世界与提升势力声望获取。
+tagTutorialTip75SubtitleA=药水容器
+tagTutorialTip75TextB=药水可以选择的容器共有三种，每种容器的特性各不相同。选择何种容器将会对药水的使用频率与恢复效果产生影响。收集新的配方可以解锁药水容器的升级方案。
+tagTutorialTip75SubtitleB=药水词条
+tagTutorialTip75TextC=你可以为药水添加独特的词条效果，并根据自身需求进行组合混搭。此类词条效果不可叠加，且每种药水最多支持两个独特词条。新的药水词条可以通过收集配方解锁。
+
+
+#Quick Tips
+tagQuickTip73={^z}飞升祭坛{^-}{^n}{^n}通过飞升祭坛，可以自由调整凯恩世界的挑战难度与奖励内容。
+tagQuickTip74={^z}物品改造{^-}{^n}{^n}改造窗口可用于重置魔法物品的词缀与属性种子。
+tagQuickTip75={^z}炼金{^-}{^n}{^n}使用坩埚调制魔药，可以赋予生命药水与能量药水独特的附加效果。

@@ -1,0 +1,139 @@
+# Setup Menu 设置菜单
+tagConsoleSetupScreen=调整显示区域
+tagConsoleSetupScreenInfo=调整方框，直到四角在屏幕上不可见。
+tagConsoleSetupGamma=调整亮度
+tagConsoleSetupGammaInfo=调整亮度等级，直到Logo几乎不可见。
+tagConsoleSetupContinue=继续
+tagConsoleSetupDefault=默认
+tagConsoleSetupReset=重置
+tagConsoleSetupBack=返回
+tagConsoleSetupDone=完成
+
+# Main Menu 主菜单
+tagPatchV1200=欢迎来到恐怖黎明v1.2版本！{^n}{^n}这个重大更新对游戏的许多基础内容进行了改进，并且加入了一些令人激动的新功能。由于新增了基本闪避技能，键位设置已被重置为默认。
+
+tagConsoleMenuSignIn=登录
+tagConsoleSwitchProfile=切换用户
+tagMenuDelete01=确定要永久删除此角色吗？
+tagXboxLiveUnavailable=无法连接到 XBox Live，请检查网络连接后重试。
+tagInviteInfo=等级范围：{%d0} - {%d1}
+tagInviteInfoHardcore=等级范围：{%d0} - {%d1} （专家模式）
+tagConsoleCreateCharacter=创建
+tagCloudSaveLimit=恐怖黎明的云存储已满，请先删除现有角色后再创建新角色。
+
+#Options Menu 选项菜单
+tagKeybindingTitle01=手柄
+tagConsoleMenuScreenSetup=屏幕设置
+tagConsoleMenuScreenSetupDesc=调整屏幕的可视区域，直到与你的显示器匹配。
+tagConsoleMenuGammaSetup=调整伽马值
+tagConsoleMenuGammaSetupDesc=调整游戏的整体亮度等级。
+tagKeybind36=保持位置
+tagControllerBindingMove=移动
+tagControllerBindingCamera=视角
+tagControllerBindingCharacter=角色
+tagControllerBindingMenu=菜单
+tagVideoOption01=分辨率
+tagConsoleResolution1080p=1080p
+tagConsoleResolution1440p=1440p
+tagConsoleResolution4kUHD=4K 超高清
+tagConsoleTargetFPS30=30 FPS
+tagConsoleTargetFPS60=60 FPS
+tagConsoleTargetFPSUnlocked=已解锁
+tagConsoleTargetFPS=帧率限制
+tagConsoleTargetFPSDesc=目标渲染帧率。
+tagGameplayOption33=暴击震动
+tagGameplayDesc33=手柄会在暴击时震动。
+
+#Exit Menu 退出菜单
+tagOptionsMenuQuit=退出游戏
+tagOptionsMenuExitGameConfirm=你确定要退出游戏吗？
+
+#Items 物品
+tagTransmuteCapture=[按 {^y}Y{^-} 注入]
+tagTransmuteApply=[按 {^y}Y{^-} 应用]
+tagTransmuteApplyRemove=[按 {^y}Y{^-} 移除幻化]
+tagScrollDirections=[按 {^y}Y{^-} 使用]
+tagItemUseDirections=[按 {^y}Y{^-} 使用]
+tagNoteHelp=[按 {^y}Y{^-} 阅读]
+tagEnchantmentUsable=[按 {^y}Y{^-} 增幅物品]
+tagComponentHelp=[按 {^y}Y{^-} 使用或合成]
+tagComponentCombine=[按 {^y}Y{^-} 合成]
+tagPotionDirections=[按 {^y}Y{^-} 消耗]
+tagCombineStacks=[按 {^y}右摇杆{^-} 拆分堆叠]
+
+#Keybinds 按键绑定
+tagKeybind04=打开地图
+tagKeybind18=使用生命药水
+tagKeybind19=使用能量药水
+
+#UI 用户界面
+tagConsoleReconnectController=请为用户 {^b}{%t0}{^-} 连接一个手柄。
+tagMPInvite=添加
+tagMPFriends=邀请
+tagConsoleInviteInfo=选择一个角色，按开始键加入 {^b}{%t0}{^-}。
+
+#Buttons 按钮
+tagControllerButtonDPadUp=向上
+tagControllerButtonDPadDown=向下
+tagControllerButtonDPadLeft=向左
+tagControllerButtonDPadRight=向右
+tagControllerButtonStart=菜单按钮
+tagControllerButtonBack=查看按钮
+tagControllerButtonLeftStick=左摇杆
+tagControllerButtonRightStick=右摇杆
+tagControllerButtonLeftBumper=LB
+tagControllerButtonRightBumper=RB
+tagControllerButtonLeftTrigger=LT
+tagControllerButtonRightTrigger=RT
+tagControllerButtonA=A
+tagControllerButtonB=B
+tagControllerButtonX=X
+tagControllerButtonY=Y
+
+# TutorialTips 教程提示
+tagLoadingTip03={^g}提示：{^w}你可以在百科界面随时回顾教学。
+tagLoadingTip21={^g}提示：{^w}你可以使用右摇杆随时旋转视角。
+tagQuickTip08=教学{^-}{^n}{^n}已开启{^s}教学{^-}，可通过选项菜单关闭。进入游戏后，你可以随时在百科界面 {^o}[{%t0}]{^-} 查看教学。
+tagQuickTip09=商人{^-}{^n}{^n}你可以在商人处出售战利品，或购买装备和药水。
+tagQuickTip14=药水{^-}{^n}{^n}虽然冷却时间较长，但使用药水可以快速回复生命或能量。
+tagQuickTip26=聊天{^-}{^n}{^n}双击 {^o}[{%t0}]{^-} 与其他玩家聊天。
+tagQuickTip27=多人游戏{^-}{^n}{^n}进入团队界面 {^n}{^o}[{%t0}]{^-} 组队。双击与其他玩家聊天。
+tagQuickTip30=技能未分配！{^-}{^n}{^n}主动技能必须先分配到快捷栏后才能使用。
+tagQuickTip61=星象之力{^-}{^n}{^n}在信仰界面按图标选择列表中的一个技能，将你的星象之力分配到该技能上。
+tagTutorialTip10TextA=安全的裂隙传送门能让你在不同的地点之间穿梭。使用裂隙传送门打开世界地图，然后选择一个目的地。
+tagTutorialTip10TextB=作为一名被以太虚灵附身过的人类，你有能力使用个人裂隙传送门。按 {^o}[{%t0}]{^-} 即可开启。
+tagTutorialTip14TextA=生命药水和能量药水能够回复角色的生命和能量，按下指定快捷键即可喝下药水。
+tagTutorialTip14TextC=按下指定快捷键即可喝下药水。
+tagTutorialTip15TextE=按 {^o}[{%t0}]{^-} 可以打开角色界面分配属性点，按对应属性旁边的 "+" 即可分配。
+tagTutorialTip15TextF=按 {^o}[{%t0}]{^-} 可以打开技能界面分配技能点。
+tagTutorialTip16TextB=从背包拖动指定物品可以装备或移动至指定的装备槽。如要丢弃物品，可以把该物品拖出角色界面，或按 {^o}[{%t0}]{^-}。
+tagTutorialTip16TextC=按对应属性旁边的 "+" 即可分配属性点，每个属性点会增加 8 点对应的属性。
+tagTutorialTip20TextB=使用部件能够将其附加到一件物品上。请注意：每个部件只能附加到特定类型的物品上。
+tagTutorialTip22TextB=将技能点投入到技能专精上可以解锁新阶段的技能。你可以按技能界面左下方的专精键，升级你的专精等级。
+tagTutorialTip23TextA=主动技能（方形图标）需要先分配到快捷栏后才能使用。
+tagTutorialTip23TextB=打开技能界面可以分配技能。
+tagTutorialTip23TextC=按下快捷栏上的指定键可以使用主动技能。
+tagTutorialTip26TextA=你可以使用游戏会话中的聊天界面向其他玩家发送消息。
+tagTutorialTip26TextB=
+tagTutorialTip27TextA=与其他玩家组队能够分享经验和战利品，按 {^o}[{%t0}]{^-} 可以打开团队界面。组队在 PvP 玩法中也很重要。
+tagTutorialTip27TextB=
+tagTutorialTip33TextB=在技能界面中点击一个已解锁的能力可以分配技能点。分配一个技能点就能使用该能力，继续投入技能点则会让该能力变得更强。
+tagTutorialTip35TextA=战宠会与你并肩作战。
+tagTutorialTip35TextB=
+tagTutorialTip35TextC=你可以命令战宠攻击，或是使用战宠技能命令它们移动到目标位置。
+tagTutorialTip36TextA=你可以在心灵向导处撤销投入的技能点。在心灵向导界面点击一个技能图标可以移除该技能的一个技能点。该操作所需的消耗会随着所移除的技能点的增加而提升。
+tagTutorialTip37TextB=
+tagTutorialTip38TextD=
+tagTutorialTip43TextB=使用设计图能够将未学习的物品添加至铁匠的可打造物品列表中。
+tagTutorialTip49TextB=
+tagTutorialTip50TextB=你可以将增幅附加给对应的物品。增幅附加后无法移除，但可以用另一个增幅替换掉。
+tagTutorialTip51TextA=
+tagTutorialTip59TextC=神龛被净化时，你会获得一个虔诚点。你可以通过技能界面打开信仰界面，分配虔诚点。
+tagTutorialTip60TextF=星象呈亮蓝色，说明你下一步可以点亮它。激活星象可解锁对应的加成。
+
+#InGame 游戏中
+tagConsoleXBoxLiveUnavailable=无网络连接
+tagConsoleMultiplayerHighLatency=高延迟
+
+#Dialogs 对话
+tagConsoleConfirmReportUser=确定要举报 {^b}{%t0}{^-} 吗？
