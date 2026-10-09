@@ -5,5 +5,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# output folder
+out/
+
 # Optional local overrides (keep config.json tracked)
 # config.local.json

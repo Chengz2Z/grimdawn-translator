@@ -11,9 +11,14 @@
 
 ## 步骤
 
-1. `lookup_term.py "<English>"` → 得到 `tagKey` 与 ZH。
+1. `lookup_term.py "<English>"` → 取 **Match=EXACT/STRIP 的第 1 行** 的 `tagKey` 与 ZH。
 2. 若 EN 有而 ZH 无：用 `tagKey` 在 ZH 侧再搜一次，或检查 `zh_subdirs`。
-3. 若只有中文：搜中文片段，记下 `tagKey`，再对照 EN。
+3. 若只有中文：搜中文片段，记下 `tagKey`，再对照 EN（支持 CJK 子串，如「狼人」→「狼人形态」）。
+4. 批量：`--batch terms.txt`；排查排序：`--explain` / `--json`。
+5. 改检索后跑 `scripts/test_lookup_golden.py`（黄金回归，须全绿）。
+
+匹配层级：EXACT > KEY > STRIP（Mythical/…/Set）> PHRASE（整词短语）> PREFIX/WORDS。
+**不用裸子串**；说明文（Desc/Lore）不参与非精确匹配。
 
 ## 手工 Grep
 

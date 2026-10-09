@@ -7,8 +7,10 @@
 ## 功能
 
 - **EN → tag → ZH** 反查：在 `Text_EN` 找 `tagKey`，再到 `Text_ZH` 取中文
+- **精确优先 + 类型感知排序**（EXACT > STRIP > PHRASE），禁止裸子串误匹配
 - 可配置多套术语源（本仓库 `data/`，或本机汉化工程）
 - 输出译文 + 术语表，便于审校
+- 黄金回归：`python .mimocode/skills/grimdawn-translator/scripts/test_lookup_golden.py`
 
 ## 目录结构
 

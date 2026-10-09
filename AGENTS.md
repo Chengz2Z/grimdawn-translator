@@ -18,7 +18,7 @@ python .mimocode/skills/grimdawn-translator/scripts/lookup_term.py --list-source
 
 原理：在 `data/Text_EN` 找英文 `tagKey`，再到 `data/Text_ZH` 用同一 key 取汉化。
 
-4. 输出：译文 + 术语表（English | 中文 | tagKey）；查不到标〔待定〕。
+4. 输出：译文 + 术语表(English | 中文 | tagKey)；查不到标〔待定〕。
 5. 保留版本号、数值、格式符；同一英文全文只用一种中文。
 
 ## 路径

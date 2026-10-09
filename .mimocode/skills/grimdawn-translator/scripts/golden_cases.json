@@ -1,0 +1,189 @@
+[
+  {
+    "query": "Blade Arc",
+    "expect_any_keys": ["tagClass01SkillName05A"],
+    "expect_zh_contains": ["刀锋横扫"],
+    "forbid_keys": [],
+    "note": "skill name exact"
+  },
+  {
+    "query": "Onslaught",
+    "expect_any_keys": ["tagGDX3Class10SkillName03A"],
+    "expect_zh_contains": ["猛袭"],
+    "forbid_keys": ["tagGDX2Class09SkillDescription04A"],
+    "note": "skill name beats lore prose"
+  },
+  {
+    "query": "Resilience",
+    "expect_any_keys": ["tagGDX2Class09SkillName14A"],
+    "expect_zh_contains": ["坚毅"],
+    "forbid_keys": [],
+    "note": "skill exact"
+  },
+  {
+    "query": "Cold Snap",
+    "expect_any_keys": ["tagGDX3Class10SkillWereravenAbilityName02A"],
+    "expect_zh_contains": ["霜暴"],
+    "forbid_keys": ["tagGDX3Class10SkillName02A"],
+    "note": "not Wereraven form"
+  },
+  {
+    "query": "Wereraven",
+    "expect_any_keys": ["tagGDX3Class10SkillName02A"],
+    "expect_zh_contains": ["鸦人形态"],
+    "forbid_keys": [],
+    "note": "form skill"
+  },
+  {
+    "query": "Ice Talons",
+    "expect_any_keys": ["tagGDX3Class10SkillWereravenAbilityName01A"],
+    "expect_zh_contains": ["寒冰之爪"],
+    "forbid_keys": [],
+    "note": "wereraven ability"
+  },
+  {
+    "query": "Armor",
+    "expect_any_keys": [
+      "tagCraftTabArmorA",
+      "tagLootFilter16",
+      "tagVendorTab03A"
+    ],
+    "expect_zh_contains": ["护甲"],
+    "forbid_keys": ["tagTorsoA005H"],
+    "note": "stat/UI meaning, not the torso item 'Armor'"
+  },
+  {
+    "query": "Resistances",
+    "expect_any_keys": [
+      "tagStatsResistanceTitle",
+      "tagCharHeaderResistance",
+      "tagLootFilter36"
+    ],
+    "expect_zh_contains": ["抗性"],
+    "forbid_keys": [],
+    "note": "resistances title"
+  },
+  {
+    "query": "Ascension Altar",
+    "expect_any_keys": ["tagAscensionAltar"],
+    "expect_zh_contains": ["飞升祭坛"],
+    "forbid_keys": ["tagDevotionAffinity01"],
+    "note": "place, not devotion affinity Ascendant"
+  },
+  {
+    "query": "Mythical Will of Bysmiel",
+    "expect_any_keys": ["tagNecklaceD001"],
+    "expect_zh_contains": ["拜斯迈"],
+    "forbid_keys": [],
+    "note": "strip Mythical prefix"
+  },
+  {
+    "query": "Belgothian's Slaughter Set",
+    "expect_any_keys": ["tagGDX1ItemSetD120Name"],
+    "expect_zh_contains": [],
+    "forbid_keys": [],
+    "note": "set name via Set suffix"
+  },
+  {
+    "query": "Bloodmane Set",
+    "expect_any_keys": ["tagGDX3ItemSetC302Name"],
+    "expect_zh_contains": [],
+    "forbid_keys": [],
+    "note": "set suffix strip"
+  },
+  {
+    "query": "All Resist",
+    "expect_any_keys": [],
+    "expect_zh_contains": ["全抗"],
+    "forbid_keys": ["tagChatAll", "tagHUD_LeftMouse", "tagHUD_RightMouse"],
+    "note": "disambiguation emit_zh 全抗；禁止 chat ALL / 鼠标键"
+  },
+  {
+    "query": "Activation Chance",
+    "expect_any_keys": [],
+    "expect_zh_contains": ["触发几率"],
+    "forbid_keys": ["tagControllerButtonA"],
+    "note": "emit 触发几率；禁止手柄 A"
+  },
+  {
+    "query": "Basic Attack Replacer",
+    "expect_any_keys": [],
+    "expect_zh_contains": [],
+    "forbid_keys": ["tagHUD_LeftMouse"],
+    "note": "must NOT match LeftMouse via substring L",
+    "allow_miss": true
+  },
+  {
+    "query": "All damage",
+    "expect_any_keys": [],
+    "expect_zh_contains": [],
+    "forbid_keys": ["Mutator_Player_05Desc"],
+    "note": "must NOT promote mutator prose as term",
+    "allow_miss": true
+  },
+  {
+    "query": "Rare Prefix",
+    "expect_any_keys": [],
+    "expect_zh_contains": ["稀有词缀"],
+    "forbid_keys": ["tagRare"],
+    "note": "emit 稀有词缀；禁止塌缩为 Rare"
+  },
+  {
+    "query": "Health Activation Threshold",
+    "expect_any_keys": [],
+    "expect_zh_contains": [],
+    "forbid_keys": ["tagLootFilter41", "tagCharAttributeName04"],
+    "note": "must NOT collapse to Health",
+    "allow_miss": true
+  },
+  {
+    "query": "Saunginis",
+    "expect_any_keys": [],
+    "expect_zh_contains": [],
+    "forbid_keys": ["tagControllerButtonA"],
+    "note": "unknown name must not match A",
+    "allow_miss": true
+  },
+  {
+    "query": "Will of Bysmiel",
+    "expect_any_keys": ["tagNecklaceD001"],
+    "expect_zh_contains": ["拜斯迈的意志"],
+    "forbid_keys": [],
+    "note": "base unique name"
+  },
+  {
+    "query": "Blade Arc",
+    "expect_any_keys": ["tagClass01SkillName05A"],
+    "expect_zh_contains": [],
+    "forbid_keys": [],
+    "note": "repeat stability"
+  },
+  {
+    "query": "狼人",
+    "expect_any_keys": ["tagGDX3Class10SkillName01A"],
+    "expect_zh_contains": ["狼人形态"],
+    "forbid_keys": [],
+    "note": "CJK substring hits skill name first"
+  },
+  {
+    "query": "Armor Rating",
+    "expect_any_keys": ["tagCharStatsArmorTotal", "tagCharStatsArmorTotalAlert"],
+    "expect_zh_contains": ["护甲"],
+    "forbid_keys": [],
+    "note": "stat phrase"
+  },
+  {
+    "query": "Mythical Siegebreaker",
+    "expect_any_keys": ["tagShieldD006"],
+    "expect_zh_contains": ["破城者"],
+    "forbid_keys": ["tagItemSkillD174Name"],
+    "note": "rarity prefix prefers item over same-named skill"
+  },
+  {
+    "query": "Awakened Tremor",
+    "expect_any_keys": ["tagWeaponMelee2hC005"],
+    "expect_zh_contains": [],
+    "forbid_keys": ["tagClass01SkillName02D"],
+    "note": "rarity prefix prefers weapon over skill"
+  }
+]

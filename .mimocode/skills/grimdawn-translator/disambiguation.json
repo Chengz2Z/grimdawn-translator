@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "enabled": true,
+  "_howto": [
+    "歧义消解表：修正常见错译/误命中。lookup_term.py 在排序前套用；改完无需改代码。",
+    "字段说明：",
+    "  id            规则名（唯一，便于引用）",
+    "  enabled       false 可临时关掉本条",
+    "  query         要匹配的查询词（待译英文/中文）",
+    "  match         exact | prefix | contains | regex | any   （默认 exact，忽略大小写/空白）",
+    "  prefer_tags   优先命中的 tagKey（加分，可强制置顶）",
+    "  prefer_zh     优先命中的中文译名（整句或片段；命中则加分）",
+    "  forbid_tags   禁止/重罚的 tagKey",
+    "  forbid_zh     禁止/重罚的中文译名",
+    "  force_top     true 时 prefer_tags 固定排在最前（仍须在库里存在）",
+    "  boost         优先加分（默认 200）；penalty 禁止扣分（默认 400）",
+    "  emit_zh       库中无合适命中时，作为〔规则〕译名给出（可空）",
+    "  context       仅当 --context 含该词时才套用（可空 = 总是套用）",
+    "  note          给人看的说明（脚本会显示在 --explain）",
+    "如何新增：复制一条 rules 项，改 query / prefer_* / forbid_* / note，保持 JSON 逗号正确。",
+    "自测：python scripts/test_lookup_golden.py"
+  ],
+  "rules": [
+    {
+      "id": "armor-stat-not-torso",
+      "enabled": true,
+      "query": "Armor",
+      "match": "exact",
+      "prefer_tags": ["tagCraftTabArmorA", "tagLootFilter16", "tagVendorTab03A"],
+      "prefer_zh": ["护甲"],
+      "forbid_tags": ["tagTorsoA005H"],
+      "forbid_zh": ["护身甲"],
+      "force_top": true,
+      "note": "属性/UI「护甲」；不要衣甲 tagTorsoA005H「护身甲」"
+    },
+    {
+      "id": "armor-rating-stat",
+      "enabled": true,
+      "query": "Armor Rating",
+      "match": "exact",
+      "prefer_tags": ["tagCharStatsArmorTotal"],
+      "prefer_zh": ["护甲等级"],
+      "force_top": true,
+      "note": "护甲等级（属性面板），非装备名"
+    },
+    {
+      "id": "resistances-stat",
+      "enabled": true,
+      "query": "Resistances",
+      "match": "exact",
+      "prefer_tags": ["tagStatsResistanceTitle", "tagCharHeaderResistance"],
+      "prefer_zh": ["抗性"],
+      "force_top": true,
+      "note": "抗性标题/属性，优先正式 UI 名"
+    },
+    {
+      "id": "all-resist-forbid-chat",
+      "enabled": true,
+      "query": "All Resist",
+      "match": "exact",
+      "forbid_tags": ["tagChatAll", "tagHUD_LeftMouse", "tagHUD_RightMouse"],
+      "emit_zh": "全抗",
+      "note": "社区写法「全抗」；禁止误命中聊天 ALL / 鼠标键"
+    },
+    {
+      "id": "all-damage-not-mutator",
+      "enabled": true,
+      "query": "All damage",
+      "match": "exact",
+      "prefer_tags": ["tagDamageModifierTotalDamage", "tagDamageModifierTotalDamageR"],
+      "prefer_zh": ["所有类型伤害", "全伤害"],
+      "forbid_tags": ["Mutator_Player_05Desc"],
+      "note": "全伤害；不要 mutator 叙述句"
+    },
+    {
+      "id": "ascension-altar-place",
+      "enabled": true,
+      "query": "Ascension Altar",
+      "match": "exact",
+      "prefer_tags": ["tagAscensionAltar"],
+      "prefer_zh": ["飞升祭坛"],
+      "forbid_tags": ["tagDevotionAffinity01", "tagTutorialTip73Title"],
+      "force_top": true,
+      "note": "地名「飞升祭坛」；不要星象 Ascendant / 技能 Ascension"
+    },
+    {
+      "id": "ascendant-mode",
+      "enabled": true,
+      "query": "Ascendant",
+      "match": "exact",
+      "prefer_tags": ["tagChallengeDifficulty03", "tagDifficultyUltimateVeteran"],
+      "prefer_zh": ["飞升"],
+      "forbid_tags": ["tagDevotionAffinity01"],
+      "note": "难度/模式「飞升」；不要 devotion 亲和 Ascendant「升灵」"
+    },
+    {
+      "id": "ascension-skill-not-place",
+      "enabled": true,
+      "query": "Ascension",
+      "match": "exact",
+      "prefer_tags": ["tagGDX2Class09SkillName06A"],
+      "prefer_zh": ["升华"],
+      "forbid_tags": ["tagTutorialTip73Title", "tagAscensionAltar"],
+      "note": "守誓技能 Ascension「升华」；与飞升祭坛区分"
+    },
+    {
+      "id": "rare-prefix-affix",
+      "enabled": true,
+      "query": "Rare Prefix",
+      "match": "exact",
+      "forbid_tags": ["tagRare"],
+      "emit_zh": "稀有词缀",
+      "note": "不要塌缩成品质「稀有」"
+    },
+    {
+      "id": "rare-suffix-affix",
+      "enabled": true,
+      "query": "Rare Suffix",
+      "match": "exact",
+      "forbid_tags": ["tagRare"],
+      "emit_zh": "稀有后缀",
+      "note": "不要塌缩成品质「稀有」"
+    },
+    {
+      "id": "activation-chance-no-btn",
+      "enabled": true,
+      "query": "Activation Chance",
+      "match": "exact",
+      "forbid_tags": ["tagControllerButtonA"],
+      "emit_zh": "触发几率",
+      "note": "禁止误命中手柄按键 A"
+    },
+    {
+      "id": "basic-attack-replacer",
+      "enabled": true,
+      "query": "Basic Attack Replacer",
+      "match": "exact",
+      "forbid_tags": ["tagHUD_LeftMouse"],
+      "emit_zh": "基础攻击替换",
+      "note": "禁止误命中左键 HUD"
+    },
+    {
+      "id": "health-activation-threshold",
+      "enabled": true,
+      "query": "Health Activation Threshold",
+      "match": "exact",
+      "forbid_tags": ["tagLootFilter41", "tagCharAttributeName04"],
+      "emit_zh": "生命激活阈值",
+      "note": "禁止塌缩成「生命」"
+    },
+    {
+      "id": "mythical-item-not-skill-example",
+      "enabled": false,
+      "query": "Mythical Siegebreaker",
+      "match": "exact",
+      "prefer_tags": ["tagShieldD006"],
+      "forbid_tags": ["tagItemSkillD174Name"],
+      "note": "示例：单件 Mythical 装备 vs 同名技能；可复制改 query"
+    },
+    {
+      "id": "charge-skill-vs-stack",
+      "enabled": true,
+      "query": "Charge",
+      "match": "exact",
+      "prefer_tags": ["tagGDX2RuneSkillB203"],
+      "prefer_zh": ["冲锋"],
+      "note": "符文技能 Charge；若上下文是层数请改查 Charges / stacks"
+    },
+    {
+      "id": "cooldown-charges-not-charge",
+      "enabled": true,
+      "query": "Cooldown Charges",
+      "match": "exact",
+      "prefer_tags": ["CooldownCharges"],
+      "prefer_zh": ["充能"],
+      "forbid_tags": ["tagGDX2RuneSkillB203"],
+      "note": "冷却充能层数；不是技能 Charge"
+    },
+    {
+      "id": "Awakened-not-Ascended",
+      "enabled": true,
+      "query": "Awakened",
+      "match": "exact",
+      "prefer_tags": ["Awakened"],
+      "prefer_zh": ["觉醒"],
+      "forbid_tags": [],
+      "forbid_zh": ["觉悟"],
+      "note": "物品品质：由史诗品质升级到觉醒品质，与易错词飞升(Ascended)区分开"
+    },
+    {
+      "id": "modifier-not-affix",
+      "enabled": true,
+      "query": "modifier",
+      "match": "exact",
+      "emit_zh": "修正", 
+      "prefer_zh": ["修正"],
+      "forbid_tags": [],
+      "note": "语句习惯：modifier通常翻译为修正，但翻译时需注意上下文语句通顺"
+    },
+    {
+      "id": "the-Dread",
+      "enabled": true,
+      "query": "the Dread",
+      "match": "exact",
+      "prefer_tags": ["tagGDX3Boss_Special02"],
+      "prefer_zh": ["恐魔"],
+      "forbid_tags": [],
+      "forbid_zh": ["恐惧"],
+      "force_top": true,
+      "emit_zh": "",
+      "context": "",
+      "boost": 200,
+      "penalty": 400,
+      "note": "怪物或首领：the Dread特指为恐魔"
+    },
+    {
+      "id": "template-copy-me",
+      "enabled": false,
+      "query": "在这里填英文或中文",
+      "match": "exact",
+      "prefer_tags": ["tagXxxName"],
+      "prefer_zh": ["正确译名"],
+      "forbid_tags": ["tagWrongName"],
+      "forbid_zh": ["错误译名"],
+      "force_top": true,
+      "emit_zh": "",
+      "context": "",
+      "boost": 200,
+      "penalty": 400,
+      "note": "复制本条改字段；enabled 改 true 生效。自测见 scripts/test_lookup_golden.py"
+    }
+  ]
+}
