@@ -25,9 +25,12 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import pickle
 import re
 import sys
+import time
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -35,7 +38,29 @@ from pathlib import Path
 SKILL_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = SKILL_DIR / "config.json"
 DISC_PATH = SKILL_DIR / "disambiguation.json"
+MECH_PATH = SKILL_DIR / "mechanics.json"
+CACHE_DIR = SKILL_DIR / ".cache"
+CACHE_NAME = "term_index.pkl"
+CACHE_VERSION = 5  # bump when index shape / filters change
 TAG_RE = re.compile(r"^([A-Za-z0-9_]+)=(.*)$")
+
+# 1) File blacklist: pure dialogue/quest prose (no real tags). storyelements NOT listed — it has map name tags.
+SKIP_FILE_RES = (
+    re.compile(r"(^|/)(npc_|sq_|bq_|mq_)", re.I),
+    re.compile(r"(^|/)object_", re.I),
+)
+
+# 3) Entry quality: keep short/name-like tags; drop long prose values.
+MAX_TERM_CHARS = 96
+NAME_LIKE_KEY_RE = re.compile(
+    r"(Name|Title|SkillName|ItemSet|Prefix|Suffix|Affix|"
+    r"^tag(HUD|Menu|Stats|Char|Loot|Craft|Vendor|Devotion|Enemy|Boss|Map|Relic|GDX)|"
+    r"Map|Region|Altar)",
+    re.I,
+)
+
+# Quick reject: files with no '=' cannot contain key=value tags.
+HAS_ASSIGN_RE = re.compile(r"[A-Za-z0-9_]+=")
 
 # Rarity / set decoration that is usually not part of the tag value itself.
 STRIP_TOKENS = (
@@ -52,6 +77,16 @@ STRIP_TOKENS = (
     "Magical",
     "Faction",
 )
+
+# Official quality-prefix rendering (item name display). Awakened=觉醒 (NOT 觉悟).
+QUALITY_ZH = {
+    "Mythical": "神话",
+    "Empowered": "强化",
+    "Awakened": "觉醒",
+    "Legendary": "传奇",
+    "Epic": "史诗",
+    "Rare": "稀有",
+}
 
 # "Bloodmane Set" -> "Bloodmane"
 SET_SUFFIX_RE = re.compile(r"\s+Set$", re.I)
@@ -206,6 +241,10 @@ class Entry:
         return normalize(self.en)
 
     @property
+    def zh_norm(self) -> str:
+        return normalize(self.zh)
+
+    @property
     def zh_clean(self) -> str:
         return strip_controls(self.zh)
 
@@ -233,6 +272,134 @@ def load_config() -> dict:
     if not CONFIG_PATH.is_file():
         return {"active": "local", "sources": {}}
     return json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+
+
+def load_mechanics(path: Path | None = None) -> dict[str, str]:
+    p = path or MECH_PATH
+    if not p.is_file():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    out: dict[str, str] = {}
+    for k, v in (data.get("terms") or {}).items():
+        zh = (v.get("zh") if isinstance(v, dict) else str(v)) or ""
+        if zh:
+            out[normalize(k)] = zh
+    return out
+
+
+def query_variants(q: str) -> list[str]:
+    out = [q]
+    s = q.strip()
+    s2 = re.sub(r"\s*\([^)]*\)\s*$", "", s).strip()
+    if s2 and s2 != s:
+        out.append(s2)
+        s = s2
+    for pat in (
+        r"^(Component|Note|Essence|Relic|Skill|Item|Set|Prefix|Suffix|Quest|Boss)\s*[-–—:]\s*",
+        r"^(Rare|Epic|Legendary|Mythical|Empowered|Awakened)\s+(Prefix|Suffix)\s*[-–—:]\s*",
+    ):
+        s2 = re.sub(pat, "", s, flags=re.I).strip()
+        if s2 and s2 not in out:
+            out.append(s2)
+            s = s2
+    if " - " in s:
+        left, _, right = s.partition(" - ")
+        for part in (left.strip(), right.strip()):
+            if len(part) >= 3 and part not in out:
+                out.append(part)
+    return out
+
+
+def fuzzy_candidates(idx: Index, q: str, n: int = 3) -> list[str]:
+    import difflib
+
+    qn = normalize(q)
+    if len(qn) < 4:
+        return []
+    pool = sorted(idx.en_exact.keys(), key=lambda x: (len(x), x))
+    return difflib.get_close_matches(qn, pool, n=n, cutoff=0.82)
+
+
+def quality_prefix_en(query: str) -> str | None:
+    """Return quality token if query is '<Quality> ...'."""
+    q = query.strip()
+    for tok in QUALITY_ZH:
+        if re.match(rf"^{re.escape(tok)}\s+", q, re.I):
+            return tok
+    return None
+
+
+def render_with_quality(query: str, zh: str) -> str:
+    """Prefix Chinese name with quality word; fix baked-in 觉悟 for Awakened items."""
+    if not zh:
+        return zh
+    qtok = quality_prefix_en(query)
+    if not qtok:
+        return zh
+    zq = QUALITY_ZH[qtok]
+    # some tags already embed a quality word (e.g. 觉悟 角斗士)
+    zh2 = re.sub(r"^(神话|强化|觉悟|觉醒|传奇|史诗|稀有)\s*", "", zh.strip())
+    if qtok == "Awakened":
+        zh2 = zh2.replace("觉悟", "觉醒")
+    # keep existing same-prefix already stripped; render as "觉醒 X"
+    return f"{zq} {zh2}".strip() if zh2 else zq
+
+
+def clean_zh(s: str) -> str:
+    if not s:
+        return s
+    s = strip_controls(s)
+    s = re.sub(
+        r"^\s*(全技能|通用|狂战|守誓|士兵|神秘|死灵|审判|奥术|爆破|夜刃|德鲁伊|神枪|圣殿)\s*Lv\d+\s*[-–—]\s*",
+        "",
+        s,
+    )
+    s = re.sub(r"\s*\{\}.*$", "", s)
+    s = re.sub(r"\s*（[^）]*）\s*$", "", s)
+    s = re.sub(r"\s*\[[^\]]*\]\s*$", "", s)
+    return s.strip()
+
+
+def resolve_term(
+    idx: Index,
+    term: str,
+    rules: list[dict],
+    fast: bool,
+    mech: dict[str, str] | None = None,
+) -> tuple[list[Hit], list[str], dict]:
+    meta = {"query": term, "retried": [], "miss_kind": ""}
+    hits, notes = lookup(idx, term, limit=5, rules=rules, fast=fast)
+    if hits and hits[0].tier != "RULE":
+        return hits, notes, meta
+    if mech:
+        z = mech.get(normalize(term))
+        if z:
+            fake = Entry(key=f"(mech:{term[:24]})", en=term, zh=z, tag_type="other")
+            hits = [Hit(entry=fake, tier="RULE", score=9000, why="mechanics.json")] + hits
+            meta["retried"].append("mechanics")
+            return hits, notes, meta
+    tried = {normalize(term)}
+    for var in query_variants(term)[1:]:
+        nv = normalize(var)
+        if nv in tried:
+            continue
+        tried.add(nv)
+        h2, n2 = lookup(idx, var, limit=5, rules=rules, fast=fast)
+        if h2:
+            meta["retried"].append(f"variant:{var}")
+            return h2, notes + n2, meta
+    for cand in fuzzy_candidates(idx, term):
+        if cand in tried:
+            continue
+        h2, n2 = lookup(idx, cand, limit=5, rules=rules, fast=True)
+        if h2 and h2[0].tier in ("EXACT", "KEY", "STRIP"):
+            meta["retried"].append(f"fuzzy:{cand}")
+            return h2, notes + n2, meta
+    meta["miss_kind"] = "unresolved" if meta["retried"] else "not_in_db"
+    return hits, notes, meta
 
 
 def load_disambiguation(path: Path | None = None) -> dict:
@@ -430,7 +597,33 @@ def resolve_roots(cfg: dict, source: str | None, zh_root: str | None, en_root: s
     return zh_roots, en_roots, name
 
 
+def skip_file(path: Path, root: Path) -> bool:
+    try:
+        rel = str(path.relative_to(root)).replace("\\", "/")
+    except ValueError:
+        rel = path.name
+    blob = f"{rel}/{path.name}"
+    return any(r.search(blob) for r in SKIP_FILE_RES)
+
+
+def indexable_value(key: str, value: str, tag_type: str) -> bool:
+    """Quality gate: always keep name-like / short tags; drop long prose."""
+    v = value.strip()
+    if not v:
+        return False
+    # name-like keys always kept (skill/item/map/UI…)
+    if NAME_LIKE_KEY_RE.search(key):
+        return True
+    if tag_type in NAME_TYPES or tag_type in ("ui", "class_name"):
+        return True
+    if len(v) <= MAX_TERM_CHARS and tag_type not in DESC_TYPES:
+        return True
+    # long prose / desc → not a term
+    return False
+
+
 def iter_tags(roots: list[Path]):
+    """Yield key=value lines; skip blacklisted dialogue files and non-tag lines."""
     seen = set()
     for root in roots:
         if not root or not root.is_dir():
@@ -440,6 +633,8 @@ def iter_tags(roots: list[Path]):
             if key in seen:
                 continue
             seen.add(key)
+            if skip_file(path, root):
+                continue
             try:
                 rel = str(path.relative_to(root)).replace("\\", "/")
             except ValueError:
@@ -447,6 +642,8 @@ def iter_tags(roots: list[Path]):
             try:
                 text = path.read_text(encoding="utf-8", errors="replace")
             except OSError:
+                continue
+            if not HAS_ASSIGN_RE.search(text):
                 continue
             for lineno, line in enumerate(text.splitlines(), 1):
                 m = TAG_RE.match(line.strip())
@@ -475,6 +672,9 @@ def build_index(zh_roots: list[Path], en_roots: list[Path]) -> Index:
 
     for key, en in en_vals.items():
         zh = zh_vals.get(key, "")
+        tag_type = classify_tag(key)
+        if not indexable_value(key, en, tag_type) and not indexable_value(key, zh, tag_type):
+            continue
         entry = Entry(
             key=key,
             en=en,
@@ -491,15 +691,19 @@ def build_index(zh_roots: list[Path], en_roots: list[Path]) -> Index:
                 idx.en_token[t].add(key)
 
     for key, zh in zh_vals.items():
-        if key not in idx.by_key:
-            entry = Entry(
-                key=key,
-                en="",
-                zh=zh,
-                zh_src=zh_src.get(key, ""),
-                tag_type=classify_tag(key),
-            )
-            idx.by_key[key] = entry
+        if key in idx.by_key:
+            continue
+        tag_type = classify_tag(key)
+        if not indexable_value(key, zh, tag_type):
+            continue
+        entry = Entry(
+            key=key,
+            en="",
+            zh=zh,
+            zh_src=zh_src.get(key, ""),
+            tag_type=classify_tag(key),
+        )
+        idx.by_key[key] = entry
         nz = normalize(zh)
         if nz:
             idx.zh_exact.setdefault(nz, []).append(key)
@@ -507,6 +711,62 @@ def build_index(zh_roots: list[Path], en_roots: list[Path]) -> Index:
                 idx.en_token[t].add(key)  # reuse inverted index for ZH tokens
 
     return idx
+
+
+def source_fingerprint(zh_roots: list[Path], en_roots: list[Path]) -> str:
+    h = hashlib.sha1()
+    h.update(f"v{CACHE_VERSION}|".encode())
+    for root in list(zh_roots) + list(en_roots):
+        if not root or not root.is_dir():
+            continue
+        for path in sorted(root.rglob("*.txt")):
+            if skip_file(path, root):
+                continue
+            try:
+                st = path.stat()
+            except OSError:
+                continue
+            h.update(f"{path}|{st.st_size}|{st.st_mtime_ns}|".encode())
+    return h.hexdigest()[:16]
+
+
+def load_index_cached(
+    zh_roots: list[Path],
+    en_roots: list[Path],
+    use_cache: bool = True,
+    cache_dir: Path | None = None,
+) -> tuple[Index, str]:
+    """Return (index, 'cache'|'build')."""
+    if not use_cache:
+        return build_index(zh_roots, en_roots), "build"
+    cdir = cache_dir or CACHE_DIR
+    cdir.mkdir(parents=True, exist_ok=True)
+    fp = source_fingerprint(zh_roots, en_roots)
+    cpath = cdir / f"term_index_{fp}.pkl"
+    if cpath.is_file():
+        try:
+            with cpath.open("rb") as f:
+                idx = pickle.load(f)
+            if isinstance(idx, Index) and idx.by_key:
+                return idx, "cache"
+        except Exception:
+            pass
+    idx = build_index(zh_roots, en_roots)
+    try:
+        tmp = cpath.with_suffix(".tmp")
+        with tmp.open("wb") as f:
+            pickle.dump(idx, f, protocol=pickle.HIGHEST_PROTOCOL)
+        tmp.replace(cpath)
+    except OSError:
+        pass
+    # drop stale caches
+    for old in cdir.glob("term_index_*.pkl"):
+        if old.name != cpath.name:
+            try:
+                old.unlink()
+            except OSError:
+                pass
+    return idx, "build"
 
 
 def strip_query_decorations(q: str) -> list[str]:
@@ -594,7 +854,9 @@ def lookup(
     query: str,
     limit: int = 12,
     rules: list[dict] | None = None,
+    fast: bool = False,
 ) -> tuple[list[Hit], list[str]]:
+    """fast=True: EXACT/KEY/STRIP/CJK-exact only (skip phrase full scans)."""
     q = query.strip()
     if not q:
         return [], []
@@ -615,7 +877,6 @@ def lookup(
 
     # --- EXACT EN ---
     exact_keys = list(idx.en_exact.get(qn, []))
-    # majority ZH vote among exact EN hits
     zh_counter: Counter[str] = Counter()
     for k in exact_keys:
         e = idx.by_key[k]
@@ -632,15 +893,20 @@ def lookup(
         e = idx.by_key[k]
         add(e, "EXACT", "zh")
 
-    # --- CJK substring on ZH values (狼人 -> 狼人形态) ---
-    if has_cjk(q) and len(qn) >= 2:
+    # --- CJK: exact already handled; substring only when needed ---
+    if has_cjk(q) and len(qn) >= 2 and not exact_keys:
+        # cheap filter: first char / 2-char prefix
+        probe = qn[:2]
         for key, entry in idx.by_key.items():
             if not entry.zh:
                 continue
-            if entry.tag_type in DESC_TYPES:
+            zn = entry.zh_norm
+            if not zn or probe not in zn:
                 continue
-            zn = normalize(entry.zh)
-            if not zn or qn not in zn:
+            # desc stays in the index; only excluded from non-exact CJK candidates
+            if entry.tag_type in DESC_TYPES and zn != qn:
+                continue
+            if qn not in zn:
                 continue
             if zn == qn:
                 add(entry, "EXACT", "zh")
@@ -653,58 +919,52 @@ def lookup(
     if q in idx.by_key:
         add(idx.by_key[q], "KEY")
 
-    # further tiers only if query is long enough (block "L" / "A" junk)
+    # STRIP exact (rarity / Set suffix) — cheap dict lookups
     if len(qn) >= 3 and qtols(qtoks):
         for core in strip_query_decorations(q):
             cn = normalize(core)
             if not cn or cn == qn:
                 continue
-            # STRIP exact
             for k in idx.en_exact.get(cn, []):
                 add(idx.by_key[k], "STRIP", "en")
 
-        # PHRASE / PREFIX / WORDS on EN values (and ZH only for PHRASE when query looks CJK)
-        cores = strip_query_decorations(q)
-        # prefer the longest core for phrase search
-        cores_sorted = sorted(cores, key=lambda x: -len(normalize(x)))
-        primary = cores_sorted[0]
-        pn = normalize(primary)
-        ptoks = tokens(primary)
-        multi = len(ptoks) >= 2
+        if not fast and not hits:
+            # PHRASE / PREFIX only when nothing solid yet; candidates via token index
+            cores = strip_query_decorations(q)
+            cores_sorted = sorted(cores, key=lambda x: -len(normalize(x)))
+            primary = cores_sorted[0]
+            pn = normalize(primary)
+            ptoks = tokens(primary)
+            multi = len(ptoks) >= 2
 
-        if pn:
-            pat = phrase_pattern(primary)
-            for key, entry in idx.by_key.items():
-                if not entry.en:
-                    continue
-                # prose never competes for non-exact term resolution
-                if entry.tag_type in DESC_TYPES:
-                    continue
-                # multi-word queries resolve to names/stats/UI, not random 'other'
-                if multi and entry.tag_type not in NAME_TYPES and entry.tag_type not in {
-                    "ui",
-                    "class_name",
-                    "stat",
-                }:
-                    continue
-                en_n = entry.en_norm
-                if not en_n:
-                    continue
-                if pat.search(en_n):
-                    add(entry, "PHRASE", "en")
-                elif en_n.startswith(pn) and (len(en_n) == len(pn) or en_n[len(pn) : len(pn) + 1] in (" ", "-")):
-                    add(entry, "PREFIX", "en")
-
-            # WORDS: all tokens as whole words — name-like only
-            if ptoks and not multi:
-                tok_sets = [idx.en_token.get(t, set()) for t in ptoks]
-                if tok_sets and all(tok_sets):
-                    cand = set.intersection(*tok_sets)
-                    for key in cand:
-                        entry = idx.by_key[key]
-                        if not is_name_like(entry.tag_type) and entry.tag_type != "ui":
-                            continue
-                        add(entry, "WORDS", "en")
+            if pn and ptoks:
+                pat = phrase_pattern(primary)
+                cand_sets = [idx.en_token.get(t) for t in ptoks]
+                if cand_sets and all(cand_sets):
+                    cand = set.intersection(*[s for s in cand_sets if s is not None])
+                else:
+                    cand = set()
+                for key in cand:
+                    entry = idx.by_key.get(key)
+                    if not entry or not entry.en:
+                        continue
+                    if entry.tag_type in DESC_TYPES:
+                        continue
+                    if multi and entry.tag_type not in NAME_TYPES and entry.tag_type not in {
+                        "ui",
+                        "class_name",
+                        "stat",
+                    }:
+                        continue
+                    en_n = entry.en_norm
+                    if not en_n:
+                        continue
+                    if pat.search(en_n):
+                        add(entry, "PHRASE", "en")
+                    elif en_n.startswith(pn) and (
+                        len(en_n) == len(pn) or en_n[len(pn) : len(pn) + 1] in (" ", "-")
+                    ):
+                        add(entry, "PREFIX", "en")
 
     ranked = sorted(hits.values(), key=lambda h: (-h.score, h.entry.key))
     applied_notes: list[str] = []
@@ -752,7 +1012,10 @@ def format_hits(
     lines.append("-" * 130)
     for i, h in enumerate(hits, 1):
         ev = strip_controls(h.entry.en)[:36] or "—"
-        zv = h.entry.zh_clean[:36] or "—"
+        zh_show = h.entry.zh_clean
+        if h.entry.tag_type in ("item", "item_set_name"):
+            zh_show = render_with_quality(query, zh_show)
+        zv = zh_show[:36] or "—"
         extra = f"  {h.why}" if explain else ""
         lines.append(
             f"{i:<3} {h.entry.key:<42} {h.entry.tag_type:<14} {h.tier:<7} {ev:<36} {zv}{extra}"
@@ -774,23 +1037,35 @@ def run_batch(
     as_json: bool,
     disc: dict | None = None,
     context: str = "",
+    fast: bool = False,
+    mech: dict[str, str] | None = None,
+    do_clean: bool = False,
+    out_path: str | None = None,
+    as_tsv: bool = False,
 ) -> int:
     rows = []
     for term in terms:
         rules = active_rules(disc or {"rules": []}, term, context) if disc else []
-        hits, notes = lookup(idx, term, limit=5, rules=rules)
+        hits, notes, meta = resolve_term(idx, term, rules, fast=fast, mech=mech)
         top = hits[0] if hits else None
         if top:
+            zh = top.entry.zh_clean
+            if do_clean:
+                zh = clean_zh(zh)
+            if top.entry.tag_type in ("item", "item_set_name"):
+                zh = render_with_quality(term, zh)
             rows.append(
                 {
                     "query": term,
-                    "zh": top.entry.zh_clean,
+                    "zh": zh,
                     "tagKey": top.entry.key,
                     "type": top.entry.tag_type,
                     "match": top.tier,
                     "score": top.score,
                     "en": top.entry.en,
                     "rules": notes,
+                    "retried": meta.get("retried") or [],
+                    "miss_kind": "",
                 }
             )
         else:
@@ -804,27 +1079,63 @@ def run_batch(
                     "score": 0,
                     "en": "",
                     "rules": notes,
+                    "retried": meta.get("retried") or [],
+                    "miss_kind": meta.get("miss_kind") or "not_in_db",
                 }
             )
-    if as_json:
-        print(json.dumps(rows, ensure_ascii=False, indent=2))
+    if as_json and not as_tsv:
+        text = json.dumps(rows, ensure_ascii=False, indent=2)
     else:
-        print("English\tChinese\ttagKey\tType\tMatch\tScore\tRules")
+        lines = ["English\tChinese\ttagKey\tType\tMatch\tScore\tMissKind\tRetried"]
         for r in rows:
-            rule_s = ";".join(r.get("rules") or []) if r.get("rules") else ""
-            print(f"{r['query']}\t{r['zh']}\t{r['tagKey']}\t{r['type']}\t{r['match']}\t{r['score']}\t{rule_s}")
+            retried = ";".join(r.get("retried") or [])
+            lines.append(
+                f"{r['query']}\t{r['zh']}\t{r['tagKey']}\t{r['type']}\t{r['match']}\t{r['score']}\t{r.get('miss_kind') or ''}\t{retried}"
+            )
+        text = "\n".join(lines)
+    if out_path:
+        Path(out_path).write_text(text + "\n", encoding="utf-8")
+        print(f"Wrote {out_path} ({len(rows)} rows)")
+    else:
+        print(text)
     return 0
 
 
 def main(argv: list[str]) -> int:
-    p = argparse.ArgumentParser(description="Grim Dawn EN/ZH term lookup (exact-first, type-aware)")
+    epilog = """
+JSON/TSV schema (--batch):
+  query     原查询词
+  zh        正式中文（--clean 会去掉圣物/星象注释噪声）
+  tagKey    命中的 tag；机制词为 (mech:...)
+  type      skill_name|item|item_set_name|stat|ui|...
+  match     EXACT|KEY|STRIP|PHRASE|PREFIX|WORDS|RULE|MISS
+  score     排序分（越大越优）
+  miss_kind MISS 时: not_in_db | unresolved
+  retried   重试轨迹: variant:... / fuzzy:... / mechanics
+
+样例:
+  [{"query":"Blade Arc","zh":"刀锋横扫","tagKey":"tagClass01SkillName05A",
+    "type":"skill_name","match":"EXACT","score":1145,"miss_kind":"","retried":[]},
+   {"query":"All Resist","zh":"全抗","tagKey":"(mech:all resist)",
+    "type":"other","match":"RULE","score":9000,"miss_kind":"","retried":["mechanics"]}]
+
+PowerShell 多行脚本请写临时 .py 再执行，勿用 -c "多行"。
+"""
+    p = argparse.ArgumentParser(
+        description="Grim Dawn EN/ZH term lookup (exact-first, type-aware)",
+        epilog=epilog,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     p.add_argument("query", nargs="?", help="English or Chinese term / tag key fragment")
     p.add_argument("--source", help="config source name")
     p.add_argument("--zh-root", help="override Text_ZH root")
     p.add_argument("--en-root", help="override Text_EN root")
     p.add_argument("--limit", type=int, default=12)
     p.add_argument("--explain", action="store_true", help="show score breakdown")
-    p.add_argument("--json", action="store_true", help="JSON output")
+    p.add_argument("--json", action="store_true", help="JSON output (flat array)")
+    p.add_argument("--tsv", action="store_true", help="TSV output (stable columns)")
+    p.add_argument("--out", help="write output to file (utf-8, no BOM)")
+    p.add_argument("--clean", action="store_true", help="strip relic/devotion annotation noise from zh")
     p.add_argument("--batch", help="file with one term per line")
     p.add_argument("--top", type=int, default=5, help="batch: hits to keep (default 5)")
     p.add_argument("--en-only", action="store_true")
@@ -833,6 +1144,9 @@ def main(argv: list[str]) -> int:
     p.add_argument("--list-rules", action="store_true", help="show disambiguation rules")
     p.add_argument("--no-rules", action="store_true", help="ignore disambiguation.json")
     p.add_argument("--context", default="", help="hint for context-scoped rules (e.g. 装备|技能)")
+    p.add_argument("--fast", action="store_true", help="EXACT/STRIP only; skip phrase scans")
+    p.add_argument("--no-cache", action="store_true", help="rebuild index without disk cache")
+    p.add_argument("--rebuild-cache", action="store_true", help="force rebuild + refresh cache")
     p.add_argument("--case-sensitive", action="store_true", help="reserved; matching is case-insensitive")
     args = p.parse_args(argv)
 
@@ -875,7 +1189,10 @@ def main(argv: list[str]) -> int:
         return 2
 
     zh_roots, en_roots, src_name = resolve_roots(cfg, args.source, args.zh_root, args.en_root)
-    idx = build_index(zh_roots, en_roots)
+    t0 = time.perf_counter()
+    use_cache = not args.no_cache and not args.rebuild_cache
+    idx, cache_state = load_index_cached(zh_roots, en_roots, use_cache=use_cache)
+    load_ms = (time.perf_counter() - t0) * 1000
     disc_for_batch = disc if disc.get("enabled", True) and not args.no_rules else {"rules": []}
 
     if args.batch:
@@ -885,7 +1202,18 @@ def main(argv: list[str]) -> int:
             for ln in path.read_text(encoding="utf-8").splitlines()
             if ln.strip() and not ln.strip().startswith("#")
         ]
-        return run_batch(idx, terms, args.json, disc=disc_for_batch, context=args.context)
+        return run_batch(
+            idx,
+            terms,
+            as_json=args.json and not args.tsv,
+            disc=disc_for_batch,
+            context=args.context,
+            fast=args.fast,
+            mech=load_mechanics(),
+            do_clean=args.clean,
+            out_path=args.out,
+            as_tsv=args.tsv or not args.json,
+        )
 
     query = args.query.strip()
     q_rules = (
@@ -893,7 +1221,7 @@ def main(argv: list[str]) -> int:
         if args.no_rules or not disc.get("enabled", True)
         else active_rules(disc, query, args.context)
     )
-    hits, notes = lookup(idx, query, limit=args.limit, rules=q_rules)
+    hits, notes = lookup(idx, query, limit=args.limit, rules=q_rules, fast=args.fast)
 
     if args.en_only:
         hits = [h for h in hits if h.entry.en]
@@ -905,7 +1233,9 @@ def main(argv: list[str]) -> int:
             {
                 "tagKey": h.entry.key,
                 "english": h.entry.en,
-                "chinese": h.entry.zh_clean,
+                "chinese": render_with_quality(query, h.entry.zh_clean)
+                if h.entry.tag_type in ("item", "item_set_name")
+                else h.entry.zh_clean,
                 "type": h.entry.tag_type,
                 "match": h.tier,
                 "score": h.score,
@@ -923,6 +1253,8 @@ def main(argv: list[str]) -> int:
         return 0 if hits else 1
 
     print(format_hits(query, hits, src_name, idx, args.explain, notes=notes))
+    if args.explain:
+        print(f"\nIndex: {cache_state} in {load_ms:.1f}ms  entries={len(idx.by_key)}  fast={args.fast}")
     return 0 if hits else 1
 
 

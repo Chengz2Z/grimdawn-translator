@@ -179,39 +179,23 @@
     {
       "id": "Awakened-not-Ascended",
       "enabled": true,
-      "query": "Awakened",
-      "match": "exact",
-      "prefer_tags": ["Awakened"],
+      "query": "^Awakened\\b",
+      "match": "regex",
+      "prefer_tags": [],
       "prefer_zh": ["觉醒"],
-      "forbid_tags": [],
       "forbid_zh": ["觉悟"],
-      "note": "物品品质：由史诗品质升级到觉醒品质，与易错词飞升(Ascended)区分开"
+      "note": "物品品质：Awakened=觉醒；与易错词 Ascended=升华/飞升 区分。"
     },
     {
-      "id": "modifier-not-affix",
+      "id": "Leviathan-mul-mean",
       "enabled": true,
-      "query": "modifier",
+      "query": "利维坦",
       "match": "exact",
-      "emit_zh": "修正", 
-      "prefer_zh": ["修正"],
-      "forbid_tags": [],
-      "note": "语句习惯：modifier通常翻译为修正，但翻译时需注意上下文语句通顺"
-    },
-    {
-      "id": "the-Dread",
-      "enabled": true,
-      "query": "the Dread",
-      "match": "exact",
-      "prefer_tags": ["tagGDX3Boss_Special02"],
-      "prefer_zh": ["恐魔"],
-      "forbid_tags": [],
-      "forbid_zh": ["恐惧"],
       "force_top": true,
-      "emit_zh": "",
-      "context": "",
-      "boost": 200,
+      "context": "利维坦",
+      "boost": 800,
       "penalty": 400,
-      "note": "怪物或首领：the Dread特指为恐魔"
+      "note": "物品(武器)和虔诚(星座)的英文同名，lookup时需注意正确的分类"
     },
     {
       "id": "template-copy-me",

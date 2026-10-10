@@ -18,9 +18,9 @@ sys.path.insert(0, str(HERE))
 
 from lookup_term import (  # noqa: E402
     active_rules,
-    build_index,
     load_config,
     load_disambiguation,
+    load_index_cached,
     lookup,
     resolve_roots,
 )
@@ -33,7 +33,9 @@ def run(verbose: bool = False) -> int:
     cfg = load_config()
     disc = load_disambiguation()
     zh_roots, en_roots, _ = resolve_roots(cfg, None, None, None)
-    idx = build_index(zh_roots, en_roots)
+    idx, cache_state = load_index_cached(zh_roots, en_roots, use_cache=True)
+    if verbose:
+        print(f"index: {cache_state} entries={len(idx.by_key)}")
 
     failed = 0
     for i, case in enumerate(cases, 1):

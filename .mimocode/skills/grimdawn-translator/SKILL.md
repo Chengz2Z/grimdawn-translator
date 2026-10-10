@@ -42,8 +42,8 @@ description: Translate Grim Dawn (恐怖黎明) content into this project's offi
 & $env:MIMO_PYTHON ".../scripts/lookup_term.py" "Armor" --explain
 & $env:MIMO_PYTHON ".../scripts/lookup_term.py" "Onslaught" --json --limit 5
 
-# 批量（补丁抽词后一次查完）
-& $env:MIMO_PYTHON ".../scripts/lookup_term.py" --batch terms.txt --json
+# 批量（补丁抽词后一次查完）→ 落盘 TSV（推荐）
+& $env:MIMO_PYTHON ".../scripts/lookup_term.py" --batch terms.txt --tsv --out results.tsv --clean --fast
 
 # 指定源 / 临时目录
 & $env:MIMO_PYTHON ".../scripts/lookup_term.py" "Onslaught" --source local
@@ -53,6 +53,18 @@ description: Translate Grim Dawn (恐怖黎明) content into this project's offi
 & $env:MIMO_PYTHON ".../scripts/test_lookup_golden.py"
 ```
 
+**PowerShell 注意（重要）**：不要用 `& $env:MIMO_PYTHON -c "多行代码"`（PS 5.1 会截断/报 ScriptBlock）。多行逻辑请：
+
+```powershell
+@'
+from pathlib import Path
+...
+'@ | Set-Content -Encoding utf8 _tmp.py
+& $env:MIMO_PYTHON -X utf8 _tmp.py
+```
+
+或直接调用技能自带脚本（`extract_terms.py` / `check_coverage.py` / `verify_output.py`）。
+
 用户指定其它本地/远程汉化工程时：改 `config.json` 里对应 `zh`/`en` 路径，或用 `--zh-root` / `--en-root`。
 
 ## 工作流
@@ -61,9 +73,61 @@ description: Translate Grim Dawn (恐怖黎明) content into this project's offi
 
 列出待译文本中的专有名：技能、装备、属性、伤害/抗性、专精、地名、NPC、系统名。
 
-### 2. 反查
+可工具化（推荐）：
 
-对每个词跑 `lookup_term.py`，记录 `tagKey` 与正式中文（去掉 `^g<^F士兵^g>^c` 等颜色控制符）。
+```powershell
+& $env:MIMO_PYTHON ".../scripts/extract_terms.py" source.md --out terms.txt
+```
+
+人工再补：技能段落中的多词名、`Name:` 行未覆盖的装备名。去掉 `Component - X` / `(mythical)` 等脏前缀（lookup 也会自动重试）。
+
+### 2. 反查（批量一次查完）
+
+**先抽出全部专有名，再一次 `--batch` 查完**，不要一词一次 CLI：
+
+```powershell
+& $env:MIMO_PYTHON ".../scripts/lookup_term.py" --batch terms.txt --tsv --out results.tsv --clean --fast
+```
+
+覆盖校验（防漏译）：
+
+```powershell
+& $env:MIMO_PYTHON ".../scripts/check_coverage.py" --terms terms.txt --results results.tsv
+```
+
+**输出 schema（`--json` 扁平数组 / `--tsv` 同列）**
+
+| 字段 | 含义 |
+|------|------|
+| `query` | 原查询词 |
+| `zh` | 正式中文（`--clean` 去掉圣物/星象注释） |
+| `tagKey` | 命中 tag；机制词为 `(mech:...)` |
+| `type` | skill_name / item / item_set_name / stat / ui / … |
+| `match` | EXACT \| KEY \| STRIP \| PHRASE \| RULE \| **MISS** |
+| `score` | 排序分 |
+| `miss_kind` | MISS 时：`not_in_db` \| `unresolved` |
+| `retried` | `variant:…` / `fuzzy:…` / `mechanics` |
+
+```json
+[{"query":"Blade Arc","zh":"刀锋横扫","tagKey":"tagClass01SkillName05A","type":"skill_name","match":"EXACT","score":1145,"miss_kind":"","retried":[]}]
+```
+
+| 参数 | 用途 |
+|------|------|
+| `--batch` | 多词一次查（推荐） |
+| `--fast` | 只做 EXACT/STRIP/KEY，跳过短语全扫（补丁/大批量用） |
+| `--explain` | 看匹配层级与索引缓存状态 |
+| `--rebuild-cache` | 术语库更新后强制重建索引缓存 |
+| `--no-rules` | 忽略歧义消解表 |
+
+记录 `tagKey` 与正式中文（去掉 `^g<^F士兵^g>^c` 等颜色控制符）。
+
+索引缓存：`scripts/.cache/`（已 gitignore）。三层过滤：
+1. **文件名黑名单**：`npc_/sq_/bq_/mq_/object_` 纯对话跳过（storyelements 地图名保留）
+2. **行级解析**：只收 `key=value` 行
+3. **条目质量**：名字类/短标签保留；超长说明文不进索引
+
+Desc/Lore 在非精确匹配中降权。
 
 **匹配优先级（脚本已内置，按此选 Top1）：**
 
@@ -86,8 +150,24 @@ description: Translate Grim Dawn (恐怖黎明) content into this project's offi
 ### 3. 成稿
 
 1. 先固定「英文 → 中文」表，再写译文。
-2. 技能/装备首次可写「中文（English）」，后文只用中文。
+2. 技能/装备首次可写「中文(English)」，后文只用中文。
 3. 机制句式对齐游戏内说明（如「+15% 火焰伤害」）。
+
+**品质前缀渲染（套装/设计图 tag 习惯）**
+
+| English | 中文 | 备注 |
+|---------|------|------|
+| Mythical X | 神话 X | 带空格 |
+| Empowered X | 强化 X | 带空格 |
+| Awakened X | 觉醒 X | 带空格 |
+| Legendary X | 传奇 X | 带空格 |
+| X Set | X 套装 | 查 `tagItemSet*Name` |
+
+lookup 会按上表渲染品质前缀（`--clean` 后仍会拼上「觉醒/神话/…」）。
+
+lookup 的 `zh` 可能含圣物噪声（`全技能Lv90-极光`、`虚位王座 {}{}[初级]（…）`），批量请加 **`--clean`**。
+
+**机制词**：`mechanics.json`（Mutator=异化、the Dread=恐魔、modifier=修正），EXACT 查不到时会命中 `(mech:...)`。
 
 ### 4. 自检
 
@@ -95,6 +175,13 @@ description: Translate Grim Dawn (恐怖黎明) content into this project's offi
 - [ ] 同一英文全文一种中文
 - [ ] 数值与格式符完整
 - [ ] 无漏段
+- [ ] `check_coverage.py` 无 MISSING
+- [ ] `verify_output.py` 段数与数字 token 对齐
+
+```powershell
+& $env:MIMO_PYTHON ".../scripts/check_coverage.py" --terms terms.txt --results results.tsv
+& $env:MIMO_PYTHON ".../scripts/verify_output.py" --source source.md --output translated.md
+```
 
 ## 歧义消解表（人工修正）
 
