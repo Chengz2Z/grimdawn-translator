@@ -218,7 +218,7 @@ tagGDX1Class08SkillDescription11A=训练有素的死灵法师是一种可怕的�
 
 tagGDX1Class08SkillName12A=^g<^F死灵^g>^c收割打击
 tagGDX1Class08SkillDescription12A=将致命的死灵能量注入武器，死灵法师可以造成比肉体切割更深的伤害。^o所有默认武器攻击均可激活该技能效果。
-tagGDX1Class08SkillName13A=^g<^F死灵^g>^c坏死刀锋
+tagGDX1Class08SkillName13A=^g<^F死灵^g>^c死灵刀锋
 tagGDX1Class08SkillDescription13A=打击中附带着死亡寒气，你的攻击能使伤口立即坏死，这一景象甚至会使意志最坚定的敌人动摇。^o所有默认武器攻击均可激活该技能效果。当使用近战武器发动时，会击中附近多个目标。
 
 tagGDX1Class08SkillName14A=^g<^F死灵^g>^c折磨印记

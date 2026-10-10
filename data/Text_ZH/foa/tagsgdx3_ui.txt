@@ -51,10 +51,11 @@ tagAscensionFormula09={^H}{%+.0f0}% {^W}虚空印记宝箱{^E}出现几率
 tagAscensionFormula10={^H}{%+.0f0}% {^W}光辉宝藏{^E}出现几率
 tagAscensionFormula11={^H}{%+.0f0}% {^W}怪物装备{^E}掉落几率
 tagAscensionFormula12={^H}{%+.0f0}% {^W}复仇级怪物{^E}生成速度提升
+tagAscensionFormula13={^H}{%+.0f0}% {^W}飞升{^E}掉落几率
 
 tagAscendItemTitle=可获得的飞升加成
-tagAscendItemModifier={%s0} 技能修正
-tagAscendItemCommonModifier=强化 {%s0} 技能修正
+tagAscendItemModifier={^L}{%t0}{^-} 技能修正
+tagAscendItemCommonModifier=强化 {^L}{%t0}{^-} 技能修正
 tagAscendItemOffensive=攻击属性
 tagAscendItemDefensive=防御属性
 tagAscendItemButton=飞升
